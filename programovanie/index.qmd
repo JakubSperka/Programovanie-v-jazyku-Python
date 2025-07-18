@@ -1,0 +1,43 @@
+---
+title: "Programovanie v jazyku Python"
+date: today
+author: "Jakub Šperka"
+---
+
+## 🖥️ Vitajte na stránke predmetu _*Programovanie 1*_
+
+Predmet **Programovanie 1** je úvodom do sveta algoritmizácie a programovania s využitím viacerých softvérových riešení.
+Jedným z týchto riešení je aj programovací jazyk **Python**. 
+
+Kurz je určený najmä študentom prvého ročníka študijného programu **Geodézia a kartografia** a kladie dôraz na praktické využitie programovania v jazkyu **Python** v technických a analytických úlohách.
+
+Táto webová stránka slúži ako online skriptá, kde nájdete všetky potrebné informácie pre získanie základných zručností, potrebných na osvojenie si jazyka **Python**.
+
+---
+
+## 🎯 Čo sa naučíte?
+- Základy programovacieho jazyka **Python** a jeho syntaktické pravidlá
+- Prácu s číselnými a symbolickými výpočtami pomocou knižníc `NumPy` a `SymPy`
+- Tvorbu základných grafov a vizualizácií pomocou knižnice `Matplotlib`
+- Spracovanie dát a tabuliek pomocou modulu `Pandas`
+- Základy algoritmizácie a efektívneho riešenia technických problémov
+
+---
+
+## ❓ Prečo sa to učíme?
+
+Programovanie je dnes neoddeliteľnou súčasťou moderného inžinierstva. 
+V oblasti geodézie a kartografie je dôležité vedieť realizovať zložitejšie matematické výpočty.
+S vývojom oboru geodézie je dôležitou zručnosťou, schopnosť automatizovať výpočty, spracovávať veľké objemy dát, vizualizovať výsledky a vytvárať vlastné analytické nástroje, či implementovať už existujúce riešenia. 
+
+Jazyk **Python** je výkonný a pritom prístupný jazyk, ktorý umožňuje efektívne riešiť reálne technické problémy. 
+Získané zručnosti môžete využiť počas ďalšieho štúdia, pri riešení zadaní, záverečných prácach, aj v profesionálnej praxi.
+
+---
+
+## 🔧 Pre koho je kurz určený?
+Pre všetkých, ktorí chcú získať pevné základy v používaní jazyka **Python** a pripraviť sa na neskoršie aplikácie výpočtovej techniky v geodézii, kartografii, alebo príbuzných technických odboroch.
+
+---
+
+> 📚 Tento kurz tvorí základ na efektívnu prácu s rozličnými dátami v geodetických aj iných inžinierskych aplikáciách.

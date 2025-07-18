@@ -1,0 +1,100 @@
+---
+title: "Inštalácia a vývojové prostredia"
+date: today
+author: "Jakub Šperka"
+categories: [Anaconda, Jupyter, IDE]
+---
+
+## 📦 Prečo používať Anacondu?
+
+Distribúcia **Anaconda** predstavuje kompletné riešenie pre prácu s jazykom Python, najmä v oblastiach dátovej analýzy, strojového učenia a vedeckých výpočtov. Obsahuje:
+
+- najpoužívanejšie knižnice (napr. `NumPy`, `Pandas`, `Matplotlib`, `SciPy`),
+- správcu balíkov a prostredí `conda`,
+- vývojové nástroje ako **Jupyter Lab**, **Jupyter Notebook**, či **Spyder**.
+
+Je ideálna pre začiatočníkov, lebo šetrí čas a znižuje riziko konfliktov medzi verziami knižníc.
+
+Dostupná je taktiež zjednodušená, tzv. "lightweight" verzia, s názvom **MiniConda**.
+
+---
+
+## 🔽 Inštalácia Anacondy
+
+1. Navštívte oficiálnu stránku distribúcie Anacondy na [tomto linku](https://www.anaconda.com/download/success).
+2. Z ponuky inštalátorov distribúcie Anacondy vyberte verziu pre svoj operačný systém (Windows / macOS / Linux), prípadne stiahnite detegovanú verziu.
+3. Spustite inštalátor a nechajte predvolené nastavenia.
+
+---
+
+## 🧪 Vývojové prostredia
+
+Vývojové prostredie je softvérový nástroj, ktorý poskytuje používateľovi všetko potrebné na písanie, testovanie a správu kódu v jednom prehľadnom rozhraní.
+Pre nás sú z hľadiska jednoduchosti použitia, relevantné najmä tieto:
+
+---
+
+### 📓 Jupyter Notebook
+
+**Jupyter Notebook** je klasické webové rozhranie na písanie a spúšťanie Python kódu v tzv. *notebookoch* (`.ipynb` súboroch).
+
+#### ✅ Výhody
+- Veľmi jednoduché a intuitívne prostredie.
+- Kód a výsledky (grafy, tabuľky) sa zobrazujú v jednom dokumente.
+- Ideálne na výučbu, rýchle experimenty a analýzu dát.
+
+#### 🚫 Nevýhody
+- Obmedzené možnosti správy súborov a rozšírení.
+- Horšia organizácia väčších projektov.
+
+---
+
+### 🔬 Jupyter Lab
+
+**Jupyter Lab** je modernejší nástupca Jupyter Notebooku, s rozšírenou funkcionalitou a lepším rozhraním.
+
+#### ✅ Výhody
+- Možnosť otvoriť viac notebookov, terminálov, Markdown súborov a dát naraz.
+- Podpora rozšírení (napr. debugger, git, LSP).
+- Ideálne na komplexnejšie projekty a výskum.
+
+#### 🚫 Nevýhody
+- O niečo náročnejšie rozhranie pre úplných začiatočníkov.
+
+---
+
+### 🕸️ Spyder
+
+**Spyder** je desktopové vývojové prostredie (IDE) podobné napr. PyCharmu alebo MATLABu.
+
+#### ✅ Výhody
+- Prehľadné GUI: editor, konzola, premenné, pomocník, súborový prehliadač.
+- Skvelé na písanie skriptov a ladenie menších Python aplikácií.
+- Obsahuje debugger, profiler a integráciu s IPython.
+
+#### 🚫 Nevýhody
+- Menej vhodné na interaktívnu dátovú analýzu než Jupyter.
+- Slabšia podpora Markdownu a vizualizácií priamo v texte.
+
+---
+
+### 🔍 Kedy čo použiť?
+
+| Prostredie       | Vhodné na                              | Interaktivita  | Editor typu IDE |
+|------------------|----------------------------------------|----------------|------------------|
+| Jupyter Notebook | výučba, rýchle testovanie              | ⭐⭐⭐⭐      | ❌               |
+| Jupyter Lab      | dátová analýza, výskum, viacero súborov| ⭐⭐⭐⭐⭐    | 🟡 (základný)    |
+| Spyder           | skripty, ladenie, technické výpočty    | ⭐             | ✅               |
+
+
+> 📌 Všetky tri prostredia sú dostupné priamo v distribúcii **Anaconda** a je len na vás, ktoré si vyberiete. Najlepšie výsledky často dosiahnete ich kombináciou podľa potreby, v závislosti od riešeného problému.
+
+---
+
+## 🎞️ Videonávod
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc 
+    title='Inštalácia Anacondy a vývojové prostredia' 
+>}}
+
+---

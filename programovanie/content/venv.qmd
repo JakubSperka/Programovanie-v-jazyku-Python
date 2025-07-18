@@ -1,0 +1,34 @@
+---
+title: "Virtuálne prostredia"
+date: today
+author: "Jakub Šperka"
+categories: [Anaconda, Virtuálne prostredia]
+---
+
+## 🧪 Význam virtuálneho prostredia
+
+Virtuálne prostredie je izolovaný priestor, v ktorom môžeme nainštalovať konkrétne verzie balíkov bez ovplyvnenia iných projektov. 
+V prostredí Anaconda môžeme virtuálne prostredia spravovať pohodlne aj cez grafické rozhranie – **Anaconda Navigator**.
+
+---
+
+## 🧭 Vytvorenie virtuálneho prostredia v Anaconda Navigator
+
+1. **Spustite Anaconda Navigator**
+2. Prejdite na kartu **Environments**
+3. Kliknite na **Create**
+4. Vyplňte:
+   - Vhodný názov prostredia, napr. `programovanie_1`
+   - Zvoľte jazyk **Python** a jeho verziu napr. `3.12.11`
+5. Kliknite na **Create**
+
+---
+
+## 🎞️ Videonávod
+
+{{< video https://www.youtube.com/embed/wo9vZccmqwc 
+    title='Tvorba virtuálnych prostredí' 
+>}}
+
+---
+
