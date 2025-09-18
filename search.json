@@ -1776,99 +1776,365 @@
     ]
   },
   {
-    "objectID": "content/instalacia_a_import_kniznic.html",
-    "href": "content/instalacia_a_import_kniznic.html",
-    "title": "Inštalácia a import knižníc",
+    "objectID": "content/komentovanie_kodu.html",
+    "href": "content/komentovanie_kodu.html",
+    "title": "Komentovanie kódu",
     "section": "",
-    "text": "Knižnice (moduly) v Pythone rozširujú možnosti jazyka. Môžete ich buď nainštalovať (ak nie sú súčasťou štandardnej knižnice), alebo importovať, ak už sú dostupné.",
+    "text": "Komentáre slúžia na poznámky v kóde, ktoré neovplyvňujú beh programu. Používajú sa na vysvetlenie, čo kód robí, alebo na dočasné vypnutie časti kódu.",
     "crumbs": [
       "Domov",
-      "📚 Knižnice",
-      "Inštalácia a import knižníc"
+      "🚀 Základy Pythonu",
+      "Komentovanie kódu"
     ]
   },
   {
-    "objectID": "content/instalacia_a_import_kniznic.html#úvod",
-    "href": "content/instalacia_a_import_kniznic.html#úvod",
-    "title": "Inštalácia a import knižníc",
+    "objectID": "content/komentovanie_kodu.html#úvod",
+    "href": "content/komentovanie_kodu.html#úvod",
+    "title": "Komentovanie kódu",
     "section": "",
-    "text": "Knižnice (moduly) v Pythone rozširujú možnosti jazyka. Môžete ich buď nainštalovať (ak nie sú súčasťou štandardnej knižnice), alebo importovať, ak už sú dostupné.",
+    "text": "Komentáre slúžia na poznámky v kóde, ktoré neovplyvňujú beh programu. Používajú sa na vysvetlenie, čo kód robí, alebo na dočasné vypnutie časti kódu.",
     "crumbs": [
       "Domov",
-      "📚 Knižnice",
-      "Inštalácia a import knižníc"
+      "🚀 Základy Pythonu",
+      "Komentovanie kódu"
     ]
   },
   {
-    "objectID": "content/instalacia_a_import_kniznic.html#inštalácia-knižnice-pomocou-pip",
-    "href": "content/instalacia_a_import_kniznic.html#inštalácia-knižnice-pomocou-pip",
-    "title": "Inštalácia a import knižníc",
-    "section": "🛠️ Inštalácia knižnice pomocou pip",
-    "text": "🛠️ Inštalácia knižnice pomocou pip\nSpúšťa sa v termináli (alebo v bunkách Jupyteru s !):\n\n\nKód\n!pip install numpy\n\n\nRequirement already satisfied: numpy in c:\\users\\kubko\\.conda\\envs\\projects\\lib\\site-packages (1.26.4)\n\n\n\nV distibúcii Anaconda je pip dostupný aj ako knižnica, ktorá umožňuje inštaláciu knižníc bez !",
+    "objectID": "content/komentovanie_kodu.html#jednoriadkový-komentár",
+    "href": "content/komentovanie_kodu.html#jednoriadkový-komentár",
+    "title": "Komentovanie kódu",
+    "section": "📝 Jednoriadkový komentár",
+    "text": "📝 Jednoriadkový komentár\nPoužite # na začiatku každého riadka:\n\n\nKód\n# Toto je komentár\nprint(\"Ahoj\")  # Tento riadok niečo vypíše\n\n\nAhoj",
     "crumbs": [
       "Domov",
-      "📚 Knižnice",
-      "Inštalácia a import knižníc"
+      "🚀 Základy Pythonu",
+      "Komentovanie kódu"
     ]
   },
   {
-    "objectID": "content/instalacia_a_import_kniznic.html#import-knižnice-do-kódu",
-    "href": "content/instalacia_a_import_kniznic.html#import-knižnice-do-kódu",
-    "title": "Inštalácia a import knižníc",
-    "section": "📚 Import knižnice do kódu",
-    "text": "📚 Import knižnice do kódu\n\n\nKód\nimport numpy\nimport pandas",
+    "objectID": "content/komentovanie_kodu.html#viacero-komentárov",
+    "href": "content/komentovanie_kodu.html#viacero-komentárov",
+    "title": "Komentovanie kódu",
+    "section": "🧾 Viacero komentárov",
+    "text": "🧾 Viacero komentárov\n\n\nKód\n# Tento program spočíta súčet\na = 5\nb = 3\n# Spočítame a vypíšeme výsledok\nprint(a + b)\n\n\n8",
     "crumbs": [
       "Domov",
-      "📚 Knižnice",
-      "Inštalácia a import knižníc"
+      "🚀 Základy Pythonu",
+      "Komentovanie kódu"
     ]
   },
   {
-    "objectID": "content/instalacia_a_import_kniznic.html#import-len-konkrétnej-časti-knižnice",
-    "href": "content/instalacia_a_import_kniznic.html#import-len-konkrétnej-časti-knižnice",
-    "title": "Inštalácia a import knižníc",
-    "section": "🎯 Import len konkrétnej časti knižnice",
-    "text": "🎯 Import len konkrétnej časti knižnice\n\n\nKód\nfrom numpy import sqrt, pi\n\nprint(sqrt(16))\nprint(pi)\n\n\n4.0\n3.141592653589793",
+    "objectID": "content/komentovanie_kodu.html#dočasné-zakázanie-kódu",
+    "href": "content/komentovanie_kodu.html#dočasné-zakázanie-kódu",
+    "title": "Komentovanie kódu",
+    "section": "🛑 Dočasné zakázanie kódu",
+    "text": "🛑 Dočasné zakázanie kódu\nKomentármi môžete zabrániť vykonaniu časti kódu, ktorú momentálne nechcete spustiť:\n\n\nKód\n# print(\"Tento riadok sa nespustí\")\nprint(\"Tento áno\")\n\n\nTento áno\n\n\n\n❕Toto je veľmi užitočné pri testovaní alebo ladení programu.",
     "crumbs": [
       "Domov",
-      "📚 Knižnice",
-      "Inštalácia a import knižníc"
+      "🚀 Základy Pythonu",
+      "Komentovanie kódu"
     ]
   },
   {
-    "objectID": "content/instalacia_a_import_kniznic.html#alias-prezývka-pre-knižnicu",
-    "href": "content/instalacia_a_import_kniznic.html#alias-prezývka-pre-knižnicu",
-    "title": "Inštalácia a import knižníc",
-    "section": "✏️ Alias (prezývka) pre knižnicu",
-    "text": "✏️ Alias (prezývka) pre knižnicu\n\n\nKód\nimport numpy as np\n\npole = np.array([1, 2, 3])\nprint(pole)\n\n\n[1 2 3]\n\n\nMnohé knižnice majú v komunite programátorov zaužívané aliasy. Týmito aliasmi referújú ku knižiciam na mnohých fórach či dokumentáciách.\n\n\n\n\n\n\n\n\nKnižnica\nZaužívaný alias\nPríklad importu\n\n\n\n\nnumpy\nnp\nimport numpy as np\n\n\npandas\npd\nimport pandas as pd\n\n\nmatplotlib.pyplot\nplt\nimport matplotlib.pyplot as plt\n\n\nsympy\nsp\nimport sympy as sp",
+    "objectID": "content/komentovanie_kodu.html#viacriadkový-text",
+    "href": "content/komentovanie_kodu.html#viacriadkový-text",
+    "title": "Komentovanie kódu",
+    "section": "❗ Viacriadkový text",
+    "text": "❗ Viacriadkový text\nViacriadkový text možno napísať pomocou trojitých úvodzoviek (’’’ alebo “““), ale nie je to komentár – je to reťazec, ktorý však Python nedokáže spustiť.\n\n\nKód\n\"\"\"\nToto je viacriadkový text,\nktorý ale Python vníma ako reťazec.\n\"\"\"\n\n\n'\\nToto je viacriadkový text,\\nktorý ale Python vníma ako reťazec.\\n'",
     "crumbs": [
       "Domov",
-      "📚 Knižnice",
-      "Inštalácia a import knižníc"
+      "🚀 Základy Pythonu",
+      "Komentovanie kódu"
     ]
   },
   {
-    "objectID": "content/instalacia_a_import_kniznic.html#zhrnutie",
-    "href": "content/instalacia_a_import_kniznic.html#zhrnutie",
-    "title": "Inštalácia a import knižníc",
+    "objectID": "content/komentovanie_kodu.html#zhrnutie",
+    "href": "content/komentovanie_kodu.html#zhrnutie",
+    "title": "Komentovanie kódu",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nNa inštaláciu novej knižnice sa používa pip install ...\nNa použitie knižnice v kóde ju importujete pomocou import\nMôžete importovať aj len časť knižnice (from ... import ...)\nAlias (as) zjednoduší zápis často používaných knižníc",
+    "text": "🧠 Zhrnutie\n\nKomentáre píšeme pomocou #\nSlúžia na poznámky aj dočasné zakázanie kódu\nPomáhajú robiť kód prehľadnejší\nNie sú súčasťou vykonávaného programu",
     "crumbs": [
       "Domov",
-      "📚 Knižnice",
-      "Inštalácia a import knižníc"
+      "🚀 Základy Pythonu",
+      "Komentovanie kódu"
     ]
   },
   {
-    "objectID": "content/instalacia_a_import_kniznic.html#videonávod",
-    "href": "content/instalacia_a_import_kniznic.html#videonávod",
-    "title": "Inštalácia a import knižníc",
+    "objectID": "content/komentovanie_kodu.html#videonávod",
+    "href": "content/komentovanie_kodu.html#videonávod",
+    "title": "Komentovanie kódu",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "Domov",
-      "📚 Knižnice",
-      "Inštalácia a import knižníc"
+      "🚀 Základy Pythonu",
+      "Komentovanie kódu"
+    ]
+  },
+  {
+    "objectID": "content/hello_world.html",
+    "href": "content/hello_world.html",
+    "title": "Prvé programy a výstup",
+    "section": "",
+    "text": "Prvý program v jazyku Python býva zvyčajne veľmi jednoduchý. Často vypisuje iba text na obrazovku – typicky Hello, world!. Na to slúži základná funkcia print().",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Prvé programy a výstup"
+    ]
+  },
+  {
+    "objectID": "content/hello_world.html#úvod",
+    "href": "content/hello_world.html#úvod",
+    "title": "Prvé programy a výstup",
+    "section": "",
+    "text": "Prvý program v jazyku Python býva zvyčajne veľmi jednoduchý. Často vypisuje iba text na obrazovku – typicky Hello, world!. Na to slúži základná funkcia print().",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Prvé programy a výstup"
+    ]
+  },
+  {
+    "objectID": "content/hello_world.html#základný-výstup",
+    "href": "content/hello_world.html#základný-výstup",
+    "title": "Prvé programy a výstup",
+    "section": "🧪 Základný výstup",
+    "text": "🧪 Základný výstup\n\n\nKód\nprint(\"Hello, world!\")\n\n\nHello, world!\n\n\n\n❕ Funkcia print() slúži na výpis textu alebo hodnôt do konzoly. Všetko, čo sa nachádza v zátvorkách, sa vypíše.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Prvé programy a výstup"
+    ]
+  },
+  {
+    "objectID": "content/hello_world.html#textový-reťazec",
+    "href": "content/hello_world.html#textový-reťazec",
+    "title": "Prvé programy a výstup",
+    "section": "🔡 Textový reťazec",
+    "text": "🔡 Textový reťazec\nText, ktorý vypisujeme, musí byť v úvodzovkách:\n\n\nKód\nprint(\"Toto je text\")\nprint('Aj toto je text')\n\n\nToto je text\nAj toto je text\n\n\n\n❕ Môžeme použiť jednoduché ' alebo dvojité \" úvodzovky.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Prvé programy a výstup"
+    ]
+  },
+  {
+    "objectID": "content/hello_world.html#viacero-hodnôt",
+    "href": "content/hello_world.html#viacero-hodnôt",
+    "title": "Prvé programy a výstup",
+    "section": "➕ Viacero hodnôt",
+    "text": "➕ Viacero hodnôt\nDo funkcie print() môžeme dať viacero hodnôt oddelených čiarkami:\n\n\nKód\nprint(\"Súčet 2 + 3 je\", 2 + 3)\n\n\nSúčet 2 + 3 je 5\n\n\n\n❕ Python automaticky vloží medzeru medzi jednotlivé časti výpisu.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Prvé programy a výstup"
+    ]
+  },
+  {
+    "objectID": "content/hello_world.html#zhrnutie",
+    "href": "content/hello_world.html#zhrnutie",
+    "title": "Prvé programy a výstup",
+    "section": "🧠 Zhrnutie",
+    "text": "🧠 Zhrnutie\n\nprint() je vstavaná funkcia, ktorá nevyžaduje žiadne knižnice.\nPoužíva sa na výpis textu, čísel, premenných aj výpočtov.\nKaždé volanie print() skončí automaticky novým riadkom.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Prvé programy a výstup"
+    ]
+  },
+  {
+    "objectID": "content/hello_world.html#príklady",
+    "href": "content/hello_world.html#príklady",
+    "title": "Prvé programy a výstup",
+    "section": "💡 Príklady",
+    "text": "💡 Príklady\n\n\nKód\nprint(123)              # vypíše číslo\nprint(\"Výsledok:\", 10)  # vypíše text aj číslo\nprint(5 + 7)            # vypíše výsledok výrazu\n\n\n123\nVýsledok: 10\n12",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Prvé programy a výstup"
+    ]
+  },
+  {
+    "objectID": "content/hello_world.html#videonávod",
+    "href": "content/hello_world.html#videonávod",
+    "title": "Prvé programy a výstup",
+    "section": "🎞️ Videonávod",
+    "text": "🎞️ Videonávod",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Prvé programy a výstup"
+    ]
+  },
+  {
+    "objectID": "content/cykly.html",
+    "href": "content/cykly.html",
+    "title": "Cykly",
+    "section": "",
+    "text": "Cykly slúžia na opakované vykonanie kódu. V Pythone máme dva základné typy:\n\nfor – keď vieme, koľkokrát sa má niečo opakovať\nwhile – keď chceme opakovať, kým platí podmienka",
+    "crumbs": [
+      "Domov",
+      "🏗️ Riadiace štruktúry",
+      "Cykly"
+    ]
+  },
+  {
+    "objectID": "content/cykly.html#úvod",
+    "href": "content/cykly.html#úvod",
+    "title": "Cykly",
+    "section": "",
+    "text": "Cykly slúžia na opakované vykonanie kódu. V Pythone máme dva základné typy:\n\nfor – keď vieme, koľkokrát sa má niečo opakovať\nwhile – keď chceme opakovať, kým platí podmienka",
+    "crumbs": [
+      "Domov",
+      "🏗️ Riadiace štruktúry",
+      "Cykly"
+    ]
+  },
+  {
+    "objectID": "content/cykly.html#cyklus-for",
+    "href": "content/cykly.html#cyklus-for",
+    "title": "Cykly",
+    "section": "🔂 Cyklus for",
+    "text": "🔂 Cyklus for\n\n\nKód\nfor i in range(5):\n    print(\"Opakovanie:\", i)\n\n\nOpakovanie: 0\nOpakovanie: 1\nOpakovanie: 2\nOpakovanie: 3\nOpakovanie: 4\n\n\n\n🔢 range()\n\n\nKód\nfor i in range(1, 6):\n    print(i)  # 1 až 5\n\n\n1\n2\n3\n4\n5\n\n\n\n\nKód\nfor i in range(10, 0, -2):\n    print(i)  # 10, 8, 6, 4, 2\n\n\n10\n8\n6\n4\n2",
+    "crumbs": [
+      "Domov",
+      "🏗️ Riadiace štruktúry",
+      "Cykly"
+    ]
+  },
+  {
+    "objectID": "content/cykly.html#prechod-cez-znaky-reťazca-alebo-zoznam",
+    "href": "content/cykly.html#prechod-cez-znaky-reťazca-alebo-zoznam",
+    "title": "Cykly",
+    "section": "🔁 Prechod cez znaky reťazca alebo zoznam",
+    "text": "🔁 Prechod cez znaky reťazca alebo zoznam\n\n\nKód\ntext = \"Python\"\nfor znak in text:\n    print(znak)\n\n\nP\ny\nt\nh\no\nn\n\n\n\n\nKód\nzoznam = [3, 5, 7]\nfor cislo in zoznam:\n    print(cislo * 2)\n\n\n6\n10\n14",
+    "crumbs": [
+      "Domov",
+      "🏗️ Riadiace štruktúry",
+      "Cykly"
+    ]
+  },
+  {
+    "objectID": "content/cykly.html#cyklus-while",
+    "href": "content/cykly.html#cyklus-while",
+    "title": "Cykly",
+    "section": "🔄 Cyklus while",
+    "text": "🔄 Cyklus while\n\n\nKód\ni = 0\nwhile i &lt; 5:\n    print(i)\n    i += 1\n\n\n0\n1\n2\n3\n4",
+    "crumbs": [
+      "Domov",
+      "🏗️ Riadiace štruktúry",
+      "Cykly"
+    ]
+  },
+  {
+    "objectID": "content/cykly.html#nekonečný-cyklus",
+    "href": "content/cykly.html#nekonečný-cyklus",
+    "title": "Cykly",
+    "section": "⚠️ Nekonečný cyklus",
+    "text": "⚠️ Nekonečný cyklus\n\n\nKód\n# while True:\n#     print(\"Toto beží navždy!\")  # Zastavte klávesou Ctrl+C",
+    "crumbs": [
+      "Domov",
+      "🏗️ Riadiace štruktúry",
+      "Cykly"
+    ]
+  },
+  {
+    "objectID": "content/cykly.html#zhrnutie",
+    "href": "content/cykly.html#zhrnutie",
+    "title": "Cykly",
+    "section": "🧠 Zhrnutie",
+    "text": "🧠 Zhrnutie\n\nfor sa používa pri početných opakovaniach\nwhile sa používa pri podmienkach\nrange(start, stop, step) generuje čísla pre for\nDávaj pozor na nekonečné cykly (while True)",
+    "crumbs": [
+      "Domov",
+      "🏗️ Riadiace štruktúry",
+      "Cykly"
+    ]
+  },
+  {
+    "objectID": "content/cykly.html#videonávod",
+    "href": "content/cykly.html#videonávod",
+    "title": "Cykly",
+    "section": "🎞️ Videonávod",
+    "text": "🎞️ Videonávod",
+    "crumbs": [
+      "Domov",
+      "🏗️ Riadiace štruktúry",
+      "Cykly"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "O projekte",
+    "section": "",
+    "text": "Táto stránka vznikla ako podpora k predmetu Programovanie 1, ktorý je súčasťou bakalárskeho štúdia programu Geodézia a kartografia na Stavebnej fakulte STU v Bratislave.\nCieľom projektu je sprístupniť študentom praktické a relatívne zrozumiteľné materiály k výučbe programovania v jazyku Python, najmä s dôrazom na jeho využitie v geodetických, technických a vedeckých aplikáciách.\nWebová stránka slúži ako sprievodca k prednáškam a cvičeniam – obsahuje prehľad tém, ukážky kódov, vizualizácie, zadania a užitočné odkazy.\nProjekt podporuje samostatnú prácu študentov, rozvoj programátorského myslenia a schopnosti riešiť úlohy spojené so spracovaním a vizualizáciou údajov pre geodetickú prax.\n\n\n🧭 Veríme, že vďaka tejto platforme sa vám bude Python učiť efektívnejšie a zábavnejšie."
+  },
+  {
+    "objectID": "about.html#o-projekte",
+    "href": "about.html#o-projekte",
+    "title": "O projekte",
+    "section": "",
+    "text": "Táto stránka vznikla ako podpora k predmetu Programovanie 1, ktorý je súčasťou bakalárskeho štúdia programu Geodézia a kartografia na Stavebnej fakulte STU v Bratislave.\nCieľom projektu je sprístupniť študentom praktické a relatívne zrozumiteľné materiály k výučbe programovania v jazyku Python, najmä s dôrazom na jeho využitie v geodetických, technických a vedeckých aplikáciách.\nWebová stránka slúži ako sprievodca k prednáškam a cvičeniam – obsahuje prehľad tém, ukážky kódov, vizualizácie, zadania a užitočné odkazy.\nProjekt podporuje samostatnú prácu študentov, rozvoj programátorského myslenia a schopnosti riešiť úlohy spojené so spracovaním a vizualizáciou údajov pre geodetickú prax.\n\n\n🧭 Veríme, že vďaka tejto platforme sa vám bude Python učiť efektívnejšie a zábavnejšie."
+  },
+  {
+    "objectID": "content/anaconda.html",
+    "href": "content/anaconda.html",
+    "title": "Inštalácia a vývojové prostredia",
+    "section": "",
+    "text": "Distribúcia Anaconda predstavuje kompletné riešenie pre prácu s jazykom Python, najmä v oblastiach dátovej analýzy, strojového učenia a vedeckých výpočtov. Obsahuje:\n\nnajpoužívanejšie knižnice (napr. NumPy, Pandas, Matplotlib, SciPy),\nsprávcu balíkov a prostredí conda,\nvývojové nástroje ako Jupyter Lab, Jupyter Notebook, či Spyder.\n\nJe ideálna pre začiatočníkov, lebo šetrí čas a znižuje riziko konfliktov medzi verziami knižníc.\nDostupná je taktiež zjednodušená, tzv. “lightweight” verzia, s názvom MiniConda.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Inštalácia a vývojové prostredia"
+    ]
+  },
+  {
+    "objectID": "content/anaconda.html#prečo-používať-anacondu",
+    "href": "content/anaconda.html#prečo-používať-anacondu",
+    "title": "Inštalácia a vývojové prostredia",
+    "section": "",
+    "text": "Distribúcia Anaconda predstavuje kompletné riešenie pre prácu s jazykom Python, najmä v oblastiach dátovej analýzy, strojového učenia a vedeckých výpočtov. Obsahuje:\n\nnajpoužívanejšie knižnice (napr. NumPy, Pandas, Matplotlib, SciPy),\nsprávcu balíkov a prostredí conda,\nvývojové nástroje ako Jupyter Lab, Jupyter Notebook, či Spyder.\n\nJe ideálna pre začiatočníkov, lebo šetrí čas a znižuje riziko konfliktov medzi verziami knižníc.\nDostupná je taktiež zjednodušená, tzv. “lightweight” verzia, s názvom MiniConda.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Inštalácia a vývojové prostredia"
+    ]
+  },
+  {
+    "objectID": "content/anaconda.html#inštalácia-anacondy",
+    "href": "content/anaconda.html#inštalácia-anacondy",
+    "title": "Inštalácia a vývojové prostredia",
+    "section": "🔽 Inštalácia Anacondy",
+    "text": "🔽 Inštalácia Anacondy\n\nNavštívte oficiálnu stránku distribúcie Anacondy na tomto linku.\nZ ponuky inštalátorov distribúcie Anacondy vyberte verziu pre svoj operačný systém (Windows / macOS / Linux), prípadne stiahnite detegovanú verziu.\nSpustite inštalátor a nechajte predvolené nastavenia.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Inštalácia a vývojové prostredia"
+    ]
+  },
+  {
+    "objectID": "content/anaconda.html#vývojové-prostredia",
+    "href": "content/anaconda.html#vývojové-prostredia",
+    "title": "Inštalácia a vývojové prostredia",
+    "section": "🧪 Vývojové prostredia",
+    "text": "🧪 Vývojové prostredia\nVývojové prostredie je softvérový nástroj, ktorý poskytuje používateľovi všetko potrebné na písanie, testovanie a správu kódu v jednom prehľadnom rozhraní. Pre nás sú z hľadiska jednoduchosti použitia, relevantné najmä tieto:\n\n\n📓 Jupyter Notebook\nJupyter Notebook je klasické webové rozhranie na písanie a spúšťanie Python kódu v tzv. notebookoch (.ipynb súboroch).\n\n✅ Výhody\n\nVeľmi jednoduché a intuitívne prostredie.\nKód a výsledky (grafy, tabuľky) sa zobrazujú v jednom dokumente.\nIdeálne na výučbu, rýchle experimenty a analýzu dát.\n\n\n\n🚫 Nevýhody\n\nObmedzené možnosti správy súborov a rozšírení.\nHoršia organizácia väčších projektov.\n\n\n\n\n\n🔬 Jupyter Lab\nJupyter Lab je modernejší nástupca Jupyter Notebooku, s rozšírenou funkcionalitou a lepším rozhraním.\n\n✅ Výhody\n\nMožnosť otvoriť viac notebookov, terminálov, Markdown súborov a dát naraz.\nPodpora rozšírení (napr. debugger, git, LSP).\nIdeálne na komplexnejšie projekty a výskum.\n\n\n\n🚫 Nevýhody\n\nO niečo náročnejšie rozhranie pre úplných začiatočníkov.\n\n\n\n\n\n🕸️ Spyder\nSpyder je desktopové vývojové prostredie (IDE) podobné napr. PyCharmu alebo MATLABu.\n\n✅ Výhody\n\nPrehľadné GUI: editor, konzola, premenné, pomocník, súborový prehliadač.\nSkvelé na písanie skriptov a ladenie menších Python aplikácií.\nObsahuje debugger, profiler a integráciu s IPython.\n\n\n\n🚫 Nevýhody\n\nMenej vhodné na interaktívnu dátovú analýzu než Jupyter.\nSlabšia podpora Markdownu a vizualizácií priamo v texte.\n\n\n\n\n\n🔍 Kedy čo použiť?\n\n\n\n\n\n\n\n\n\nProstredie\nVhodné na\nInteraktivita\nEditor typu IDE\n\n\n\n\nJupyter Notebook\nvýučba, rýchle testovanie\n⭐⭐⭐⭐\n❌\n\n\nJupyter Lab\ndátová analýza, výskum, viacero súborov\n⭐⭐⭐⭐⭐\n🟡 (základný)\n\n\nSpyder\nskripty, ladenie, technické výpočty\n⭐\n✅\n\n\n\n\n📌 Všetky tri prostredia sú dostupné priamo v distribúcii Anaconda a je len na vás, ktoré si vyberiete. Najlepšie výsledky často dosiahnete ich kombináciou podľa potreby, v závislosti od riešeného problému.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Inštalácia a vývojové prostredia"
+    ]
+  },
+  {
+    "objectID": "content/anaconda.html#videonávod",
+    "href": "content/anaconda.html#videonávod",
+    "title": "Inštalácia a vývojové prostredia",
+    "section": "🎞️ Videonávod",
+    "text": "🎞️ Videonávod",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Inštalácia a vývojové prostredia"
     ]
   },
   {
@@ -1992,365 +2258,327 @@
     ]
   },
   {
-    "objectID": "content/anaconda.html",
-    "href": "content/anaconda.html",
-    "title": "Inštalácia a vývojové prostredia",
+    "objectID": "content/instalacia_a_import_kniznic.html",
+    "href": "content/instalacia_a_import_kniznic.html",
+    "title": "Inštalácia a import knižníc",
     "section": "",
-    "text": "Distribúcia Anaconda predstavuje kompletné riešenie pre prácu s jazykom Python, najmä v oblastiach dátovej analýzy, strojového učenia a vedeckých výpočtov. Obsahuje:\n\nnajpoužívanejšie knižnice (napr. NumPy, Pandas, Matplotlib, SciPy),\nsprávcu balíkov a prostredí conda,\nvývojové nástroje ako Jupyter Lab, Jupyter Notebook, či Spyder.\n\nJe ideálna pre začiatočníkov, lebo šetrí čas a znižuje riziko konfliktov medzi verziami knižníc.\nDostupná je taktiež zjednodušená, tzv. “lightweight” verzia, s názvom MiniConda.",
+    "text": "Knižnice (moduly) v Pythone rozširujú možnosti jazyka. Môžete ich buď nainštalovať (ak nie sú súčasťou štandardnej knižnice), alebo importovať, ak už sú dostupné.",
     "crumbs": [
       "Domov",
-      "🚀 Základy Pythonu",
-      "Inštalácia a vývojové prostredia"
+      "📚 Knižnice",
+      "Inštalácia a import knižníc"
     ]
   },
   {
-    "objectID": "content/anaconda.html#prečo-používať-anacondu",
-    "href": "content/anaconda.html#prečo-používať-anacondu",
-    "title": "Inštalácia a vývojové prostredia",
+    "objectID": "content/instalacia_a_import_kniznic.html#úvod",
+    "href": "content/instalacia_a_import_kniznic.html#úvod",
+    "title": "Inštalácia a import knižníc",
     "section": "",
-    "text": "Distribúcia Anaconda predstavuje kompletné riešenie pre prácu s jazykom Python, najmä v oblastiach dátovej analýzy, strojového učenia a vedeckých výpočtov. Obsahuje:\n\nnajpoužívanejšie knižnice (napr. NumPy, Pandas, Matplotlib, SciPy),\nsprávcu balíkov a prostredí conda,\nvývojové nástroje ako Jupyter Lab, Jupyter Notebook, či Spyder.\n\nJe ideálna pre začiatočníkov, lebo šetrí čas a znižuje riziko konfliktov medzi verziami knižníc.\nDostupná je taktiež zjednodušená, tzv. “lightweight” verzia, s názvom MiniConda.",
+    "text": "Knižnice (moduly) v Pythone rozširujú možnosti jazyka. Môžete ich buď nainštalovať (ak nie sú súčasťou štandardnej knižnice), alebo importovať, ak už sú dostupné.",
     "crumbs": [
       "Domov",
-      "🚀 Základy Pythonu",
-      "Inštalácia a vývojové prostredia"
+      "📚 Knižnice",
+      "Inštalácia a import knižníc"
     ]
   },
   {
-    "objectID": "content/anaconda.html#inštalácia-anacondy",
-    "href": "content/anaconda.html#inštalácia-anacondy",
-    "title": "Inštalácia a vývojové prostredia",
-    "section": "🔽 Inštalácia Anacondy",
-    "text": "🔽 Inštalácia Anacondy\n\nNavštívte oficiálnu stránku distribúcie Anacondy na tomto linku.\nZ ponuky inštalátorov distribúcie Anacondy vyberte verziu pre svoj operačný systém (Windows / macOS / Linux), prípadne stiahnite detegovanú verziu.\nSpustite inštalátor a nechajte predvolené nastavenia.",
+    "objectID": "content/instalacia_a_import_kniznic.html#inštalácia-knižnice-pomocou-pip",
+    "href": "content/instalacia_a_import_kniznic.html#inštalácia-knižnice-pomocou-pip",
+    "title": "Inštalácia a import knižníc",
+    "section": "🛠️ Inštalácia knižnice pomocou pip",
+    "text": "🛠️ Inštalácia knižnice pomocou pip\nSpúšťa sa v termináli (alebo v bunkách Jupyteru s !):\n\n\nKód\n!pip install numpy\n\n\nRequirement already satisfied: numpy in c:\\users\\kubko\\.conda\\envs\\projects\\lib\\site-packages (1.26.4)\n\n\n\nV distibúcii Anaconda je pip dostupný aj ako knižnica, ktorá umožňuje inštaláciu knižníc bez !",
     "crumbs": [
       "Domov",
-      "🚀 Základy Pythonu",
-      "Inštalácia a vývojové prostredia"
+      "📚 Knižnice",
+      "Inštalácia a import knižníc"
     ]
   },
   {
-    "objectID": "content/anaconda.html#vývojové-prostredia",
-    "href": "content/anaconda.html#vývojové-prostredia",
-    "title": "Inštalácia a vývojové prostredia",
-    "section": "🧪 Vývojové prostredia",
-    "text": "🧪 Vývojové prostredia\nVývojové prostredie je softvérový nástroj, ktorý poskytuje používateľovi všetko potrebné na písanie, testovanie a správu kódu v jednom prehľadnom rozhraní. Pre nás sú z hľadiska jednoduchosti použitia, relevantné najmä tieto:\n\n\n📓 Jupyter Notebook\nJupyter Notebook je klasické webové rozhranie na písanie a spúšťanie Python kódu v tzv. notebookoch (.ipynb súboroch).\n\n✅ Výhody\n\nVeľmi jednoduché a intuitívne prostredie.\nKód a výsledky (grafy, tabuľky) sa zobrazujú v jednom dokumente.\nIdeálne na výučbu, rýchle experimenty a analýzu dát.\n\n\n\n🚫 Nevýhody\n\nObmedzené možnosti správy súborov a rozšírení.\nHoršia organizácia väčších projektov.\n\n\n\n\n\n🔬 Jupyter Lab\nJupyter Lab je modernejší nástupca Jupyter Notebooku, s rozšírenou funkcionalitou a lepším rozhraním.\n\n✅ Výhody\n\nMožnosť otvoriť viac notebookov, terminálov, Markdown súborov a dát naraz.\nPodpora rozšírení (napr. debugger, git, LSP).\nIdeálne na komplexnejšie projekty a výskum.\n\n\n\n🚫 Nevýhody\n\nO niečo náročnejšie rozhranie pre úplných začiatočníkov.\n\n\n\n\n\n🕸️ Spyder\nSpyder je desktopové vývojové prostredie (IDE) podobné napr. PyCharmu alebo MATLABu.\n\n✅ Výhody\n\nPrehľadné GUI: editor, konzola, premenné, pomocník, súborový prehliadač.\nSkvelé na písanie skriptov a ladenie menších Python aplikácií.\nObsahuje debugger, profiler a integráciu s IPython.\n\n\n\n🚫 Nevýhody\n\nMenej vhodné na interaktívnu dátovú analýzu než Jupyter.\nSlabšia podpora Markdownu a vizualizácií priamo v texte.\n\n\n\n\n\n🔍 Kedy čo použiť?\n\n\n\n\n\n\n\n\n\nProstredie\nVhodné na\nInteraktivita\nEditor typu IDE\n\n\n\n\nJupyter Notebook\nvýučba, rýchle testovanie\n⭐⭐⭐⭐\n❌\n\n\nJupyter Lab\ndátová analýza, výskum, viacero súborov\n⭐⭐⭐⭐⭐\n🟡 (základný)\n\n\nSpyder\nskripty, ladenie, technické výpočty\n⭐\n✅\n\n\n\n\n📌 Všetky tri prostredia sú dostupné priamo v distribúcii Anaconda a je len na vás, ktoré si vyberiete. Najlepšie výsledky často dosiahnete ich kombináciou podľa potreby, v závislosti od riešeného problému.",
+    "objectID": "content/instalacia_a_import_kniznic.html#import-knižnice-do-kódu",
+    "href": "content/instalacia_a_import_kniznic.html#import-knižnice-do-kódu",
+    "title": "Inštalácia a import knižníc",
+    "section": "📚 Import knižnice do kódu",
+    "text": "📚 Import knižnice do kódu\n\n\nKód\nimport numpy\nimport pandas",
     "crumbs": [
       "Domov",
-      "🚀 Základy Pythonu",
-      "Inštalácia a vývojové prostredia"
+      "📚 Knižnice",
+      "Inštalácia a import knižníc"
     ]
   },
   {
-    "objectID": "content/anaconda.html#videonávod",
-    "href": "content/anaconda.html#videonávod",
-    "title": "Inštalácia a vývojové prostredia",
-    "section": "🎞️ Videonávod",
-    "text": "🎞️ Videonávod",
+    "objectID": "content/instalacia_a_import_kniznic.html#import-len-konkrétnej-časti-knižnice",
+    "href": "content/instalacia_a_import_kniznic.html#import-len-konkrétnej-časti-knižnice",
+    "title": "Inštalácia a import knižníc",
+    "section": "🎯 Import len konkrétnej časti knižnice",
+    "text": "🎯 Import len konkrétnej časti knižnice\n\n\nKód\nfrom numpy import sqrt, pi\n\nprint(sqrt(16))\nprint(pi)\n\n\n4.0\n3.141592653589793",
     "crumbs": [
       "Domov",
-      "🚀 Základy Pythonu",
-      "Inštalácia a vývojové prostredia"
+      "📚 Knižnice",
+      "Inštalácia a import knižníc"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "O projekte",
-    "section": "",
-    "text": "Táto stránka vznikla ako podpora k predmetu Programovanie 1, ktorý je súčasťou bakalárskeho štúdia programu Geodézia a kartografia na Stavebnej fakulte STU v Bratislave.\nCieľom projektu je sprístupniť študentom praktické a relatívne zrozumiteľné materiály k výučbe programovania v jazyku Python, najmä s dôrazom na jeho využitie v geodetických, technických a vedeckých aplikáciách.\nWebová stránka slúži ako sprievodca k prednáškam a cvičeniam – obsahuje prehľad tém, ukážky kódov, vizualizácie, zadania a užitočné odkazy.\nProjekt podporuje samostatnú prácu študentov, rozvoj programátorského myslenia a schopnosti riešiť úlohy spojené so spracovaním a vizualizáciou údajov pre geodetickú prax.\n\n\n🧭 Veríme, že vďaka tejto platforme sa vám bude Python učiť efektívnejšie a zábavnejšie."
-  },
-  {
-    "objectID": "about.html#o-projekte",
-    "href": "about.html#o-projekte",
-    "title": "O projekte",
-    "section": "",
-    "text": "Táto stránka vznikla ako podpora k predmetu Programovanie 1, ktorý je súčasťou bakalárskeho štúdia programu Geodézia a kartografia na Stavebnej fakulte STU v Bratislave.\nCieľom projektu je sprístupniť študentom praktické a relatívne zrozumiteľné materiály k výučbe programovania v jazyku Python, najmä s dôrazom na jeho využitie v geodetických, technických a vedeckých aplikáciách.\nWebová stránka slúži ako sprievodca k prednáškam a cvičeniam – obsahuje prehľad tém, ukážky kódov, vizualizácie, zadania a užitočné odkazy.\nProjekt podporuje samostatnú prácu študentov, rozvoj programátorského myslenia a schopnosti riešiť úlohy spojené so spracovaním a vizualizáciou údajov pre geodetickú prax.\n\n\n🧭 Veríme, že vďaka tejto platforme sa vám bude Python učiť efektívnejšie a zábavnejšie."
-  },
-  {
-    "objectID": "content/cykly.html",
-    "href": "content/cykly.html",
-    "title": "Cykly",
-    "section": "",
-    "text": "Cykly slúžia na opakované vykonanie kódu. V Pythone máme dva základné typy:\n\nfor – keď vieme, koľkokrát sa má niečo opakovať\nwhile – keď chceme opakovať, kým platí podmienka",
+    "objectID": "content/instalacia_a_import_kniznic.html#alias-prezývka-pre-knižnicu",
+    "href": "content/instalacia_a_import_kniznic.html#alias-prezývka-pre-knižnicu",
+    "title": "Inštalácia a import knižníc",
+    "section": "✏️ Alias (prezývka) pre knižnicu",
+    "text": "✏️ Alias (prezývka) pre knižnicu\n\n\nKód\nimport numpy as np\n\npole = np.array([1, 2, 3])\nprint(pole)\n\n\n[1 2 3]\n\n\nMnohé knižnice majú v komunite programátorov zaužívané aliasy. Týmito aliasmi referújú ku knižiciam na mnohých fórach či dokumentáciách.\n\n\n\n\n\n\n\n\nKnižnica\nZaužívaný alias\nPríklad importu\n\n\n\n\nnumpy\nnp\nimport numpy as np\n\n\npandas\npd\nimport pandas as pd\n\n\nmatplotlib.pyplot\nplt\nimport matplotlib.pyplot as plt\n\n\nsympy\nsp\nimport sympy as sp",
     "crumbs": [
       "Domov",
-      "🏗️ Riadiace štruktúry",
-      "Cykly"
+      "📚 Knižnice",
+      "Inštalácia a import knižníc"
     ]
   },
   {
-    "objectID": "content/cykly.html#úvod",
-    "href": "content/cykly.html#úvod",
-    "title": "Cykly",
-    "section": "",
-    "text": "Cykly slúžia na opakované vykonanie kódu. V Pythone máme dva základné typy:\n\nfor – keď vieme, koľkokrát sa má niečo opakovať\nwhile – keď chceme opakovať, kým platí podmienka",
-    "crumbs": [
-      "Domov",
-      "🏗️ Riadiace štruktúry",
-      "Cykly"
-    ]
-  },
-  {
-    "objectID": "content/cykly.html#cyklus-for",
-    "href": "content/cykly.html#cyklus-for",
-    "title": "Cykly",
-    "section": "🔂 Cyklus for",
-    "text": "🔂 Cyklus for\n\n\nKód\nfor i in range(5):\n    print(\"Opakovanie:\", i)\n\n\nOpakovanie: 0\nOpakovanie: 1\nOpakovanie: 2\nOpakovanie: 3\nOpakovanie: 4\n\n\n\n🔢 range()\n\n\nKód\nfor i in range(1, 6):\n    print(i)  # 1 až 5\n\n\n1\n2\n3\n4\n5\n\n\n\n\nKód\nfor i in range(10, 0, -2):\n    print(i)  # 10, 8, 6, 4, 2\n\n\n10\n8\n6\n4\n2",
-    "crumbs": [
-      "Domov",
-      "🏗️ Riadiace štruktúry",
-      "Cykly"
-    ]
-  },
-  {
-    "objectID": "content/cykly.html#prechod-cez-znaky-reťazca-alebo-zoznam",
-    "href": "content/cykly.html#prechod-cez-znaky-reťazca-alebo-zoznam",
-    "title": "Cykly",
-    "section": "🔁 Prechod cez znaky reťazca alebo zoznam",
-    "text": "🔁 Prechod cez znaky reťazca alebo zoznam\n\n\nKód\ntext = \"Python\"\nfor znak in text:\n    print(znak)\n\n\nP\ny\nt\nh\no\nn\n\n\n\n\nKód\nzoznam = [3, 5, 7]\nfor cislo in zoznam:\n    print(cislo * 2)\n\n\n6\n10\n14",
-    "crumbs": [
-      "Domov",
-      "🏗️ Riadiace štruktúry",
-      "Cykly"
-    ]
-  },
-  {
-    "objectID": "content/cykly.html#cyklus-while",
-    "href": "content/cykly.html#cyklus-while",
-    "title": "Cykly",
-    "section": "🔄 Cyklus while",
-    "text": "🔄 Cyklus while\n\n\nKód\ni = 0\nwhile i &lt; 5:\n    print(i)\n    i += 1\n\n\n0\n1\n2\n3\n4",
-    "crumbs": [
-      "Domov",
-      "🏗️ Riadiace štruktúry",
-      "Cykly"
-    ]
-  },
-  {
-    "objectID": "content/cykly.html#nekonečný-cyklus",
-    "href": "content/cykly.html#nekonečný-cyklus",
-    "title": "Cykly",
-    "section": "⚠️ Nekonečný cyklus",
-    "text": "⚠️ Nekonečný cyklus\n\n\nKód\n# while True:\n#     print(\"Toto beží navždy!\")  # Zastavte klávesou Ctrl+C",
-    "crumbs": [
-      "Domov",
-      "🏗️ Riadiace štruktúry",
-      "Cykly"
-    ]
-  },
-  {
-    "objectID": "content/cykly.html#zhrnutie",
-    "href": "content/cykly.html#zhrnutie",
-    "title": "Cykly",
+    "objectID": "content/instalacia_a_import_kniznic.html#zhrnutie",
+    "href": "content/instalacia_a_import_kniznic.html#zhrnutie",
+    "title": "Inštalácia a import knižníc",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nfor sa používa pri početných opakovaniach\nwhile sa používa pri podmienkach\nrange(start, stop, step) generuje čísla pre for\nDávaj pozor na nekonečné cykly (while True)",
+    "text": "🧠 Zhrnutie\n\nNa inštaláciu novej knižnice sa používa pip install ...\nNa použitie knižnice v kóde ju importujete pomocou import\nMôžete importovať aj len časť knižnice (from ... import ...)\nAlias (as) zjednoduší zápis často používaných knižníc",
     "crumbs": [
       "Domov",
-      "🏗️ Riadiace štruktúry",
-      "Cykly"
+      "📚 Knižnice",
+      "Inštalácia a import knižníc"
     ]
   },
   {
-    "objectID": "content/cykly.html#videonávod",
-    "href": "content/cykly.html#videonávod",
-    "title": "Cykly",
+    "objectID": "content/instalacia_a_import_kniznic.html#videonávod",
+    "href": "content/instalacia_a_import_kniznic.html#videonávod",
+    "title": "Inštalácia a import knižníc",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "Domov",
-      "🏗️ Riadiace štruktúry",
-      "Cykly"
+      "📚 Knižnice",
+      "Inštalácia a import knižníc"
     ]
   },
   {
-    "objectID": "content/hello_world.html",
-    "href": "content/hello_world.html",
-    "title": "Prvé programy a výstup",
+    "objectID": "content/markdown.html",
+    "href": "content/markdown.html",
+    "title": "Základy jazyka Markdown",
     "section": "",
-    "text": "Prvý program v jazyku Python býva zvyčajne veľmi jednoduchý. Často vypisuje iba text na obrazovku – typicky Hello, world!. Na to slúži základná funkcia print().",
+    "text": "Markdown je jednoduchý značkovací jazyk, ktorý umožňuje písať texty s formátovaním pomocou ľahko zapamätateľnej syntaxe.\nPoužíva sa v Jupyter Notebookoch, Quarto dokumentoch, na GitHube alebo v poznámkových aplikáciách (Obsidian, Notion).\n\n❗ Pre použitie syntaxe jazyka Markdown je potrebné bunku v Jupyter Notebooku nadstaviť na Markdown.",
     "crumbs": [
       "Domov",
       "🚀 Základy Pythonu",
-      "Prvé programy a výstup"
+      "Základy jazyka Markdown"
     ]
   },
   {
-    "objectID": "content/hello_world.html#úvod",
-    "href": "content/hello_world.html#úvod",
-    "title": "Prvé programy a výstup",
+    "objectID": "content/markdown.html#úvod",
+    "href": "content/markdown.html#úvod",
+    "title": "Základy jazyka Markdown",
     "section": "",
-    "text": "Prvý program v jazyku Python býva zvyčajne veľmi jednoduchý. Často vypisuje iba text na obrazovku – typicky Hello, world!. Na to slúži základná funkcia print().",
+    "text": "Markdown je jednoduchý značkovací jazyk, ktorý umožňuje písať texty s formátovaním pomocou ľahko zapamätateľnej syntaxe.\nPoužíva sa v Jupyter Notebookoch, Quarto dokumentoch, na GitHube alebo v poznámkových aplikáciách (Obsidian, Notion).\n\n❗ Pre použitie syntaxe jazyka Markdown je potrebné bunku v Jupyter Notebooku nadstaviť na Markdown.",
     "crumbs": [
       "Domov",
       "🚀 Základy Pythonu",
-      "Prvé programy a výstup"
+      "Základy jazyka Markdown"
     ]
   },
   {
-    "objectID": "content/hello_world.html#základný-výstup",
-    "href": "content/hello_world.html#základný-výstup",
-    "title": "Prvé programy a výstup",
-    "section": "🧪 Základný výstup",
-    "text": "🧪 Základný výstup\n\n\nKód\nprint(\"Hello, world!\")\n\n\nHello, world!\n\n\n\n❕ Funkcia print() slúži na výpis textu alebo hodnôt do konzoly. Všetko, čo sa nachádza v zátvorkách, sa vypíše.",
+    "objectID": "content/markdown.html#nadpisy",
+    "href": "content/markdown.html#nadpisy",
+    "title": "Základy jazyka Markdown",
+    "section": "🔠 Nadpisy",
+    "text": "🔠 Nadpisy\nPoužívajú sa znak #. Počet znakov určuje úroveň nadpisu.\n# H1\n## H2\n### H3\n#### H4\n##### H5\n###### H6",
     "crumbs": [
       "Domov",
       "🚀 Základy Pythonu",
-      "Prvé programy a výstup"
+      "Základy jazyka Markdown"
     ]
   },
   {
-    "objectID": "content/hello_world.html#textový-reťazec",
-    "href": "content/hello_world.html#textový-reťazec",
-    "title": "Prvé programy a výstup",
-    "section": "🔡 Textový reťazec",
-    "text": "🔡 Textový reťazec\nText, ktorý vypisujeme, musí byť v úvodzovkách:\n\n\nKód\nprint(\"Toto je text\")\nprint('Aj toto je text')\n\n\nToto je text\nAj toto je text\n\n\n\n❕ Môžeme použiť jednoduché ' alebo dvojité \" úvodzovky.",
+    "objectID": "content/markdown.html#zdôraznenie",
+    "href": "content/markdown.html#zdôraznenie",
+    "title": "Základy jazyka Markdown",
+    "section": "✍️ Zdôraznenie",
+    "text": "✍️ Zdôraznenie\n*Kurzíva* alebo _Kurzíva_\n\n**Tučné** alebo __Tučné__\n\n***Tučné + kurzíva*** alebo ___Tučné + kurzíva___",
     "crumbs": [
       "Domov",
       "🚀 Základy Pythonu",
-      "Prvé programy a výstup"
+      "Základy jazyka Markdown"
     ]
   },
   {
-    "objectID": "content/hello_world.html#viacero-hodnôt",
-    "href": "content/hello_world.html#viacero-hodnôt",
-    "title": "Prvé programy a výstup",
-    "section": "➕ Viacero hodnôt",
-    "text": "➕ Viacero hodnôt\nDo funkcie print() môžeme dať viacero hodnôt oddelených čiarkami:\n\n\nKód\nprint(\"Súčet 2 + 3 je\", 2 + 3)\n\n\nSúčet 2 + 3 je 5\n\n\n\n❕ Python automaticky vloží medzeru medzi jednotlivé časti výpisu.",
+    "objectID": "content/markdown.html#zarovnanie-textu",
+    "href": "content/markdown.html#zarovnanie-textu",
+    "title": "Základy jazyka Markdown",
+    "section": "📍 Zarovnanie textu",
+    "text": "📍 Zarovnanie textu\n&lt;center&gt;\nTento text je na stred.\n&lt;/center&gt;",
     "crumbs": [
       "Domov",
       "🚀 Základy Pythonu",
-      "Prvé programy a výstup"
+      "Základy jazyka Markdown"
     ]
   },
   {
-    "objectID": "content/hello_world.html#zhrnutie",
-    "href": "content/hello_world.html#zhrnutie",
-    "title": "Prvé programy a výstup",
-    "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nprint() je vstavaná funkcia, ktorá nevyžaduje žiadne knižnice.\nPoužíva sa na výpis textu, čísel, premenných aj výpočtov.\nKaždé volanie print() skončí automaticky novým riadkom.",
+    "objectID": "content/markdown.html#zoznamy",
+    "href": "content/markdown.html#zoznamy",
+    "title": "Základy jazyka Markdown",
+    "section": "📋 Zoznamy",
+    "text": "📋 Zoznamy\n\nNeusporiadaný zoznam\n- Položka 1\n- Položka 2\n  - Vnorená položka 1\n  - Vnorená položka 2\n\n\nUsporiadaný zoznam\n1. Položka 1\n2. Položka 2\n   1. Vnorená položka 1\n   2. Vnorená položka 2",
     "crumbs": [
       "Domov",
       "🚀 Základy Pythonu",
-      "Prvé programy a výstup"
+      "Základy jazyka Markdown"
     ]
   },
   {
-    "objectID": "content/hello_world.html#príklady",
-    "href": "content/hello_world.html#príklady",
-    "title": "Prvé programy a výstup",
-    "section": "💡 Príklady",
-    "text": "💡 Príklady\n\n\nKód\nprint(123)              # vypíše číslo\nprint(\"Výsledok:\", 10)  # vypíše text aj číslo\nprint(5 + 7)            # vypíše výsledok výrazu\n\n\n123\nVýsledok: 10\n12",
+    "objectID": "content/markdown.html#odkazy",
+    "href": "content/markdown.html#odkazy",
+    "title": "Základy jazyka Markdown",
+    "section": "🔗 Odkazy",
+    "text": "🔗 Odkazy\n[Text odkazu](http://url.com)\n\nPríklad: [Google](https://www.google.com)",
     "crumbs": [
       "Domov",
       "🚀 Základy Pythonu",
-      "Prvé programy a výstup"
+      "Základy jazyka Markdown"
     ]
   },
   {
-    "objectID": "content/hello_world.html#videonávod",
-    "href": "content/hello_world.html#videonávod",
-    "title": "Prvé programy a výstup",
+    "objectID": "content/markdown.html#obrázky",
+    "href": "content/markdown.html#obrázky",
+    "title": "Základy jazyka Markdown",
+    "section": "🖼️ Obrázky",
+    "text": "🖼️ Obrázky\n![Alternatívny text](http://url.com/image.jpg)",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#citácie",
+    "href": "content/markdown.html#citácie",
+    "title": "Základy jazyka Markdown",
+    "section": "💬 Citácie",
+    "text": "💬 Citácie\n&gt; Toto je citácia.",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#kód",
+    "href": "content/markdown.html#kód",
+    "title": "Základy jazyka Markdown",
+    "section": "💻 Kód",
+    "text": "💻 Kód",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#inline-kód",
+    "href": "content/markdown.html#inline-kód",
+    "title": "Základy jazyka Markdown",
+    "section": "Inline kód",
+    "text": "Inline kód\n`print(\"Ahoj\")`",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#blok-kódu",
+    "href": "content/markdown.html#blok-kódu",
+    "title": "Základy jazyka Markdown",
+    "section": "Blok kódu",
+    "text": "Blok kódu\n```\nfunction hello() {\n  console.log(\"Hello, world!\");\n}\n```",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#horizontálna-čiara",
+    "href": "content/markdown.html#horizontálna-čiara",
+    "title": "Základy jazyka Markdown",
+    "section": "➖ Horizontálna čiara",
+    "text": "➖ Horizontálna čiara\n---\n___\n***",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#tabuľky",
+    "href": "content/markdown.html#tabuľky",
+    "title": "Základy jazyka Markdown",
+    "section": "📊 Tabuľky",
+    "text": "📊 Tabuľky\n\nZákladná tabuľka\n| Stĺpec 1 | Stĺpec 2 |\n|----------|----------|\n| Riadok 1 | Dáta 1   |\n| Riadok 2 | Dáta 2   |\n\n\nZarovnanie stĺpcov\n| Default | Vľavo | Vpravo | Stred |\n|---------|:------|-------:|:-----:|\n| A       | B     |   C    |   D   |",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#úlohy-task-list",
+    "href": "content/markdown.html#úlohy-task-list",
+    "title": "Základy jazyka Markdown",
+    "section": "✅ Úlohy (Task list)",
+    "text": "✅ Úlohy (Task list)\n- [ ] Úloha 1\n- [x] Hotová úloha",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#farby-html",
+    "href": "content/markdown.html#farby-html",
+    "title": "Základy jazyka Markdown",
+    "section": "🎨 Farby (HTML)",
+    "text": "🎨 Farby (HTML)\n&lt;font color=\"purple\"&gt;Tento text je fialový.&lt;/font&gt;",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#emoji",
+    "href": "content/markdown.html#emoji",
+    "title": "Základy jazyka Markdown",
+    "section": "😀 Emoji",
+    "text": "😀 Emoji\nToto je emoji: :hamburger:",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#užitočné-odkazy",
+    "href": "content/markdown.html#užitočné-odkazy",
+    "title": "Základy jazyka Markdown",
+    "section": "📚 Užitočné odkazy",
+    "text": "📚 Užitočné odkazy\n\nMarkdown Guide\nMarkdown Cheatsheet\nFarby v HTML\nEmojipedia",
+    "crumbs": [
+      "Domov",
+      "🚀 Základy Pythonu",
+      "Základy jazyka Markdown"
+    ]
+  },
+  {
+    "objectID": "content/markdown.html#videonávod",
+    "href": "content/markdown.html#videonávod",
+    "title": "Základy jazyka Markdown",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "Domov",
       "🚀 Základy Pythonu",
-      "Prvé programy a výstup"
-    ]
-  },
-  {
-    "objectID": "content/komentovanie_kodu.html",
-    "href": "content/komentovanie_kodu.html",
-    "title": "Komentovanie kódu",
-    "section": "",
-    "text": "Komentáre slúžia na poznámky v kóde, ktoré neovplyvňujú beh programu. Používajú sa na vysvetlenie, čo kód robí, alebo na dočasné vypnutie časti kódu.",
-    "crumbs": [
-      "Domov",
-      "🚀 Základy Pythonu",
-      "Komentovanie kódu"
-    ]
-  },
-  {
-    "objectID": "content/komentovanie_kodu.html#úvod",
-    "href": "content/komentovanie_kodu.html#úvod",
-    "title": "Komentovanie kódu",
-    "section": "",
-    "text": "Komentáre slúžia na poznámky v kóde, ktoré neovplyvňujú beh programu. Používajú sa na vysvetlenie, čo kód robí, alebo na dočasné vypnutie časti kódu.",
-    "crumbs": [
-      "Domov",
-      "🚀 Základy Pythonu",
-      "Komentovanie kódu"
-    ]
-  },
-  {
-    "objectID": "content/komentovanie_kodu.html#jednoriadkový-komentár",
-    "href": "content/komentovanie_kodu.html#jednoriadkový-komentár",
-    "title": "Komentovanie kódu",
-    "section": "📝 Jednoriadkový komentár",
-    "text": "📝 Jednoriadkový komentár\nPoužite # na začiatku každého riadka:\n\n\nKód\n# Toto je komentár\nprint(\"Ahoj\")  # Tento riadok niečo vypíše\n\n\nAhoj",
-    "crumbs": [
-      "Domov",
-      "🚀 Základy Pythonu",
-      "Komentovanie kódu"
-    ]
-  },
-  {
-    "objectID": "content/komentovanie_kodu.html#viacero-komentárov",
-    "href": "content/komentovanie_kodu.html#viacero-komentárov",
-    "title": "Komentovanie kódu",
-    "section": "🧾 Viacero komentárov",
-    "text": "🧾 Viacero komentárov\n\n\nKód\n# Tento program spočíta súčet\na = 5\nb = 3\n# Spočítame a vypíšeme výsledok\nprint(a + b)\n\n\n8",
-    "crumbs": [
-      "Domov",
-      "🚀 Základy Pythonu",
-      "Komentovanie kódu"
-    ]
-  },
-  {
-    "objectID": "content/komentovanie_kodu.html#dočasné-zakázanie-kódu",
-    "href": "content/komentovanie_kodu.html#dočasné-zakázanie-kódu",
-    "title": "Komentovanie kódu",
-    "section": "🛑 Dočasné zakázanie kódu",
-    "text": "🛑 Dočasné zakázanie kódu\nKomentármi môžete zabrániť vykonaniu časti kódu, ktorú momentálne nechcete spustiť:\n\n\nKód\n# print(\"Tento riadok sa nespustí\")\nprint(\"Tento áno\")\n\n\nTento áno\n\n\n\n❕Toto je veľmi užitočné pri testovaní alebo ladení programu.",
-    "crumbs": [
-      "Domov",
-      "🚀 Základy Pythonu",
-      "Komentovanie kódu"
-    ]
-  },
-  {
-    "objectID": "content/komentovanie_kodu.html#viacriadkový-text",
-    "href": "content/komentovanie_kodu.html#viacriadkový-text",
-    "title": "Komentovanie kódu",
-    "section": "❗ Viacriadkový text",
-    "text": "❗ Viacriadkový text\nViacriadkový text možno napísať pomocou trojitých úvodzoviek (’’’ alebo “““), ale nie je to komentár – je to reťazec, ktorý však Python nedokáže spustiť.\n\n\nKód\n\"\"\"\nToto je viacriadkový text,\nktorý ale Python vníma ako reťazec.\n\"\"\"\n\n\n'\\nToto je viacriadkový text,\\nktorý ale Python vníma ako reťazec.\\n'",
-    "crumbs": [
-      "Domov",
-      "🚀 Základy Pythonu",
-      "Komentovanie kódu"
-    ]
-  },
-  {
-    "objectID": "content/komentovanie_kodu.html#zhrnutie",
-    "href": "content/komentovanie_kodu.html#zhrnutie",
-    "title": "Komentovanie kódu",
-    "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nKomentáre píšeme pomocou #\nSlúžia na poznámky aj dočasné zakázanie kódu\nPomáhajú robiť kód prehľadnejší\nNie sú súčasťou vykonávaného programu",
-    "crumbs": [
-      "Domov",
-      "🚀 Základy Pythonu",
-      "Komentovanie kódu"
-    ]
-  },
-  {
-    "objectID": "content/komentovanie_kodu.html#videonávod",
-    "href": "content/komentovanie_kodu.html#videonávod",
-    "title": "Komentovanie kódu",
-    "section": "🎞️ Videonávod",
-    "text": "🎞️ Videonávod",
-    "crumbs": [
-      "Domov",
-      "🚀 Základy Pythonu",
-      "Komentovanie kódu"
+      "Základy jazyka Markdown"
     ]
   },
   {

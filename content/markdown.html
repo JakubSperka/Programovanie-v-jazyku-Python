@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jakub Šperka">
 
-<title>Prvé programy a výstup – Programovanie v jazyku Python</title>
+<title>Základy jazyka Markdown – Programovanie v jazyku Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -347,7 +347,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/anaconda.html">🚀 Základy Pythonu</a></li><li class="breadcrumb-item"><a href="../content/hello_world.html">Prvé programy a výstup</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/anaconda.html">🚀 Základy Pythonu</a></li><li class="breadcrumb-item"><a href="../content/markdown.html">Základy jazyka Markdown</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -385,7 +385,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/hello_world.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/hello_world.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Prvé programy a výstup</span></a>
   </div>
 </li>
@@ -421,7 +421,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/markdown.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/markdown.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Základy jazyka Markdown</span></a>
   </div>
 </li>
@@ -692,12 +692,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Na tejto stránke</h2>
    
   <ul>
-  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">🐍 Úvod</a></li>
-  <li><a href="#základný-výstup" id="toc-základný-výstup" class="nav-link" data-scroll-target="#základný-výstup">🧪 Základný výstup</a></li>
-  <li><a href="#textový-reťazec" id="toc-textový-reťazec" class="nav-link" data-scroll-target="#textový-reťazec">🔡 Textový reťazec</a></li>
-  <li><a href="#viacero-hodnôt" id="toc-viacero-hodnôt" class="nav-link" data-scroll-target="#viacero-hodnôt">➕ Viacero hodnôt</a></li>
-  <li><a href="#zhrnutie" id="toc-zhrnutie" class="nav-link" data-scroll-target="#zhrnutie">🧠 Zhrnutie</a></li>
-  <li><a href="#príklady" id="toc-príklady" class="nav-link" data-scroll-target="#príklady">💡 Príklady</a></li>
+  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">Úvod</a></li>
+  <li><a href="#nadpisy" id="toc-nadpisy" class="nav-link" data-scroll-target="#nadpisy">🔠 Nadpisy</a></li>
+  <li><a href="#zdôraznenie" id="toc-zdôraznenie" class="nav-link" data-scroll-target="#zdôraznenie">✍️ Zdôraznenie</a></li>
+  <li><a href="#zarovnanie-textu" id="toc-zarovnanie-textu" class="nav-link" data-scroll-target="#zarovnanie-textu">📍 Zarovnanie textu</a></li>
+  <li><a href="#zoznamy" id="toc-zoznamy" class="nav-link" data-scroll-target="#zoznamy">📋 Zoznamy</a>
+  <ul class="collapse">
+  <li><a href="#neusporiadaný-zoznam" id="toc-neusporiadaný-zoznam" class="nav-link" data-scroll-target="#neusporiadaný-zoznam">Neusporiadaný zoznam</a></li>
+  <li><a href="#usporiadaný-zoznam" id="toc-usporiadaný-zoznam" class="nav-link" data-scroll-target="#usporiadaný-zoznam">Usporiadaný zoznam</a></li>
+  </ul></li>
+  <li><a href="#odkazy" id="toc-odkazy" class="nav-link" data-scroll-target="#odkazy">🔗 Odkazy</a></li>
+  <li><a href="#obrázky" id="toc-obrázky" class="nav-link" data-scroll-target="#obrázky">🖼️ Obrázky</a></li>
+  <li><a href="#citácie" id="toc-citácie" class="nav-link" data-scroll-target="#citácie">💬 Citácie</a></li>
+  <li><a href="#kód" id="toc-kód" class="nav-link" data-scroll-target="#kód">💻 Kód</a></li>
+  <li><a href="#inline-kód" id="toc-inline-kód" class="nav-link" data-scroll-target="#inline-kód">Inline kód</a></li>
+  <li><a href="#blok-kódu" id="toc-blok-kódu" class="nav-link" data-scroll-target="#blok-kódu">Blok kódu</a></li>
+  <li><a href="#horizontálna-čiara" id="toc-horizontálna-čiara" class="nav-link" data-scroll-target="#horizontálna-čiara">➖ Horizontálna čiara</a></li>
+  <li><a href="#tabuľky" id="toc-tabuľky" class="nav-link" data-scroll-target="#tabuľky">📊 Tabuľky</a>
+  <ul class="collapse">
+  <li><a href="#základná-tabuľka" id="toc-základná-tabuľka" class="nav-link" data-scroll-target="#základná-tabuľka">Základná tabuľka</a></li>
+  <li><a href="#zarovnanie-stĺpcov" id="toc-zarovnanie-stĺpcov" class="nav-link" data-scroll-target="#zarovnanie-stĺpcov">Zarovnanie stĺpcov</a></li>
+  </ul></li>
+  <li><a href="#úlohy-task-list" id="toc-úlohy-task-list" class="nav-link" data-scroll-target="#úlohy-task-list">✅ Úlohy (Task list)</a></li>
+  <li><a href="#farby-html" id="toc-farby-html" class="nav-link" data-scroll-target="#farby-html">🎨 Farby (HTML)</a></li>
+  <li><a href="#emoji" id="toc-emoji" class="nav-link" data-scroll-target="#emoji">😀 Emoji</a></li>
+  <li><a href="#užitočné-odkazy" id="toc-užitočné-odkazy" class="nav-link" data-scroll-target="#užitočné-odkazy">📚 Užitočné odkazy</a></li>
   <li><a href="#videonávod" id="toc-videonávod" class="nav-link" data-scroll-target="#videonávod">🎞️ Videonávod</a></li>
   </ul>
 </nav>
@@ -706,13 +725,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/anaconda.html">🚀 Základy Pythonu</a></li><li class="breadcrumb-item"><a href="../content/hello_world.html">Prvé programy a výstup</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/anaconda.html">🚀 Základy Pythonu</a></li><li class="breadcrumb-item"><a href="../content/markdown.html">Základy jazyka Markdown</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Prvé programy a výstup</h1>
+<h1 class="title">Základy jazyka Markdown</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">JupyterLab</div>
-    <div class="quarto-category">print</div>
-    <div class="quarto-category">Hello World !</div>
+    <div class="quarto-category">Markdown</div>
+    <div class="quarto-category">Text</div>
+    <div class="quarto-category">Formatovanie</div>
+    <div class="quarto-category">Syntax</div>
   </div>
   </div>
 
@@ -743,91 +763,145 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <section id="úvod" class="level2">
-<h2 class="anchored" data-anchor-id="úvod">🐍 Úvod</h2>
-<p>Prvý program v jazyku Python býva zvyčajne veľmi jednoduchý. Často vypisuje iba text na obrazovku – typicky <code>Hello, world!</code>. Na to slúži základná funkcia <code>print()</code>.</p>
-<hr>
-</section>
-<section id="základný-výstup" class="level2">
-<h2 class="anchored" data-anchor-id="základný-výstup">🧪 Základný výstup</h2>
-<div id="a1b79d55-0267-473b-bb75-49c5260ac86e" class="cell" data-execution_count="1">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">print</span>(<span class="st">"Hello, world!"</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Hello, world!</code></pre>
-</div>
-</div>
+<h2 class="anchored" data-anchor-id="úvod">Úvod</h2>
+<p>Markdown je jednoduchý značkovací jazyk, ktorý umožňuje písať texty s formátovaním pomocou ľahko zapamätateľnej syntaxe.<br>
+Používa sa v Jupyter Notebookoch, Quarto dokumentoch, na GitHube alebo v poznámkových aplikáciách (Obsidian, Notion).</p>
 <blockquote class="blockquote">
-<p>❕ Funkcia <code>print()</code> slúži na výpis textu alebo hodnôt do konzoly. Všetko, čo sa nachádza v zátvorkách, sa vypíše.</p>
+<p>❗ Pre použitie syntaxe jazyka Markdown je potrebné bunku v Jupyter Notebooku nadstaviť na <strong>Markdown</strong>.</p>
 </blockquote>
 <hr>
 </section>
-<section id="textový-reťazec" class="level2">
-<h2 class="anchored" data-anchor-id="textový-reťazec">🔡 Textový reťazec</h2>
-<p>Text, ktorý vypisujeme, musí byť v <strong>úvodzovkách</strong>:</p>
-<div id="6a019c00-4f62-495c-974a-db64f4fbf1e2" class="cell" data-execution_count="2">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="bu">print</span>(<span class="st">"Toto je text"</span>)</span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="bu">print</span>(<span class="st">'Aj toto je text'</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Toto je text
-Aj toto je text</code></pre>
-</div>
-</div>
-<blockquote class="blockquote">
-<p>❕ Môžeme použiť jednoduché <code>'</code> alebo dvojité <code>"</code> úvodzovky.</p>
-</blockquote>
+<section id="nadpisy" class="level2">
+<h2 class="anchored" data-anchor-id="nadpisy">🔠 Nadpisy</h2>
+<p>Používajú sa znak <code>#</code>. Počet znakov určuje úroveň nadpisu.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu"># H1</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">## H2</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">### H3</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="fu">#### H4</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="fu">##### H5</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="fu">###### H6</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 </section>
-<section id="viacero-hodnôt" class="level2">
-<h2 class="anchored" data-anchor-id="viacero-hodnôt">➕ Viacero hodnôt</h2>
-<p>Do funkcie <code>print()</code> môžeme dať viacero hodnôt oddelených čiarkami:</p>
-<div id="18bddc2a-38e8-4aa0-b81f-7ea4e641d611" class="cell" data-execution_count="3">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="bu">print</span>(<span class="st">"Súčet 2 + 3 je"</span>, <span class="dv">2</span> <span class="op">+</span> <span class="dv">3</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Súčet 2 + 3 je 5</code></pre>
-</div>
-</div>
-<blockquote class="blockquote">
-<p>❕ Python automaticky vloží medzeru medzi jednotlivé časti výpisu.</p>
-</blockquote>
+<section id="zdôraznenie" class="level2">
+<h2 class="anchored" data-anchor-id="zdôraznenie">✍️ Zdôraznenie</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a>*Kurzíva* alebo _Kurzíva_</span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a>**Tučné** alebo __Tučné__</span>
+<span id="cb2-4"><a href="#cb2-4"></a></span>
+<span id="cb2-5"><a href="#cb2-5"></a>***Tučné + kurzíva*** alebo ___Tučné + kurzíva___</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 </section>
-<section id="zhrnutie" class="level2">
-<h2 class="anchored" data-anchor-id="zhrnutie">🧠 Zhrnutie</h2>
+<section id="zarovnanie-textu" class="level2">
+<h2 class="anchored" data-anchor-id="zarovnanie-textu">📍 Zarovnanie textu</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb3-1"><a href="#cb3-1"></a><span class="dt">&lt;</span><span class="kw">center</span><span class="dt">&gt;</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a>Tento text je na stred.</span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="dt">&lt;/</span><span class="kw">center</span><span class="dt">&gt;</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="zoznamy" class="level2">
+<h2 class="anchored" data-anchor-id="zoznamy">📋 Zoznamy</h2>
+<section id="neusporiadaný-zoznam" class="level3">
+<h3 class="anchored" data-anchor-id="neusporiadaný-zoznam">Neusporiadaný zoznam</h3>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1"></a><span class="ss">- </span>Položka 1</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="ss">- </span>Položka 2</span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="ss">  - </span>Vnorená položka 1</span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="ss">  - </span>Vnorená položka 2</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="usporiadaný-zoznam" class="level3">
+<h3 class="anchored" data-anchor-id="usporiadaný-zoznam">Usporiadaný zoznam</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1"></a><span class="ss">1. </span>Položka 1</span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="ss">2. </span>Položka 2</span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="ss">   1. </span>Vnorená položka 1</span>
+<span id="cb5-4"><a href="#cb5-4"></a><span class="ss">   2. </span>Vnorená položka 2</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+</section>
+<section id="odkazy" class="level2">
+<h2 class="anchored" data-anchor-id="odkazy">🔗 Odkazy</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1"></a><span class="co">[</span><span class="ot">Text odkazu</span><span class="co">](http://url.com)</span></span>
+<span id="cb6-2"><a href="#cb6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3"></a>Príklad: <span class="co">[</span><span class="ot">Google</span><span class="co">](https://www.google.com)</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="obrázky" class="level2">
+<h2 class="anchored" data-anchor-id="obrázky">🖼️ Obrázky</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1"></a><span class="al">![Alternatívny text](http://url.com/image.jpg)</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="citácie" class="level2">
+<h2 class="anchored" data-anchor-id="citácie">💬 Citácie</h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1"></a><span class="at">&gt; Toto je citácia.</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="kód" class="level2">
+<h2 class="anchored" data-anchor-id="kód">💻 Kód</h2>
+</section>
+<section id="inline-kód" class="level2">
+<h2 class="anchored" data-anchor-id="inline-kód">Inline kód</h2>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1"></a><span class="in">`print("Ahoj")`</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="blok-kódu" class="level2">
+<h2 class="anchored" data-anchor-id="blok-kódu">Blok kódu</h2>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb10-1"><a href="#cb10-1"></a><span class="in">```</span></span>
+<span id="cb10-2"><a href="#cb10-2"></a><span class="in">function hello() {</span></span>
+<span id="cb10-3"><a href="#cb10-3"></a><span class="in">  console.log("Hello, world!");</span></span>
+<span id="cb10-4"><a href="#cb10-4"></a><span class="in">}</span></span>
+<span id="cb10-5"><a href="#cb10-5"></a><span class="in">```</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="horizontálna-čiara" class="level2">
+<h2 class="anchored" data-anchor-id="horizontálna-čiara">➖ Horizontálna čiara</h2>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a href="#cb11-1"></a><span class="co">---</span></span>
+<span id="cb11-2"><a href="#cb11-2"></a><span class="co">___</span></span>
+<span id="cb11-3"><a href="#cb11-3"></a><span class="co">***</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="tabuľky" class="level2">
+<h2 class="anchored" data-anchor-id="tabuľky">📊 Tabuľky</h2>
+<section id="základná-tabuľka" class="level3">
+<h3 class="anchored" data-anchor-id="základná-tabuľka">Základná tabuľka</h3>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a href="#cb12-1"></a><span class="pp">|</span> Stĺpec 1 <span class="pp">|</span> Stĺpec 2 <span class="pp">|</span></span>
+<span id="cb12-2"><a href="#cb12-2"></a><span class="pp">|----------|----------|</span></span>
+<span id="cb12-3"><a href="#cb12-3"></a><span class="pp">|</span> Riadok 1 <span class="pp">|</span> Dáta 1   <span class="pp">|</span></span>
+<span id="cb12-4"><a href="#cb12-4"></a><span class="pp">|</span> Riadok 2 <span class="pp">|</span> Dáta 2   <span class="pp">|</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="zarovnanie-stĺpcov" class="level3">
+<h3 class="anchored" data-anchor-id="zarovnanie-stĺpcov">Zarovnanie stĺpcov</h3>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a href="#cb13-1"></a><span class="pp">|</span> Default <span class="pp">|</span> Vľavo <span class="pp">|</span> Vpravo <span class="pp">|</span> Stred <span class="pp">|</span></span>
+<span id="cb13-2"><a href="#cb13-2"></a><span class="pp">|---------|:------|-------:|:-----:|</span></span>
+<span id="cb13-3"><a href="#cb13-3"></a><span class="pp">|</span> A       <span class="pp">|</span> B     <span class="pp">|</span>   C    <span class="pp">|</span>   D   <span class="pp">|</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+</section>
+<section id="úlohy-task-list" class="level2">
+<h2 class="anchored" data-anchor-id="úlohy-task-list">✅ Úlohy (Task list)</h2>
+<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb14-1"><a href="#cb14-1"></a><span class="ss">- </span><span class="va">[ ]</span> Úloha 1</span>
+<span id="cb14-2"><a href="#cb14-2"></a><span class="ss">- </span><span class="va">[x]</span> Hotová úloha</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="farby-html" class="level2">
+<h2 class="anchored" data-anchor-id="farby-html">🎨 Farby (HTML)</h2>
+<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb15-1"><a href="#cb15-1"></a><span class="dt">&lt;</span><span class="kw">font</span><span class="ot"> color</span><span class="op">=</span><span class="st">"purple"</span><span class="dt">&gt;</span>Tento text je fialový.<span class="dt">&lt;/</span><span class="kw">font</span><span class="dt">&gt;</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="emoji" class="level2">
+<h2 class="anchored" data-anchor-id="emoji">😀 Emoji</h2>
+<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource md number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb16-1"><a href="#cb16-1"></a><span class="an">Toto je emoji:</span><span class="co"> :hamburger:</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
+</section>
+<section id="užitočné-odkazy" class="level2">
+<h2 class="anchored" data-anchor-id="užitočné-odkazy">📚 Užitočné odkazy</h2>
 <ul>
-<li><code>print()</code> je vstavaná funkcia, ktorá nevyžaduje žiadne knižnice.</li>
-<li>Používa sa na výpis textu, čísel, premenných aj výpočtov.</li>
-<li>Každé volanie <code>print()</code> skončí automaticky <strong>novým riadkom</strong>.</li>
+<li><a href="https://www.markdownguide.org/">Markdown Guide</a></li>
+<li><a href="https://www.markdown-cheatsheet.com/">Markdown Cheatsheet</a></li>
+<li><a href="https://www.w3schools.com/tags/ref_colornames.asp">Farby v HTML</a></li>
+<li><a href="https://emojipedia.org/">Emojipedia</a></li>
 </ul>
-<hr>
-</section>
-<section id="príklady" class="level2">
-<h2 class="anchored" data-anchor-id="príklady">💡 Príklady</h2>
-<div id="186a6296-4679-410f-9975-1464f44169c4" class="cell" data-execution_count="4">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="bu">print</span>(<span class="dv">123</span>)              <span class="co"># vypíše číslo</span></span>
-<span id="cb7-2"><a href="#cb7-2"></a><span class="bu">print</span>(<span class="st">"Výsledok:"</span>, <span class="dv">10</span>)  <span class="co"># vypíše text aj číslo</span></span>
-<span id="cb7-3"><a href="#cb7-3"></a><span class="bu">print</span>(<span class="dv">5</span> <span class="op">+</span> <span class="dv">7</span>)            <span class="co"># vypíše výsledok výrazu</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>123
-Výsledok: 10
-12</code></pre>
-</div>
-</div>
 <hr>
 </section>
 <section id="videonávod" class="level2">
 <h2 class="anchored" data-anchor-id="videonávod">🎞️ Videonávod</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wo9vZccmqwc" title="Prvé programy a výstup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wo9vZccmqwc" title="Markdown" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <hr>
 
 
