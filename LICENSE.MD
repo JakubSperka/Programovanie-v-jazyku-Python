@@ -1,9 +1,3 @@
----
-title: "🔓 Licencia"
-date: today
-author: "Jakub Šperka"
----
-
 ## 🔓 Licencia
 
 Táto vzdelávacia stránka je sprístupnená ako otvorený zdroj.  
