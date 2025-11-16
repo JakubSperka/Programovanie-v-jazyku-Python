@@ -84,43 +84,43 @@
     ]
   },
   {
-    "objectID": "license.html",
-    "href": "license.html",
+    "objectID": "site_license.html",
+    "href": "site_license.html",
     "title": "🔓 Licencia",
     "section": "",
     "text": "Táto vzdelávacia stránka je sprístupnená ako otvorený zdroj.\nRozlišujeme licenciu pre obsah a pre zdrojový kód."
   },
   {
-    "objectID": "license.html#licencia",
-    "href": "license.html#licencia",
+    "objectID": "site_license.html#licencia",
+    "href": "site_license.html#licencia",
     "title": "🔓 Licencia",
     "section": "",
     "text": "Táto vzdelávacia stránka je sprístupnená ako otvorený zdroj.\nRozlišujeme licenciu pre obsah a pre zdrojový kód."
   },
   {
-    "objectID": "license.html#obsah-texty-obrázky-návody",
-    "href": "license.html#obsah-texty-obrázky-návody",
+    "objectID": "site_license.html#obsah-texty-obrázky-návody",
+    "href": "site_license.html#obsah-texty-obrázky-návody",
     "title": "🔓 Licencia",
     "section": "📘 Obsah (texty, obrázky, návody)",
     "text": "📘 Obsah (texty, obrázky, návody)\nMateriály na tejto stránke (texty, obrázky, grafy a didaktické príklady) sú dostupné pod licenciou:\nCreative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)\n\nPráva a povinnosti\n\n✅ Kopírovať, šíriť, upravovať a využívať aj komerčne\n\n✅ Povinnosť uviesť autora a zdroj\n\n✅ Úpravy zdieľať pod rovnakou licenciou\n\n❌ Nemožno obmedzovať práva iných používateľov\n\nKrátke znenie:\n© 2025, Obsah je dostupný pod licenciou CC BY-SA 4.0."
   },
   {
-    "objectID": "license.html#zdrojový-kód-notebooky-skripty-príklady",
-    "href": "license.html#zdrojový-kód-notebooky-skripty-príklady",
+    "objectID": "site_license.html#zdrojový-kód-notebooky-skripty-príklady",
+    "href": "site_license.html#zdrojový-kód-notebooky-skripty-príklady",
     "title": "🔓 Licencia",
     "section": "💻 Zdrojový kód (notebooky, skripty, príklady)",
     "text": "💻 Zdrojový kód (notebooky, skripty, príklady)\nZdrojový kód priložený na tejto stránke je licencovaný pod:\nGNU General Public License v3.0 (GPL-3.0)\n\nPráva a povinnosti\n\n✅ Voľne používať, upravovať a šíriť\n\n✅ Povinnosť zverejniť odvodené diela pod rovnakou licenciou\n\n✅ Povinnosť priložiť licenciu a upozorniť na zmeny\n\n❌ Nemožno meniť licenciu na uzavretú alebo obmedzujúcu\n\nKrátke znenie:\nKód je dostupný pod licenciou GNU GPL v3.0."
   },
   {
-    "objectID": "license.html#ℹ-odporúčanie",
-    "href": "license.html#ℹ-odporúčanie",
+    "objectID": "site_license.html#ℹ-odporúčanie",
+    "href": "site_license.html#ℹ-odporúčanie",
     "title": "🔓 Licencia",
     "section": "ℹ️ Odporúčanie",
     "text": "ℹ️ Odporúčanie\nPri citovaní alebo používaní materiálov vždy uveďte zdroj:\nNázov stránky, autor, rok a odkaz."
   },
   {
-    "objectID": "license.html#poznámka-o-použití-generatívnej-umelej-inteligencie",
-    "href": "license.html#poznámka-o-použití-generatívnej-umelej-inteligencie",
+    "objectID": "site_license.html#poznámka-o-použití-generatívnej-umelej-inteligencie",
+    "href": "site_license.html#poznámka-o-použití-generatívnej-umelej-inteligencie",
     "title": "🔓 Licencia",
     "section": "🤖 Poznámka o použití generatívnej umelej inteligencie",
     "text": "🤖 Poznámka o použití generatívnej umelej inteligencie\nPri tvorbe tejto webovej stránky boli použité nástroje umelej inteligencie, GPT-5 (ChatGPT od OpenAI), ktoré pomáhali pri návrhu textov, štruktúry a optimalizácii obsahu a kódu."

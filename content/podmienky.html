@@ -312,7 +312,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">📌 O projekte</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../license.html"> 
+    <a class="nav-link" href="../site_license.html"> 
 <span class="menu-text">🔓 Licencia</span></a>
   </li>  
 </ul>
@@ -780,7 +780,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Publikované</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">13. novembra 2025</p>
+      <p class="date">16. novembra 2025</p>
     </div>
   </div>
   
@@ -931,6 +931,94 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 
 </main> <!-- /main -->
+<!-- News popup modal -->
+
+<div class="modal fade" id="newsModal" tabindex="-1" aria-labelledby="newsModalLabel" aria-hidden="true">
+
+  <div class="modal-dialog modal-dialog-centered">
+
+    <div class="modal-content">
+
+
+
+      <div class="modal-header bg-info text-white">
+
+        <h5 class="modal-title text-center w-100" id="newsModalLabel">📢 Novinky - 16.11.2025 📢</h5>
+
+      </div>
+
+
+
+      <div class="modal-body">
+
+        <p><strong>🎥 Pribudli nové videonávody: </strong></p>
+
+        <ul>
+
+          <li>Inštalácia a vývojové prostredia</li>
+
+          <li>Virtuálne prostredia</li>
+
+          <li>Prvé programy a výstup</li>
+
+        </ul>
+
+        <p>🎓 Videá nájdete v príslušných kapitolách</p>
+
+
+
+        <hr>
+
+
+
+        <!-- Informácia o zatvorení -->
+
+        <div class="text-center text-muted" style="font-size: 0.9rem;">
+
+          Okno sa zavrie kliknutím kamkoľvek mimo neho
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", function () {
+
+  const alreadyShown = localStorage.getItem("pythonNewsShown");
+
+
+
+  if (!alreadyShown) {
+
+    const modalEl = document.getElementById("newsModal");
+
+    if (modalEl) {
+
+      const modal = new bootstrap.Modal(modalEl);
+
+      modal.show();
+
+      localStorage.setItem("pythonNewsShown", "1");
+
+    }
+
+  }
+
+});
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
