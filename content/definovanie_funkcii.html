@@ -317,27 +317,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-    <div class="dropdown">
-      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-envelope-at-fill"></i></a>
-      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://www.svf.stuba.sk/kggi/personalne-obsadenie/osobna-stranka-ing.-jakub-sperka.html?page_id=10250">
-            Ing. Jakub Šperka
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://www.svf.stuba.sk/kggi/personalne-obsadenie/osobna-stranka-ing.-nikita-yakshin.html?page_id=9627">
-            Ing. Nikita Yakshin
-            </a>
-          </li>
-          <li>
-            <a class="dropdown-item quarto-navbar-tools-item" href="https://www.svf.stuba.sk/sk/katedry/katedra-geodetickych-zakladov/personalne-obsadenie/osobna-stranka-ing.-renata-duraciova-phd.html?page_id=3005">
-            doc.Ing. Renata Ďuračiová, PhD.
-            </a>
-          </li>
-      </ul>
-    </div>
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="javascript:showNewsModal()" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-megaphone"></i></a>
+    <a href="https://github.com/JakubSperka/Programovanie-v-jazyku-Python" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Prepnúť tmavý režim"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
@@ -777,7 +759,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Publikované</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">16. novembra 2025</p>
+      <p class="date">17. novembra 2025</p>
     </div>
   </div>
   
@@ -928,7 +910,7 @@ Vráti súčin dvoch čísel.</code></pre>
 
       <div class="modal-header bg-info text-white">
 
-        <h5 class="modal-title text-center w-100" id="newsModalLabel">📢 Novinky - 16.11.2025 📢</h5>
+        <h5 class="modal-title text-center w-100" id="newsModalLabel">📢 Novinky - 17.11.2025 📢</h5>
 
       </div>
 
@@ -940,15 +922,13 @@ Vráti súčin dvoch čísel.</code></pre>
 
         <ul>
 
-          <li>Inštalácia a vývojové prostredia</li>
+          <li>Premenné a dátové typy</li>
 
-          <li>Virtuálne prostredia</li>
-
-          <li>Prvé programy a výstup</li>
+          <li>Operátory</li>
 
         </ul>
 
-        <p>🎓 Videá nájdete v príslušných kapitolách</p>
+        <p>🎓 Videá nájdete v príslušných kapitolách a v prehľade kapitol</p>
 
 
 
@@ -1004,6 +984,21 @@ document.addEventListener("DOMContentLoaded", function () {
 
 </script>
 
+
+
+<script>
+
+function showNewsModal() {
+
+  const modalEl = document.getElementById('newsModal');
+
+  const modal = new bootstrap.Modal(modalEl);
+
+  modal.show();
+
+}
+
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
