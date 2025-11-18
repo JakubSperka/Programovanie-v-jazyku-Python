@@ -781,68 +781,98 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="základné-použitie" class="level2">
 <h2 class="anchored" data-anchor-id="základné-použitie">🧪 Základné použitie</h2>
-<div id="a792b594" class="cell">
+<div id="a792b594" class="cell" data-execution_count="1">
 <details open="" class="code-fold">
 <summary>Kód</summary>
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>meno <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Ako sa voláš? "</span>)</span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(<span class="st">"Ahoj,"</span>, meno)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-stdin">
+<pre><code>Ako sa voláš?  Jakub</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Ahoj, Jakub</code></pre>
+</div>
 </div>
 <hr>
 </section>
 <section id="hodnota-je-vždy-str" class="level2">
 <h2 class="anchored" data-anchor-id="hodnota-je-vždy-str">📦 Hodnota je vždy <code>str</code></h2>
-<div id="be7a8860" class="cell">
+<div id="be7a8860" class="cell" data-execution_count="2">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>vek <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Zadaj vek: "</span>)</span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="bu">print</span>(<span class="bu">type</span>(vek))</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a>vek <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Zadaj vek: "</span>)</span>
+<span id="cb4-2"><a href="#cb4-2"></a><span class="bu">print</span>(<span class="bu">type</span>(vek))</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-stdin">
+<pre><code>Zadaj vek:  25</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>&lt;class 'str'&gt;</code></pre>
+</div>
 </div>
 <hr>
 </section>
 <section id="prevod-na-číslo" class="level2">
 <h2 class="anchored" data-anchor-id="prevod-na-číslo">🔁 Prevod na číslo</h2>
-<div id="1615331a" class="cell">
+<div id="1615331a" class="cell" data-execution_count="3">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a>vek <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Zadaj vek: "</span>)</span>
-<span id="cb3-2"><a href="#cb3-2"></a>vek <span class="op">=</span> <span class="bu">int</span>(vek)</span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="bu">print</span>(<span class="st">"O rok budeš mať"</span>, vek <span class="op">+</span> <span class="dv">1</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a>vek <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Zadaj vek: "</span>)</span>
+<span id="cb7-2"><a href="#cb7-2"></a>vek <span class="op">=</span> <span class="bu">int</span>(vek)</span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="bu">print</span>(<span class="st">"O rok budeš mať"</span>, vek <span class="op">+</span> <span class="dv">1</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-stdin">
+<pre><code>Zadaj vek:  25</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>O rok budeš mať 26</code></pre>
+</div>
 </div>
 <section id="príklad" class="level3">
 <h3 class="anchored" data-anchor-id="príklad">💡 Príklad</h3>
-<div id="891a559c" class="cell">
+<div id="891a559c" class="cell" data-execution_count="4">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a>cena <span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Zadaj cenu v €: "</span>))</span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="bu">print</span>(<span class="st">"Cena s DPH:"</span>, cena <span class="op">*</span> <span class="fl">1.23</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1"></a>cena <span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Zadaj cenu v €: "</span>))</span>
+<span id="cb10-2"><a href="#cb10-2"></a><span class="bu">print</span>(<span class="st">"Cena s DPH:"</span>, cena <span class="op">*</span> <span class="fl">1.23</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-stdin">
+<pre><code>Zadaj cenu v €:  50</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Cena s DPH: 61.5</code></pre>
+</div>
 </div>
 <hr>
 </section>
 </section>
 <section id="chyby-pri-zlom-vstupe" class="level2">
 <h2 class="anchored" data-anchor-id="chyby-pri-zlom-vstupe">💥 Chyby pri zlom vstupe</h2>
-<div id="860a3d33" class="cell">
+<div id="860a3d33" class="cell" data-execution_count="5">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># cislo = int(input("Zadaj číslo: "))  # Zadajte text ako "abc" a spôsobí chybu</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1"></a><span class="co"># cislo = int(input("Zadaj číslo: "))  # Zadajte text ako "abc" a spôsobí chybu</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <hr>
 </section>
 <section id="viac-vstupov-naraz" class="level2">
 <h2 class="anchored" data-anchor-id="viac-vstupov-naraz">🔄 Viac vstupov naraz</h2>
-<div id="531443f7" class="cell">
+<div id="531443f7" class="cell" data-execution_count="6">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a>x, y <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Zadaj dve čísla: "</span>).split()</span>
-<span id="cb6-2"><a href="#cb6-2"></a>x <span class="op">=</span> <span class="bu">int</span>(x)</span>
-<span id="cb6-3"><a href="#cb6-3"></a>y <span class="op">=</span> <span class="bu">int</span>(y)</span>
-<span id="cb6-4"><a href="#cb6-4"></a><span class="bu">print</span>(<span class="st">"Súčet:"</span>, x <span class="op">+</span> y)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1"></a>x, y <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Zadaj dve čísla: "</span>).split()</span>
+<span id="cb14-2"><a href="#cb14-2"></a>x <span class="op">=</span> <span class="bu">int</span>(x)</span>
+<span id="cb14-3"><a href="#cb14-3"></a>y <span class="op">=</span> <span class="bu">int</span>(y)</span>
+<span id="cb14-4"><a href="#cb14-4"></a><span class="bu">print</span>(<span class="st">"Súčet:"</span>, x <span class="op">+</span> y)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
+<div class="cell-output cell-output-stdin">
+<pre><code>Zadaj dve čísla:  10 20</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Súčet: 30</code></pre>
+</div>
 </div>
 <hr>
 </section>
@@ -858,7 +888,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="videonávod" class="level2">
 <h2 class="anchored" data-anchor-id="videonávod">🎞️ Videonávod</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wo9vZccmqwc" title="Používateľský vstup" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QLWUo2uH75I" title="Vstup od používateľa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <hr>
 
 
@@ -877,7 +907,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
       <div class="modal-header bg-info text-white">
 
-        <h5 class="modal-title text-center w-100" id="newsModalLabel">📢 Novinky - 17.11.2025 📢</h5>
+        <h5 class="modal-title text-center w-100" id="newsModalLabel">📢 Novinky - 18.11.2025 📢</h5>
 
       </div>
 
@@ -889,9 +919,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
         <ul>
 
-          <li>Premenné a dátové typy</li>
+          <li>Konverzia dátových typov</li>
 
-          <li>Operátory</li>
+          <li>Vstup od používateľa</li>
 
         </ul>
 
