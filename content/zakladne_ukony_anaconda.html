@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jakub Šperka">
 
-<title>Výber stĺpcov, filtrovanie a indexovanie – Programovanie v jazyku Python pre geodetov</title>
+<title>Základy Anaconda Prompt – Programovanie v jazyku Python pre geodetov</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,7 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -105,9 +105,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Hľadať"
   }
 }</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
 
 
 </head>
@@ -332,7 +329,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/instalacia_a_import_kniznic.html">📚 Knižnice</a></li><li class="breadcrumb-item"><a href="../content/pandas_dataframe_intro.html">🗃️ Pandas</a></li><li class="breadcrumb-item"><a href="../content/pandas_filtracia.html">Výber stĺpcov, filtrovanie a indexovanie</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/zakladne_ukony_anaconda.html">🛝 Pieskovisko</a></li><li class="breadcrumb-item"><a href="../content/zakladne_ukony_anaconda.html">Základy Anaconda Prompt</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -515,13 +512,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
  <span class="menu-text">📚 Knižnice</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/instalacia_a_import_kniznic.html" class="sidebar-item-text sidebar-link">
@@ -633,13 +630,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
  <span class="menu-text">🗃️ Pandas</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/pandas_dataframe_intro.html" class="sidebar-item-text sidebar-link">
@@ -654,7 +651,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_filtracia.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/pandas_filtracia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Výber stĺpcov, filtrovanie a indexovanie</span></a>
   </div>
 </li>
@@ -695,16 +692,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true">
  <span class="menu-text">🛝 Pieskovisko</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/zakladne_ukony_anaconda.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/zakladne_ukony_anaconda.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Základy Anaconda Prompt</span></a>
   </div>
 </li>
@@ -726,18 +723,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Na tejto stránke</h2>
    
   <ul>
-  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">🧰 Úvod</a></li>
-  <li><a href="#ukážkové-dáta" id="toc-ukážkové-dáta" class="nav-link" data-scroll-target="#ukážkové-dáta">🧪 Ukážkové dáta</a></li>
-  <li><a href="#výber-stĺpcov" id="toc-výber-stĺpcov" class="nav-link" data-scroll-target="#výber-stĺpcov">🎯 Výber stĺpcov</a></li>
-  <li><a href="#výber-riadkov-.loc-vs-.iloc" id="toc-výber-riadkov-.loc-vs-.iloc" class="nav-link" data-scroll-target="#výber-riadkov-.loc-vs-.iloc">📍 Výber riadkov – <code>.loc</code> vs <code>.iloc</code></a></li>
-  <li><a href="#filtrovanie-riadkov-boolean-masky" id="toc-filtrovanie-riadkov-boolean-masky" class="nav-link" data-scroll-target="#filtrovanie-riadkov-boolean-masky">🔎 Filtrovanie riadkov (boolean masky)</a></li>
-  <li><a href="#filtrovanie-pomocou-.query-čitateľnejšia-syntax" id="toc-filtrovanie-pomocou-.query-čitateľnejšia-syntax" class="nav-link" data-scroll-target="#filtrovanie-pomocou-.query-čitateľnejšia-syntax">🗣️ Filtrovanie pomocou <code>.query()</code> (čitateľnejšia syntax)</a></li>
-  <li><a href="#indexovanie-nastavenie-a-obnova-indexu" id="toc-indexovanie-nastavenie-a-obnova-indexu" class="nav-link" data-scroll-target="#indexovanie-nastavenie-a-obnova-indexu">🧭 Indexovanie: nastavenie a obnova indexu</a></li>
-  <li><a href="#výber-podľa-indexu-stĺpca" id="toc-výber-podľa-indexu-stĺpca" class="nav-link" data-scroll-target="#výber-podľa-indexu-stĺpca">🎚️ Výber podľa indexu + stĺpca</a></li>
-  <li><a href="#triedenie-riadkov" id="toc-triedenie-riadkov" class="nav-link" data-scroll-target="#triedenie-riadkov">↕️ Triedenie riadkov</a></li>
-  <li><a href="#reťazenie-operácií" id="toc-reťazenie-operácií" class="nav-link" data-scroll-target="#reťazenie-operácií">⛓️ Reťazenie operácií</a></li>
+  <li><a href="#anaconda-prompt" id="toc-anaconda-prompt" class="nav-link active" data-scroll-target="#anaconda-prompt">💻 Anaconda Prompt</a></li>
+  <li><a href="#spustenie-anaconda-prompt" id="toc-spustenie-anaconda-prompt" class="nav-link" data-scroll-target="#spustenie-anaconda-prompt">🔍 Spustenie Anaconda Prompt</a></li>
+  <li><a href="#práca-s-adresármi" id="toc-práca-s-adresármi" class="nav-link" data-scroll-target="#práca-s-adresármi">📁 Práca s adresármi</a></li>
+  <li><a href="#vytvorenie-nového-conda-prostredia" id="toc-vytvorenie-nového-conda-prostredia" class="nav-link" data-scroll-target="#vytvorenie-nového-conda-prostredia">🔧 Vytvorenie nového conda prostredia</a></li>
+  <li><a href="#aktivácia-a-deaktivácia-prostredia" id="toc-aktivácia-a-deaktivácia-prostredia" class="nav-link" data-scroll-target="#aktivácia-a-deaktivácia-prostredia">⚙️ Aktivácia a deaktivácia prostredia</a></li>
+  <li><a href="#inštalácia-balíkov" id="toc-inštalácia-balíkov" class="nav-link" data-scroll-target="#inštalácia-balíkov">📦 Inštalácia balíkov</a></li>
+  <li><a href="#spustenie-jupyter-lab" id="toc-spustenie-jupyter-lab" class="nav-link" data-scroll-target="#spustenie-jupyter-lab">🪐 Spustenie Jupyter Lab</a></li>
   <li><a href="#zhrnutie" id="toc-zhrnutie" class="nav-link" data-scroll-target="#zhrnutie">🧠 Zhrnutie</a></li>
-  <li><a href="#oficiálna-dokumentácia-pandas" id="toc-oficiálna-dokumentácia-pandas" class="nav-link" data-scroll-target="#oficiálna-dokumentácia-pandas">📚 Oficiálna dokumentácia Pandas</a></li>
   <li><a href="#videonávod" id="toc-videonávod" class="nav-link" data-scroll-target="#videonávod">🎞️ Videonávod</a></li>
   </ul>
 </nav>
@@ -746,15 +739,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/instalacia_a_import_kniznic.html">📚 Knižnice</a></li><li class="breadcrumb-item"><a href="../content/pandas_dataframe_intro.html">🗃️ Pandas</a></li><li class="breadcrumb-item"><a href="../content/pandas_filtracia.html">Výber stĺpcov, filtrovanie a indexovanie</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/zakladne_ukony_anaconda.html">🛝 Pieskovisko</a></li><li class="breadcrumb-item"><a href="../content/zakladne_ukony_anaconda.html">Základy Anaconda Prompt</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Výber stĺpcov, filtrovanie a indexovanie</h1>
+<h1 class="title">Základy Anaconda Prompt</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">JupyterLab</div>
-    <div class="quarto-category">Pandas</div>
-    <div class="quarto-category">Výber</div>
-    <div class="quarto-category">Filtrovanie</div>
-    <div class="quarto-category">Indexovanie</div>
+    <div class="quarto-category">Anaconda</div>
+    <div class="quarto-category">Anaconda Prompt</div>
+    <div class="quarto-category">Príkazový riadok</div>
   </div>
   </div>
 
@@ -784,936 +775,122 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="úvod" class="level2">
-<h2 class="anchored" data-anchor-id="úvod">🧰 Úvod</h2>
-<p>V tejto kapitole sú zhrnuté základné operácie s <code>pandas.DataFrame</code>: - <strong>Výber stĺpcov a riadkov</strong> (<code>[]</code>, <code>.loc</code>, <code>.iloc</code>) - <strong>Filtrovanie riadkov</strong> (boolean masky, <code>.query()</code>) - <strong>Indexovanie</strong> (nastavenie/obnova indexu, výber podľa indexu) - <strong>Triedenie</strong> - <strong>Výber podľa podmienok viacerých stĺpcov</strong> - <strong>reťazenie operácií</strong></p>
-<p>Budeme pracovať s malým ukážkovým súborom dát, ktorý si vytvoríme v behu notebooku.</p>
+<section id="anaconda-prompt" class="level2">
+<h2 class="anchored" data-anchor-id="anaconda-prompt">💻 Anaconda Prompt</h2>
+<p>Táto kapitola predstavuje základné príkazy používané v <strong>Anaconda Prompt</strong> pri práci s Pythonom, virtuálnymi prostrediami a Jupyter Lab. Postup je zameraný na jednoduché a jasné pochopenie najdôležitejších krokov, ktoré môžete pri práci s jazykom Python potrebovať.</p>
 <hr>
 </section>
-<section id="ukážkové-dáta" class="level2">
-<h2 class="anchored" data-anchor-id="ukážkové-dáta">🧪 Ukážkové dáta</h2>
-<div id="62f8f547" class="cell" data-execution_count="1">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-2"><a href="#cb1-2"></a></span>
-<span id="cb1-3"><a href="#cb1-3"></a>data <span class="op">=</span> {</span>
-<span id="cb1-4"><a href="#cb1-4"></a>    <span class="st">"Meno"</span>: [<span class="st">"Anna"</span>, <span class="st">"Boris"</span>, <span class="st">"Cyril"</span>, <span class="st">"Dora"</span>, <span class="st">"Eva"</span>, <span class="st">"Filip"</span>],</span>
-<span id="cb1-5"><a href="#cb1-5"></a>    <span class="st">"Vek"</span>: [<span class="dv">25</span>, <span class="dv">30</span>, <span class="dv">35</span>, <span class="dv">28</span>, <span class="dv">22</span>, <span class="dv">40</span>],</span>
-<span id="cb1-6"><a href="#cb1-6"></a>    <span class="st">"Mesto"</span>: [<span class="st">"Bratislava"</span>, <span class="st">"Košice"</span>, <span class="st">"Žilina"</span>, <span class="st">"Bratislava"</span>, <span class="st">"Nitra"</span>, <span class="st">"Košice"</span>],</span>
-<span id="cb1-7"><a href="#cb1-7"></a>    <span class="st">"Body"</span>: [<span class="dv">88</span>, <span class="dv">92</span>, <span class="dv">75</span>, <span class="dv">90</span>, <span class="dv">66</span>, <span class="dv">98</span>],</span>
-<span id="cb1-8"><a href="#cb1-8"></a>    <span class="st">"Aktivny"</span>: [<span class="va">True</span>, <span class="va">True</span>, <span class="va">False</span>, <span class="va">True</span>, <span class="va">False</span>, <span class="va">True</span>],</span>
-<span id="cb1-9"><a href="#cb1-9"></a>}</span>
-<span id="cb1-10"><a href="#cb1-10"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
-<span id="cb1-11"><a href="#cb1-11"></a>df</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="1">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>Anna</td>
-<td>25</td>
-<td>Bratislava</td>
-<td>88</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Cyril</td>
-<td>35</td>
-<td>Žilina</td>
-<td>75</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>Dora</td>
-<td>28</td>
-<td>Bratislava</td>
-<td>90</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>Eva</td>
-<td>22</td>
-<td>Nitra</td>
-<td>66</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<hr>
-</section>
-<section id="výber-stĺpcov" class="level2">
-<h2 class="anchored" data-anchor-id="výber-stĺpcov">🎯 Výber stĺpcov</h2>
-<section id="jeden-stĺpec-vracia-series" class="level4">
-<h4 class="anchored" data-anchor-id="jeden-stĺpec-vracia-series">Jeden stĺpec (vracia Series)</h4>
-<div id="73d1534b-2b07-493d-a060-d04b0ad385aa" class="cell" data-execution_count="2">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>df[<span class="st">'Meno'</span>]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="2">
-<pre><code>0     Anna
-1    Boris
-2    Cyril
-3     Dora
-4      Eva
-5    Filip
-Name: Meno, dtype: object</code></pre>
-</div>
-</div>
-</section>
-<section id="viac-stĺpcov-vracia-dataframe" class="level4">
-<h4 class="anchored" data-anchor-id="viac-stĺpcov-vracia-dataframe">Viac stĺpcov (vracia DataFrame)</h4>
-<div id="898d268b" class="cell" data-execution_count="3">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a>df[[<span class="st">'Meno'</span>, <span class="st">'Vek'</span>]]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="3">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>Anna</td>
-<td>25</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Cyril</td>
-<td>35</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>Dora</td>
-<td>28</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>Eva</td>
-<td>22</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<hr>
-</section>
-</section>
-<section id="výber-riadkov-.loc-vs-.iloc" class="level2">
-<h2 class="anchored" data-anchor-id="výber-riadkov-.loc-vs-.iloc">📍 Výber riadkov – <code>.loc</code> vs <code>.iloc</code></h2>
+<section id="spustenie-anaconda-prompt" class="level2">
+<h2 class="anchored" data-anchor-id="spustenie-anaconda-prompt">🔍 Spustenie Anaconda Prompt</h2>
+<p>Anaconda Prompt otvoríte cez:</p>
 <ul>
-<li><strong><code>.loc[riadky, stĺpce]</code></strong>: výber podľa <strong>menoviek</strong> (indexu/stĺpcov)</li>
-<li><strong><code>.iloc[riadky, stĺpce]</code></strong>: výber podľa <strong>pozície</strong> (0-based - začiatok indexovania od nuly)</li>
+<li><strong>Windows Search → „Anaconda Prompt“</strong></li>
+<li><strong>Ponuka Štart → „Anaconda Prompt“</strong></li>
+<li>Je dôležité pracovať práve v tomto termináli, pretože už obsahuje nástroje <code>conda</code>.</li>
 </ul>
-<section id="výber-rozsahu-riadkov-podľa-indexu-stĺpcov" class="level4">
-<h4 class="anchored" data-anchor-id="výber-rozsahu-riadkov-podľa-indexu-stĺpcov">Výber rozsahu riadkov podľa indexu stĺpcov</h4>
-<div id="e13e508f" class="cell" data-execution_count="4">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># Prvé tri riadky a stĺpce 'Meno' a 'Vek' podľa ich pozície (indexu)</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a>df.iloc[<span class="dv">0</span>:<span class="dv">3</span>, [<span class="dv">0</span>, <span class="dv">1</span>]]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="4">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>Anna</td>
-<td>25</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Cyril</td>
-<td>35</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
+<hr>
 </section>
-<section id="výber-rozsahu-riadkov-podľa-indexu-stĺpcov-1" class="level4">
-<h4 class="anchored" data-anchor-id="výber-rozsahu-riadkov-podľa-indexu-stĺpcov-1">Výber rozsahu riadkov podľa indexu stĺpcov</h4>
-<div id="0ad68168-f162-4d05-b18c-d30bf4b452d5" class="cell" data-execution_count="5">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># Riadky s indexami 0 až 3 (vrátane) a stĺpce podľa názvov 'Meno' a 'Vek'</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a>df.loc[<span class="dv">0</span>:<span class="dv">3</span>, [<span class="st">'Meno'</span>, <span class="st">'Vek'</span>]]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="5">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>Anna</td>
-<td>25</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Cyril</td>
-<td>35</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>Dora</td>
-<td>28</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
+<section id="práca-s-adresármi" class="level2">
+<h2 class="anchored" data-anchor-id="práca-s-adresármi">📁 Práca s adresármi</h2>
+<p>Základný príkaz na pohyb po adresároch je:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">cd</span> cesta/k/adresáru</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="zobrazenie-aktuálnej-cesty" class="level4">
+<h4 class="anchored" data-anchor-id="zobrazenie-aktuálnej-cesty">Zobrazenie aktuálnej cesty:</h4>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1"></a><span class="bu">cd</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="prechod-o-jeden-priečinok-vyššie" class="level4">
+<h4 class="anchored" data-anchor-id="prechod-o-jeden-priečinok-vyššie">Prechod o jeden priečinok vyššie:</h4>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1"></a><span class="bu">cd</span> ..</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="prechod-na-konkrétny-disk-napr.-d" class="level4">
+<h4 class="anchored" data-anchor-id="prechod-na-konkrétny-disk-napr.-d">Prechod na konkrétny disk (napr. D:):</h4>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1"></a><span class="ex">D:</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<blockquote class="blockquote">
+<p>❗Cesty s medzerami píšte do úvodzoviek, napr.: <code>bash cd "C:\Users\Student\Moje Projekty"</code></p>
+</blockquote>
 <hr>
 </section>
 </section>
-<section id="filtrovanie-riadkov-boolean-masky" class="level2">
-<h2 class="anchored" data-anchor-id="filtrovanie-riadkov-boolean-masky">🔎 Filtrovanie riadkov (boolean masky)</h2>
-<div id="c626582b" class="cell" data-execution_count="6">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># Negácia podmienky: mesto nie je Bratislava</span></span>
-<span id="cb7-2"><a href="#cb7-2"></a>df[<span class="op">~</span>(df[<span class="st">'Mesto'</span>] <span class="op">==</span> <span class="st">'Bratislava'</span>)]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="6">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Cyril</td>
-<td>35</td>
-<td>Žilina</td>
-<td>75</td>
-<td>False</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>Eva</td>
-<td>22</td>
-<td>Nitra</td>
-<td>66</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div id="c38d7ea8-b785-4e6d-b3c2-2fe144fd44c5" class="cell" data-execution_count="7">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1"></a><span class="co"># Jednoduchá podmienka: iba aktívni</span></span>
-<span id="cb8-2"><a href="#cb8-2"></a>df[df[<span class="st">'Aktivny'</span>] <span class="op">==</span> <span class="va">True</span>]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="7">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>Anna</td>
-<td>25</td>
-<td>Bratislava</td>
-<td>88</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">3</td>
-<td>Dora</td>
-<td>28</td>
-<td>Bratislava</td>
-<td>90</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div id="01eeaa32-18f2-4f6b-82f5-51099563337a" class="cell" data-execution_count="8">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a><span class="co"># Viac podmienok: vek &gt;= 30 a Body &gt; 80</span></span>
-<span id="cb9-2"><a href="#cb9-2"></a>df[(df[<span class="st">'Vek'</span>] <span class="op">&gt;=</span> <span class="dv">30</span>) <span class="op">&amp;</span> (df[<span class="st">'Body'</span>] <span class="op">&gt;</span> <span class="dv">80</span>)]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="8">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<div id="8a3a539d-bbf7-4635-9b2f-0155de765f77" class="cell" data-execution_count="9">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1"></a><span class="co"># Negácia podmienky: mesto nie je Bratislava</span></span>
-<span id="cb10-2"><a href="#cb10-2"></a>df[<span class="op">~</span>(df[<span class="st">'Mesto'</span>] <span class="op">==</span> <span class="st">'Bratislava'</span>)]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="9">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Cyril</td>
-<td>35</td>
-<td>Žilina</td>
-<td>75</td>
-<td>False</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>Eva</td>
-<td>22</td>
-<td>Nitra</td>
-<td>66</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
+<section id="vytvorenie-nového-conda-prostredia" class="level2">
+<h2 class="anchored" data-anchor-id="vytvorenie-nového-conda-prostredia">🔧 Vytvorenie nového conda prostredia</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1"></a><span class="ex">conda</span> create <span class="at">-n</span> nazov_prostredia python=3.11 jupyterlab</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<blockquote class="blockquote">
+<p>💡Tento príkaz vytvorí prostredie s verziou Pythonu 3.11 a zároveň nainštaluje aj prostredie JupyterLab ❗Relevantné sú všetky verzie Pythonu od 3.9 a vyššie.</p>
+</blockquote>
 <hr>
 </section>
-<section id="filtrovanie-pomocou-.query-čitateľnejšia-syntax" class="level2">
-<h2 class="anchored" data-anchor-id="filtrovanie-pomocou-.query-čitateľnejšia-syntax">🗣️ Filtrovanie pomocou <code>.query()</code> (čitateľnejšia syntax)</h2>
-<div id="f1f6f180" class="cell" data-execution_count="10">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a><span class="co"># Pozor: vo výrazoch používame názvy stĺpcov priamo</span></span>
-<span id="cb11-2"><a href="#cb11-2"></a>df.query(<span class="st">"Vek &gt;= 30 and Body &gt; 80 and Aktivny"</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="10">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<hr>
+<section id="aktivácia-a-deaktivácia-prostredia" class="level2">
+<h2 class="anchored" data-anchor-id="aktivácia-a-deaktivácia-prostredia">⚙️ Aktivácia a deaktivácia prostredia</h2>
+<p>Pred prácou vo virtuálnom prostredí je potrebná jeho aktivácia.</p>
+<section id="aktivácia" class="level4">
+<h4 class="anchored" data-anchor-id="aktivácia">Aktivácia</h4>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1"></a><span class="ex">conda</span> activate nazov_prostredia</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="indexovanie-nastavenie-a-obnova-indexu" class="level2">
-<h2 class="anchored" data-anchor-id="indexovanie-nastavenie-a-obnova-indexu">🧭 Indexovanie: nastavenie a obnova indexu</h2>
-<section id="aktuálny-rangeindex" class="level4">
-<h4 class="anchored" data-anchor-id="aktuálny-rangeindex">Aktuálny RangeIndex</h4>
-<div id="26a7bc65" class="cell" data-execution_count="11">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1"></a>df.index</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="11">
-<pre><code>RangeIndex(start=0, stop=6, step=1)</code></pre>
-</div>
-</div>
-</section>
-<section id="nastavenie-vlastného-indexu" class="level4">
-<h4 class="anchored" data-anchor-id="nastavenie-vlastného-indexu">Nastavenie vlastného indexu</h4>
-<div id="d037d980-3409-4670-b708-43b5664c1666" class="cell" data-execution_count="12">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1"></a>df_meno <span class="op">=</span> df.set_index(<span class="st">'Meno'</span>)</span>
-<span id="cb14-2"><a href="#cb14-2"></a>df_meno</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="12">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Anna</td>
-<td>25</td>
-<td>Bratislava</td>
-<td>88</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Cyril</td>
-<td>35</td>
-<td>Žilina</td>
-<td>75</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Dora</td>
-<td>28</td>
-<td>Bratislava</td>
-<td>90</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Eva</td>
-<td>22</td>
-<td>Nitra</td>
-<td>66</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-</section>
-<section id="výber-podľa-menovky-indexu" class="level4">
-<h4 class="anchored" data-anchor-id="výber-podľa-menovky-indexu">Výber podľa menovky indexu</h4>
-<div id="9bb59cd2-dc6f-460c-b7a9-d1bd1060008d" class="cell" data-execution_count="13">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1"></a>df_meno.loc[<span class="st">'Boris'</span>]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="13">
-<pre><code>Vek            30
-Mesto      Košice
-Body           92
-Aktivny      True
-Name: Boris, dtype: object</code></pre>
-</div>
-</div>
-</section>
-<section id="obnovenie-pôvodného-indexu" class="level4">
-<h4 class="anchored" data-anchor-id="obnovenie-pôvodného-indexu">Obnovenie pôvodného indexu</h4>
-<div id="5bbf0254-3922-426c-8c91-7363ae94464d" class="cell" data-execution_count="14">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1"></a>df_meno.reset_index()</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="14">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">0</td>
-<td>Anna</td>
-<td>25</td>
-<td>Bratislava</td>
-<td>88</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Cyril</td>
-<td>35</td>
-<td>Žilina</td>
-<td>75</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">3</td>
-<td>Dora</td>
-<td>28</td>
-<td>Bratislava</td>
-<td>90</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>Eva</td>
-<td>22</td>
-<td>Nitra</td>
-<td>66</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
+<section id="deaktivácia" class="level4">
+<h4 class="anchored" data-anchor-id="deaktivácia">Deaktivácia</h4>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1"></a><span class="ex">conda</span> deactivate</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 </section>
 </section>
-<section id="výber-podľa-indexu-stĺpca" class="level2">
-<h2 class="anchored" data-anchor-id="výber-podľa-indexu-stĺpca">🎚️ Výber podľa indexu + stĺpca</h2>
-<div id="615543f6" class="cell" data-execution_count="15">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1"></a><span class="co"># Keď je indexom 'Meno', môžeme vyberať kombinácie:</span></span>
-<span id="cb18-2"><a href="#cb18-2"></a></span>
-<span id="cb18-3"><a href="#cb18-3"></a>df_meno <span class="op">=</span> df.set_index(<span class="st">'Meno'</span>)</span>
-<span id="cb18-4"><a href="#cb18-4"></a></span>
-<span id="cb18-5"><a href="#cb18-5"></a>df_meno.loc[[<span class="st">'Anna'</span>, <span class="st">'Dora'</span>], [<span class="st">'Mesto'</span>, <span class="st">'Body'</span>]]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="15">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-</tr>
-<tr class="even">
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th"></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">Anna</td>
-<td>Bratislava</td>
-<td>88</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">Dora</td>
-<td>Bratislava</td>
-<td>90</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
+<section id="inštalácia-balíkov" class="level2">
+<h2 class="anchored" data-anchor-id="inštalácia-balíkov">📦 Inštalácia balíkov</h2>
+<section id="pomocou-conda" class="level4">
+<h4 class="anchored" data-anchor-id="pomocou-conda">Pomocou <code>conda</code></h4>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1"></a><span class="ex">conda</span> install numpy pandas matplotlib</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="pomocou-pip" class="level4">
+<h4 class="anchored" data-anchor-id="pomocou-pip">Pomocou <code>pip</code></h4>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1"></a><span class="ex">pip</span> install numpy pandas matplotlib</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<blockquote class="blockquote">
+<p>❗Použitiu <code>pip</code> môže predchádzať jeho inštalácia, nakoľko nemusí byť obsiahnutý v základnej distribúcii.</p>
+</blockquote>
 <hr>
 </section>
-<section id="triedenie-riadkov" class="level2">
-<h2 class="anchored" data-anchor-id="triedenie-riadkov">↕️ Triedenie riadkov</h2>
-<div id="ff93260b" class="cell" data-execution_count="16">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1"></a><span class="co"># Triedenie podľa jedného stĺpca vzostupne</span></span>
-<span id="cb19-2"><a href="#cb19-2"></a>df.sort_values(<span class="st">'Vek'</span>)</span>
-<span id="cb19-3"><a href="#cb19-3"></a></span>
-<span id="cb19-4"><a href="#cb19-4"></a><span class="co"># Triedenie podľa viacerých stĺpcov (Vek vzostupne, Body zostupne)</span></span>
-<span id="cb19-5"><a href="#cb19-5"></a>df.sort_values([<span class="st">'Vek'</span>, <span class="st">'Body'</span>], ascending<span class="op">=</span>[<span class="va">True</span>, <span class="va">False</span>])</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="16">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Vek</th>
-<th data-quarto-table-cell-role="th">Mesto</th>
-<th data-quarto-table-cell-role="th">Body</th>
-<th data-quarto-table-cell-role="th">Aktivny</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">4</td>
-<td>Eva</td>
-<td>22</td>
-<td>Nitra</td>
-<td>66</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">0</td>
-<td>Anna</td>
-<td>25</td>
-<td>Bratislava</td>
-<td>88</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">3</td>
-<td>Dora</td>
-<td>28</td>
-<td>Bratislava</td>
-<td>90</td>
-<td>True</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">1</td>
-<td>Boris</td>
-<td>30</td>
-<td>Košice</td>
-<td>92</td>
-<td>True</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2</td>
-<td>Cyril</td>
-<td>35</td>
-<td>Žilina</td>
-<td>75</td>
-<td>False</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">5</td>
-<td>Filip</td>
-<td>40</td>
-<td>Košice</td>
-<td>98</td>
-<td>True</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
-<hr>
 </section>
-<section id="reťazenie-operácií" class="level2">
-<h2 class="anchored" data-anchor-id="reťazenie-operácií">⛓️ Reťazenie operácií</h2>
-<div id="d3a81e2d" class="cell" data-execution_count="17">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1"></a><span class="co"># Vyber aktívnych z Bratislavy, zaujíma nás len Meno a Body, zotriedime podľa Body zostupne</span></span>
-<span id="cb20-2"><a href="#cb20-2"></a>df.query(<span class="st">"Aktivny and Mesto == 'Bratislava'"</span>)[[<span class="st">'Meno'</span>, <span class="st">'Body'</span>]].sort_values(<span class="st">'Body'</span>, ascending<span class="op">=</span><span class="va">False</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display" data-execution_count="17">
-<div>
-
-
-<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
-<thead>
-<tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Meno</th>
-<th data-quarto-table-cell-role="th">Body</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">3</td>
-<td>Dora</td>
-<td>90</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">0</td>
-<td>Anna</td>
-<td>88</td>
-</tr>
-</tbody>
-</table>
-
-</div>
-</div>
-</div>
+<section id="spustenie-jupyter-lab" class="level2">
+<h2 class="anchored" data-anchor-id="spustenie-jupyter-lab">🪐 Spustenie Jupyter Lab</h2>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1"></a><span class="ex">jupyter-lab</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>… alebo…</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1"></a><span class="ex">jupyter</span> lab</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 </section>
 <section id="zhrnutie" class="level2">
 <h2 class="anchored" data-anchor-id="zhrnutie">🧠 Zhrnutie</h2>
-<ul>
-<li><strong>Výber stĺpcov</strong>: <code>df['col']</code>, <code>df[['c1','c2']]</code></li>
-<li><strong>Výber riadkov</strong>: <code>.loc[]</code> (menovky), <code>.iloc[]</code> (pozície - indexy)</li>
-<li><strong>Filtrovanie</strong>: boolean masky a <code>.query()</code></li>
-<li><strong>Indexovanie</strong>: <code>set_index()</code>, <code>reset_index()</code>, výber podľa indexu</li>
-<li><strong>Triedenie a pipeline</strong>: <code>sort_values()</code> a reťazenie operácií pre čitateľný kód</li>
-<li>Na <strong>label-based</strong> výber používajte <code>.loc</code>, na <strong>position-based</strong> <code>.iloc</code>.</li>
-<li>Pri viacerých podmienkach nezabudnite na zátvorky a operátory <code>&amp;</code> (AND), <code>|</code> (OR), <code>~</code> (NOT).</li>
-<li><code>.set_index()</code> a <code>.reset_index()</code> uľahčujú výber podľa kľúčových hodnôt.</li>
-<li><code>.query()</code> býva pre zložitejšie filtre prehľadnejšie a niekedy aj rýchlejšie.</li>
-</ul>
-<hr>
-</section>
-<section id="oficiálna-dokumentácia-pandas" class="level2">
-<h2 class="anchored" data-anchor-id="oficiálna-dokumentácia-pandas">📚 Oficiálna dokumentácia Pandas</h2>
-<p>Podrobný popis funkcií, ich parametrov a príkladov použitia nájdete v oficiálnej dokumentácii knižnice Pandas na adrese: <a href="https://pandas.pydata.org/docs/">https://pandas.pydata.org/docs/</a>.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Úkon</th>
+<th>Príkaz</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Vytvorenie prostredia</td>
+<td><code>conda create -n env python=3.11</code> jupyterlab</td>
+</tr>
+<tr class="even">
+<td>Aktivácia</td>
+<td><code>conda activate env</code></td>
+</tr>
+<tr class="odd">
+<td>Deaktivácia</td>
+<td><code>conda deactivate</code></td>
+</tr>
+<tr class="even">
+<td>Pohyb po adresároch</td>
+<td><code>cd</code>, <code>cd ..</code>, <code>cd "cesta"</code></td>
+</tr>
+<tr class="odd">
+<td>Spustenie Jupyter Lab</td>
+<td><code>jupyter-lab</code></td>
+</tr>
+</tbody>
+</table>
 <hr>
 </section>
 <section id="videonávod" class="level2">
 <h2 class="anchored" data-anchor-id="videonávod">🎞️ Videonávod</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wo9vZccmqwc" title="Filtrovanie a indexovanie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wo9vZccmqwc" title="Základy Anaconda Prompt" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <hr>
 
 
