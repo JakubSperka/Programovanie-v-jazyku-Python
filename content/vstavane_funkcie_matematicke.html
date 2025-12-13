@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jakub Šperka">
 
-<title>DataFrame – Programovanie v jazyku Python pre geodetov</title>
+<title>Vstavané matematické funckcie – Programovanie v jazyku Python pre geodetov</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -329,7 +329,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/instalacia_a_import_kniznic.html">📚 Knižnice</a></li><li class="breadcrumb-item"><a href="../content/pandas_dataframe_intro.html">🗃️ Pandas</a></li><li class="breadcrumb-item"><a href="../content/pandas_dataframe_intro.html">DataFrame</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/definovanie_funkcii.html">⚙️ Funkcie</a></li><li class="breadcrumb-item"><a href="../content/vstavane_funkcie_matematicke.html">Vstavané matematické funckcie</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -506,13 +506,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
  <span class="menu-text">⚙️ Funkcie</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/definovanie_funkcii.html" class="sidebar-item-text sidebar-link">
@@ -521,7 +521,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/vstavane_funkcie_matematicke.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/vstavane_funkcie_matematicke.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Vstavané matematické funckcie</span></a>
   </div>
 </li>
@@ -530,13 +530,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
  <span class="menu-text">📚 Knižnice</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/instalacia_a_import_kniznic.html" class="sidebar-item-text sidebar-link">
@@ -648,16 +648,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
  <span class="menu-text">🗃️ Pandas</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_dataframe_intro.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/pandas_dataframe_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">DataFrame</span></a>
   </div>
 </li>
@@ -735,12 +735,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Na tejto stránke</h2>
    
   <ul>
-  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">🐼 Úvod</a></li>
-  <li><a href="#základné-informácie-o-dataframe" id="toc-základné-informácie-o-dataframe" class="nav-link" data-scroll-target="#základné-informácie-o-dataframe">📊 Základné informácie o DataFrame</a></li>
-  <li><a href="#vytvorenie-jednoduchého-dataframe" id="toc-vytvorenie-jednoduchého-dataframe" class="nav-link" data-scroll-target="#vytvorenie-jednoduchého-dataframe">🛠️ Vytvorenie jednoduchého DataFrame</a></li>
-  <li><a href="#základné-vlastnosti-dataframe" id="toc-základné-vlastnosti-dataframe" class="nav-link" data-scroll-target="#základné-vlastnosti-dataframe">🔎 Základné vlastnosti DataFrame</a></li>
+  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">🧮 Úvod</a></li>
+  <li><a href="#matematické-funkcie" id="toc-matematické-funkcie" class="nav-link" data-scroll-target="#matematické-funkcie">📒 Matematické funkcie</a>
+  <ul class="collapse">
+  <li><a href="#abs-absolútna-hodnota" id="toc-abs-absolútna-hodnota" class="nav-link" data-scroll-target="#abs-absolútna-hodnota"><code>abs()</code> – absolútna hodnota</a></li>
+  <li><a href="#round-zaokrúhľovanie" id="toc-round-zaokrúhľovanie" class="nav-link" data-scroll-target="#round-zaokrúhľovanie"><code>round()</code> – zaokrúhľovanie</a></li>
+  <li><a href="#pow-mocnina" id="toc-pow-mocnina" class="nav-link" data-scroll-target="#pow-mocnina"><code>pow()</code> – mocnina</a></li>
+  <li><a href="#divmod-podiel-a-zvyšok" id="toc-divmod-podiel-a-zvyšok" class="nav-link" data-scroll-target="#divmod-podiel-a-zvyšok"><code>divmod()</code> – podiel a zvyšok</a></li>
+  <li><a href="#agregácie-nad-zoznammi-sum-min-max" id="toc-agregácie-nad-zoznammi-sum-min-max" class="nav-link" data-scroll-target="#agregácie-nad-zoznammi-sum-min-max">Agregácie nad zoznammi: <code>sum()</code>, <code>min()</code>, <code>max()</code></a></li>
+  </ul></li>
+  <li><a href="#logické-funkcie-all-a-any" id="toc-logické-funkcie-all-a-any" class="nav-link" data-scroll-target="#logické-funkcie-all-a-any">⚖️ Logické funkcie: <code>all()</code> a <code>any()</code></a>
+  <ul class="collapse">
+  <li><a href="#validácia-bez-cyklu" id="toc-validácia-bez-cyklu" class="nav-link" data-scroll-target="#validácia-bez-cyklu">Validácia bez cyklu</a></li>
+  <li><a href="#logické-hodnoty-ako-čísla-true1-false0" id="toc-logické-hodnoty-ako-čísla-true1-false0" class="nav-link" data-scroll-target="#logické-hodnoty-ako-čísla-true1-false0">Logické hodnoty ako čísla (<code>True==1</code>, <code>False==0</code>)</a></li>
+  </ul></li>
   <li><a href="#zhrnutie" id="toc-zhrnutie" class="nav-link" data-scroll-target="#zhrnutie">🧠 Zhrnutie</a></li>
-  <li><a href="#oficiálna-dokumentácia-pandas" id="toc-oficiálna-dokumentácia-pandas" class="nav-link" data-scroll-target="#oficiálna-dokumentácia-pandas">📚 Oficiálna dokumentácia Pandas</a></li>
   <li><a href="#videonávod" id="toc-videonávod" class="nav-link" data-scroll-target="#videonávod">🎞️ Videonávod</a></li>
   </ul>
 </nav>
@@ -749,14 +758,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/instalacia_a_import_kniznic.html">📚 Knižnice</a></li><li class="breadcrumb-item"><a href="../content/pandas_dataframe_intro.html">🗃️ Pandas</a></li><li class="breadcrumb-item"><a href="../content/pandas_dataframe_intro.html">DataFrame</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/definovanie_funkcii.html">⚙️ Funkcie</a></li><li class="breadcrumb-item"><a href="../content/vstavane_funkcie_matematicke.html">Vstavané matematické funckcie</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">DataFrame</h1>
+<h1 class="title">Vstavané matematické funckcie</h1>
   <div class="quarto-categories">
     <div class="quarto-category">JupyterLab</div>
-    <div class="quarto-category">Pandas</div>
-    <div class="quarto-category">Series</div>
-    <div class="quarto-category">DataFrame</div>
+    <div class="quarto-category">Vstavané funkcie</div>
+    <div class="quarto-category">Matematické funkcie</div>
   </div>
   </div>
 
@@ -787,102 +795,181 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <section id="úvod" class="level2">
-<h2 class="anchored" data-anchor-id="úvod">🐼 Úvod</h2>
-<p>Knižnica <strong>pandas</strong> patrí medzi najpoužívanejšie nástroje v Pythone pre prácu s dátami.<br>
-Je navrhnutá na efektívnu manipuláciu a analýzu tabulkových a časových dát.</p>
-<p>Pandas stavia na výkonnej knižnici <strong>NumPy</strong> a pridáva dva hlavné dátové typy:<br>
-- <strong><code>Series</code></strong> – jednorozmerné pole s indexom (niečo ako stĺpec v tabuľke).<br>
-- <strong><code>DataFrame</code></strong> – dvojrozmerná dátová štruktúra s riadkami a stĺpcami (ako tabuľka v Exceli).</p>
+<h2 class="anchored" data-anchor-id="úvod">🧮 Úvod</h2>
+<p>Táto kapitola sumarizuje najpoužívanejšie dostupné <strong>matematické</strong> a <strong>logické</strong> vstavané funkcie v Pythone a ukazuje ich použitie na krátkych príkladoch bez nutnosti použitia externých knižníc.</p>
 <hr>
 </section>
-<section id="základné-informácie-o-dataframe" class="level2">
-<h2 class="anchored" data-anchor-id="základné-informácie-o-dataframe">📊 Základné informácie o DataFrame</h2>
-<p>Objekt <strong><code>DataFrame</code></strong> je jadrom knižnice <code>pandas</code>.<br>
-Predstavuje dátovú tabuľku, ktorá má: - <strong>Index riadkov</strong> (riadky sú jednoznačne označené indexom).<br>
-- <strong>Názvy stĺpcov</strong> (každý stĺpec má svoj názov).<br>
-- <strong>Dáta</strong> – hodnoty uložené v dvojrozmernej štruktúre.</p>
-<blockquote class="blockquote">
-<p>👉 V praxi je <code>DataFrame</code> analógiou k Excelovej tabuľke alebo databázovej tabuľke.</p>
-</blockquote>
+<section id="matematické-funkcie" class="level2">
+<h2 class="anchored" data-anchor-id="matematické-funkcie">📒 Matematické funkcie</h2>
+<section id="abs-absolútna-hodnota" class="level3">
+<h3 class="anchored" data-anchor-id="abs-absolútna-hodnota"><code>abs()</code> – absolútna hodnota</h3>
+<ul>
+<li>Vráti nezápornú hodnotu čísla.</li>
+<li>Typické použitie: odchýlky, rozdiely, tolerancie.</li>
+</ul>
+<div id="88bdd17e" class="cell" data-execution_count="1">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">print</span>(<span class="bu">abs</span>(<span class="op">-</span><span class="dv">12</span>))</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(<span class="bu">abs</span>(<span class="dv">5</span>))</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="bu">print</span>(<span class="bu">abs</span>(<span class="op">-</span><span class="fl">3.5</span>))</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>12
+5
+3.5</code></pre>
+</div>
+</div>
+</section>
+<section id="round-zaokrúhľovanie" class="level3">
+<h3 class="anchored" data-anchor-id="round-zaokrúhľovanie"><code>round()</code> – zaokrúhľovanie</h3>
+<ul>
+<li><code>round(x, n)</code> zaokrúhli na <code>n</code> desatinných miest.</li>
+<li>Poznámka: Python používa tzv. <em>banker’s rounding</em> (zaokrúhľovanie k párnemu)</li>
+</ul>
+<div id="e022c00e" class="cell" data-execution_count="2">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="bu">print</span>(<span class="bu">round</span>(<span class="fl">3.14159</span>, <span class="dv">2</span>))</span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="bu">print</span>(<span class="bu">round</span>(<span class="fl">2.5</span>))     <span class="co"># 2 (banker's rounding)</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="bu">print</span>(<span class="bu">round</span>(<span class="fl">3.5</span>))     <span class="co"># 4</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>3.14
+2
+4</code></pre>
+</div>
+</div>
+</section>
+<section id="pow-mocnina" class="level3">
+<h3 class="anchored" data-anchor-id="pow-mocnina"><code>pow()</code> – mocnina</h3>
+<ul>
+<li><code>pow(a, b)</code> je ekvivalent <code>a ** b</code>.</li>
+<li>Užitočné aj pre odmocniny: <code>pow(x, 0.5)</code>.</li>
+</ul>
+<div id="135420d0" class="cell" data-execution_count="3">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="bu">print</span>(<span class="bu">pow</span>(<span class="dv">3</span>, <span class="dv">2</span>))</span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="bu">print</span>(<span class="dv">3</span> <span class="op">**</span> <span class="dv">2</span>)</span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="bu">print</span>(<span class="bu">pow</span>(<span class="dv">2</span>, <span class="fl">0.5</span>))</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>9
+9
+1.4142135623730951</code></pre>
+</div>
+</div>
+</section>
+<section id="divmod-podiel-a-zvyšok" class="level3">
+<h3 class="anchored" data-anchor-id="divmod-podiel-a-zvyšok"><code>divmod()</code> – podiel a zvyšok</h3>
+<ul>
+<li><code>divmod(a, b)</code> vráti dvojicu <code>(a // b, a % b)</code>.</li>
+<li>Užitočné pri indexovaní, diskretizácii, rozklade jednotiek (napr. minúty/sekundy).</li>
+</ul>
+<div id="5ea53717" class="cell" data-execution_count="4">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="bu">print</span>(<span class="bu">divmod</span>(<span class="dv">17</span>, <span class="dv">5</span>))</span>
+<span id="cb7-2"><a href="#cb7-2"></a>q, r <span class="op">=</span> <span class="bu">divmod</span>(<span class="dv">17</span>, <span class="dv">5</span>)</span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="bu">print</span>(<span class="st">"podiel:"</span>, q, <span class="st">"zvyšok:"</span>, r)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>(3, 2)
+podiel: 3 zvyšok: 2</code></pre>
+</div>
+</div>
+</section>
+<section id="agregácie-nad-zoznammi-sum-min-max" class="level3">
+<h3 class="anchored" data-anchor-id="agregácie-nad-zoznammi-sum-min-max">Agregácie nad zoznammi: <code>sum()</code>, <code>min()</code>, <code>max()</code></h3>
+<ul>
+<li><code>sum(iterable)</code> – súčet</li>
+<li><code>min(iterable)</code> – minimum</li>
+<li><code>max(iterable)</code> – maximum</li>
+<li>Typické použitie: priemer, rozsah (max-min), kontrola extrémov.</li>
+</ul>
+<div id="fd28199a" class="cell" data-execution_count="5">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a>data <span class="op">=</span> [<span class="fl">12.4</span>, <span class="fl">11.8</span>, <span class="fl">12.1</span>, <span class="fl">12.6</span>]</span>
+<span id="cb9-2"><a href="#cb9-2"></a><span class="bu">print</span>(<span class="st">"sum:"</span>, <span class="bu">sum</span>(data))</span>
+<span id="cb9-3"><a href="#cb9-3"></a><span class="bu">print</span>(<span class="st">"min:"</span>, <span class="bu">min</span>(data))</span>
+<span id="cb9-4"><a href="#cb9-4"></a><span class="bu">print</span>(<span class="st">"max:"</span>, <span class="bu">max</span>(data))</span>
+<span id="cb9-5"><a href="#cb9-5"></a><span class="bu">print</span>(<span class="st">"priemer:"</span>, <span class="bu">sum</span>(data)<span class="op">/</span><span class="bu">len</span>(data))</span>
+<span id="cb9-6"><a href="#cb9-6"></a><span class="bu">print</span>(<span class="st">"rozsah:"</span>, <span class="bu">max</span>(data)<span class="op">-</span><span class="bu">min</span>(data))</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>sum: 48.9
+min: 11.8
+max: 12.6
+priemer: 12.225
+rozsah: 0.7999999999999989</code></pre>
+</div>
+</div>
 <hr>
 </section>
-<section id="vytvorenie-jednoduchého-dataframe" class="level2">
-<h2 class="anchored" data-anchor-id="vytvorenie-jednoduchého-dataframe">🛠️ Vytvorenie jednoduchého DataFrame</h2>
-<div id="4c8ac1f5" class="cell" data-execution_count="1">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb1-2"><a href="#cb1-2"></a></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="co"># Vytvorenie DataFrame zo slovníka</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a>data <span class="op">=</span> {</span>
-<span id="cb1-5"><a href="#cb1-5"></a>    <span class="st">"Meno"</span>: [<span class="st">"Anna"</span>, <span class="st">"Boris"</span>, <span class="st">"Cyril"</span>],</span>
-<span id="cb1-6"><a href="#cb1-6"></a>    <span class="st">"Vek"</span>: [<span class="dv">25</span>, <span class="dv">30</span>, <span class="dv">35</span>],</span>
-<span id="cb1-7"><a href="#cb1-7"></a>    <span class="st">"Mesto"</span>: [<span class="st">"Bratislava"</span>, <span class="st">"Košice"</span>, <span class="st">"Žilina"</span>]</span>
-<span id="cb1-8"><a href="#cb1-8"></a>}</span>
-<span id="cb1-9"><a href="#cb1-9"></a></span>
-<span id="cb1-10"><a href="#cb1-10"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
-<span id="cb1-11"><a href="#cb1-11"></a></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="bu">print</span>(df)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>    Meno  Vek       Mesto
-0   Anna   25  Bratislava
-1  Boris   30      Košice
-2  Cyril   35      Žilina</code></pre>
-</div>
-</div>
-<hr>
 </section>
-<section id="základné-vlastnosti-dataframe" class="level2">
-<h2 class="anchored" data-anchor-id="základné-vlastnosti-dataframe">🔎 Základné vlastnosti DataFrame</h2>
-<section id="tvar-tabuľky-počet-riadkov-a-stĺpcov" class="level4">
-<h4 class="anchored" data-anchor-id="tvar-tabuľky-počet-riadkov-a-stĺpcov">Tvar tabuľky (počet riadkov a stĺpcov)</h4>
-<div id="f8352c93-f898-425c-8329-42d71ec3f88e" class="cell" data-execution_count="2">
+<section id="logické-funkcie-all-a-any" class="level2">
+<h2 class="anchored" data-anchor-id="logické-funkcie-all-a-any">⚖️ Logické funkcie: <code>all()</code> a <code>any()</code></h2>
+<ul>
+<li><code>all(iterable)</code> → <code>True</code>, ak sú všetky prvky pravdivé</li>
+<li><code>any(iterable)</code> → <code>True</code>, ak aspoň jeden prvok je pravdivý</li>
+</ul>
+<p>Použitie: validácia dát, detekcia výskytu podmienky v dátach.</p>
+<div id="3922255a" class="cell" data-execution_count="6">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="bu">print</span>(df.shape)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a><span class="bu">print</span>(<span class="bu">all</span>([<span class="va">True</span>, <span class="va">True</span>, <span class="va">True</span>]))</span>
+<span id="cb11-2"><a href="#cb11-2"></a><span class="bu">print</span>(<span class="bu">all</span>([<span class="va">True</span>, <span class="va">False</span>, <span class="va">True</span>]))</span>
+<span id="cb11-3"><a href="#cb11-3"></a><span class="bu">print</span>(<span class="bu">any</span>([<span class="va">False</span>, <span class="va">False</span>, <span class="va">True</span>]))</span>
+<span id="cb11-4"><a href="#cb11-4"></a><span class="bu">print</span>(<span class="bu">any</span>([<span class="va">False</span>, <span class="va">False</span>, <span class="va">False</span>]))</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>(3, 3)</code></pre>
+<pre><code>True
+False
+True
+False</code></pre>
 </div>
 </div>
-</section>
-<section id="názvy-dostupných-stĺpcov" class="level4">
-<h4 class="anchored" data-anchor-id="názvy-dostupných-stĺpcov">Názvy dostupných stĺpcov</h4>
-<div id="8bfe3f5c-6ec0-4998-86fa-959849cfc1b2" class="cell" data-execution_count="3">
+<section id="validácia-bez-cyklu" class="level3">
+<h3 class="anchored" data-anchor-id="validácia-bez-cyklu">Validácia bez cyklu</h3>
+<p>Namiesto vytvárania pomocných zoznamov sa často používa validácia bez cyklu:</p>
+<ul>
+<li><code>all(x &gt; 0 for x in hodnoty)</code></li>
+<li><code>any(x &lt; 0 for x in hodnoty)</code></li>
+</ul>
+<div id="9f92571f" class="cell" data-execution_count="7">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="bu">print</span>(df.columns)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1"></a>hodnoty <span class="op">=</span> [<span class="dv">5</span>, <span class="dv">7</span>, <span class="dv">9</span>]</span>
+<span id="cb13-2"><a href="#cb13-2"></a>vsetky_kladne <span class="op">=</span> <span class="bu">all</span>(x <span class="op">&gt;</span> <span class="dv">0</span> <span class="cf">for</span> x <span class="kw">in</span> hodnoty)</span>
+<span id="cb13-3"><a href="#cb13-3"></a><span class="bu">print</span>(<span class="st">"všetky kladné:"</span>, vsetky_kladne)</span>
+<span id="cb13-4"><a href="#cb13-4"></a></span>
+<span id="cb13-5"><a href="#cb13-5"></a>data2 <span class="op">=</span> [<span class="op">-</span><span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">4</span>]</span>
+<span id="cb13-6"><a href="#cb13-6"></a>obsahuje_zapornu <span class="op">=</span> <span class="bu">any</span>(x <span class="op">&lt;</span> <span class="dv">0</span> <span class="cf">for</span> x <span class="kw">in</span> data2)</span>
+<span id="cb13-7"><a href="#cb13-7"></a><span class="bu">print</span>(<span class="st">"obsahuje zápornú:"</span>, obsahuje_zapornu)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>Index(['Meno', 'Vek', 'Mesto'], dtype='object')</code></pre>
+<pre><code>všetky kladné: True
+obsahuje zápornú: True</code></pre>
 </div>
 </div>
 </section>
-<section id="rozsah-indexov" class="level4">
-<h4 class="anchored" data-anchor-id="rozsah-indexov">Rozsah indexov</h4>
-<div id="61bdf884-8fe5-45ef-b76b-7073e4e64841" class="cell" data-execution_count="4">
+<section id="logické-hodnoty-ako-čísla-true1-false0" class="level3">
+<h3 class="anchored" data-anchor-id="logické-hodnoty-ako-čísla-true1-false0">Logické hodnoty ako čísla (<code>True==1</code>, <code>False==0</code>)</h3>
+<p>To umožňuje jednoduché počítanie splnených podmienok pomocou <code>sum()</code>.</p>
+<div id="becd40cd" class="cell" data-execution_count="8">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="bu">print</span>(df.index)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1"></a>data <span class="op">=</span> [<span class="dv">3</span>, <span class="op">-</span><span class="dv">2</span>, <span class="dv">5</span>, <span class="op">-</span><span class="dv">1</span>, <span class="dv">0</span>]</span>
+<span id="cb15-2"><a href="#cb15-2"></a>pocet_zapornych <span class="op">=</span> <span class="bu">sum</span>(x <span class="op">&lt;</span> <span class="dv">0</span> <span class="cf">for</span> x <span class="kw">in</span> data)</span>
+<span id="cb15-3"><a href="#cb15-3"></a>pocet_nul <span class="op">=</span> <span class="bu">sum</span>(x <span class="op">==</span> <span class="dv">0</span> <span class="cf">for</span> x <span class="kw">in</span> data)</span>
+<span id="cb15-4"><a href="#cb15-4"></a><span class="bu">print</span>(<span class="st">"počet záporných:"</span>, pocet_zapornych)</span>
+<span id="cb15-5"><a href="#cb15-5"></a><span class="bu">print</span>(<span class="st">"počet núl:"</span>, pocet_nul)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-stdout">
-<pre><code>RangeIndex(start=0, stop=3, step=1)</code></pre>
-</div>
-</div>
-</section>
-<section id="dátové-typy-stĺpcov" class="level4">
-<h4 class="anchored" data-anchor-id="dátové-typy-stĺpcov">Dátové typy stĺpcov</h4>
-<div id="c3320064-fd18-4873-820a-f73fcafe76b1" class="cell" data-execution_count="5">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a><span class="bu">print</span>(df.dtypes)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Meno     object
-Vek       int64
-Mesto    object
-dtype: object</code></pre>
+<pre><code>počet záporných: 2
+počet núl: 1</code></pre>
 </div>
 </div>
 <hr>
@@ -891,22 +978,109 @@ dtype: object</code></pre>
 <section id="zhrnutie" class="level2">
 <h2 class="anchored" data-anchor-id="zhrnutie">🧠 Zhrnutie</h2>
 <ul>
-<li><code>pandas</code> je knižnica na prácu s dátami v Pythone.<br>
-</li>
-<li>Základná štruktúra je <strong>DataFrame</strong>, ktorý funguje ako tabuľka s riadkami a stĺpcami.<br>
-</li>
-<li>Dáta môžeme jednoducho vytvárať zo slovníkov, zoznamov alebo importovať z externých súborov (CSV, Excel, SQL).</li>
+<li>Matematické funkcie riešia výpočty (<code>abs</code>, <code>round</code>, <code>pow</code>, <code>divmod</code>, <code>sum</code>, <code>min</code>, <code>max</code>).</li>
+<li>Logické funkcie riešia rozhodovanie nad dátami (<code>all</code>, <code>any</code>).</li>
+<li>Kombináciou <code>sum()</code> s logickými výrazmi vieme elegantne počítať splnené podmienky.</li>
 </ul>
-<hr>
-</section>
-<section id="oficiálna-dokumentácia-pandas" class="level2">
-<h2 class="anchored" data-anchor-id="oficiálna-dokumentácia-pandas">📚 Oficiálna dokumentácia Pandas</h2>
-<p>Podrobný popis funkcií, ich parametrov a príkladov použitia nájdete v oficiálnej dokumentácii knižnice Pandas na adrese: <a href="https://pandas.pydata.org/docs/">https://pandas.pydata.org/docs/</a>.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 10%">
+<col style="width: 8%">
+<col style="width: 22%">
+<col style="width: 13%">
+<col style="width: 23%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Funkcia</th>
+<th>Kategória</th>
+<th>Vstup</th>
+<th>Výstup</th>
+<th>Typické použitie</th>
+<th>Krátky príklad</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>abs(x)</code></td>
+<td>matematická</td>
+<td>číslo</td>
+<td>číslo</td>
+<td>odchýlky, tolerancie, rozdiely</td>
+<td><code>abs(-3.5) -&gt; 3.5</code></td>
+</tr>
+<tr class="even">
+<td><code>round(x, n)</code></td>
+<td>matematická</td>
+<td>číslo, počet des. miest</td>
+<td>číslo</td>
+<td>zaokrúhľovanie výsledkov</td>
+<td><code>round(3.14159, 2) -&gt; 3.14</code></td>
+</tr>
+<tr class="odd">
+<td><code>pow(a, b)</code></td>
+<td>matematická</td>
+<td>základ, exponent</td>
+<td>číslo</td>
+<td>mocniny, odmocniny</td>
+<td><code>pow(2, 0.5) -&gt; 1.414...</code></td>
+</tr>
+<tr class="even">
+<td><code>divmod(a, b)</code></td>
+<td>matematická</td>
+<td>dve celé čísla</td>
+<td><code>(podiel, zvyšok)</code></td>
+<td>indexovanie, rozklady, zvyšky</td>
+<td><code>divmod(17, 5) -&gt; (3, 2)</code></td>
+</tr>
+<tr class="odd">
+<td><code>sum(iter)</code></td>
+<td>matematická</td>
+<td>kolekcia čísiel / bool výrazov</td>
+<td>číslo</td>
+<td>súčet, priemer, počty podmienok</td>
+<td><code>sum([1,2,3]) -&gt; 6</code></td>
+</tr>
+<tr class="even">
+<td><code>min(iter)</code></td>
+<td>matematická</td>
+<td>kolekcia</td>
+<td>prvok</td>
+<td>minimum, kontrola extrémov</td>
+<td><code>min([3,1,4]) -&gt; 1</code></td>
+</tr>
+<tr class="odd">
+<td><code>max(iter)</code></td>
+<td>matematická</td>
+<td>kolekcia</td>
+<td>prvok</td>
+<td>maximum, kontrola extrémov</td>
+<td><code>max([3,1,4]) -&gt; 4</code></td>
+</tr>
+<tr class="even">
+<td><code>all(iter)</code></td>
+<td>logická</td>
+<td>kolekcia bool</td>
+<td><code>True/False</code></td>
+<td>validácia „všetky platia“</td>
+<td><code>all(x&gt;0 for x in m)</code></td>
+</tr>
+<tr class="odd">
+<td><code>any(iter)</code></td>
+<td>logická</td>
+<td>kolekcia bool</td>
+<td><code>True/False</code></td>
+<td>detekcia „aspoň jedna platí“</td>
+<td><code>any(x&lt;0 for x in m)</code></td>
+</tr>
+</tbody>
+</table>
 <hr>
 </section>
 <section id="videonávod" class="level2">
 <h2 class="anchored" data-anchor-id="videonávod">🎞️ Videonávod</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wo9vZccmqwc" title="Úvod do Pandas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wo9vZccmqwc" title="Vstavané matematické funkcie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 <hr>
 
 
