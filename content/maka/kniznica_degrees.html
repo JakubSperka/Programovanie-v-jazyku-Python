@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jakub Šperka">
 
-<title>Práca s rozsahmi a iteráciou – Programovanie v jazyku Python pre geodetov</title>
+<title>📐 Knižnica Degrees – Programovanie v jazyku Python pre geodetov</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -59,26 +59,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../pictures/python_logo_2.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-521dc8794c5b24ff427a2799b2e1aafc.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-26b531f8ba0e4c0f3387bcfb1ded3377.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e686c5f1bef9cdfe607cbe4f6b62a59d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-eeafd30678d087971cb84b7047c708ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../pictures/python_logo_2.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-521dc8794c5b24ff427a2799b2e1aafc.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-26b531f8ba0e4c0f3387bcfb1ded3377.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e686c5f1bef9cdfe607cbe4f6b62a59d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-eeafd30678d087971cb84b7047c708ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -285,10 +285,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../pictures/python_logo_2.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../pictures/python_logo_2.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Programovanie v jazyku Python pre geodetov</span>
     </a>
   </div>
@@ -299,19 +299,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">🏡 Domov</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../toc.html"> 
+    <a class="nav-link" href="../../toc.html"> 
 <span class="menu-text">📑 Prehľad obsahu</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">📌 O projekte</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../site_license.html"> 
+    <a class="nav-link" href="../../site_license.html"> 
 <span class="menu-text">🔓 Licencia</span></a>
   </li>  
 </ul>
@@ -329,7 +329,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">💻 Programovanie 1</li><li class="breadcrumb-item"><a href="../content/podmienky.html">🏗️ Riadiace štruktúry</a></li><li class="breadcrumb-item"><a href="../content/rozsahy_a_iteracia.html">Práca s rozsahmi a iteráciou</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">🗺️ Mat. kartografia</li><li class="breadcrumb-item"><a href="../../content/maka/kniznica_degrees.html">📐 Knižnica Degrees</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -350,13 +350,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">💻 Programovanie 1</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
@@ -369,67 +369,67 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/anaconda.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/anaconda.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inštalácia a vývojové prostredia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/venv.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/venv.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Virtuálne prostredia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/zakladne_ukony_anaconda.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/zakladne_ukony_anaconda.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Základy Anaconda Prompt</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/hello_world.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/hello_world.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Prvé programy a výstup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/premenne_a_datove_typy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/premenne_a_datove_typy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Premenné a dátové typy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/operatory.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/operatory.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Operátory</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/type_a_konverzia.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/type_a_konverzia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Konverzia dátových typov</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/vstup_input.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/vstup_input.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vstup od používateľa</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/formatovany_vystup.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/formatovany_vystup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Formátovaný výstup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/komentovanie_kodu.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/komentovanie_kodu.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Komentovanie kódu</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/markdown.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/markdown.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Základy jazyka Markdown</span></a>
   </div>
 </li>
@@ -447,25 +447,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/zoznamy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/zoznamy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Zoznamy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/ntice.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/ntice.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">N-tice</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/mnoziny.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/mnoziny.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Množiny</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/slovniky.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/slovniky.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slovníky</span></a>
   </div>
 </li>
@@ -474,40 +474,40 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
  <span class="menu-text">🏗️ Riadiace štruktúry</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/podmienky.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/podmienky.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Podmienky</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/cykly.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/cykly.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cykly</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/rozsahy_a_iteracia.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/rozsahy_a_iteracia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Práca s rozsahmi a iteráciou</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/vnorene_cykly.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/vnorene_cykly.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vnorené cykly a podmienky</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/iteracia_dva_zoznamy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/iteracia_dva_zoznamy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Iterácia cez dva zoznamy</span></a>
   </div>
 </li>
@@ -525,13 +525,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/definovanie_funkcii.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/definovanie_funkcii.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Definovanie vlastných funkcií</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/vstavane_funkcie_matematicke.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/vstavane_funkcie_matematicke.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vstavané matematické funckcie</span></a>
   </div>
 </li>
@@ -549,13 +549,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../zadania/zadanie_3_1.html" class="sidebar-item-text sidebar-link">
+  <a href="../../zadania/zadanie_3_1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">📄 Zadanie 3 - 1. časť</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../zadania/zadanie_3_2.html" class="sidebar-item-text sidebar-link">
+  <a href="../../zadania/zadanie_3_2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">📄️ Zadanie 3 - 2. časť</span></a>
   </div>
 </li>
@@ -585,7 +585,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/instalacia_a_import_kniznic.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/instalacia_a_import_kniznic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inštalácia a import knižníc</span></a>
   </div>
 </li>
@@ -601,31 +601,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_ndarray.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_ndarray.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Polia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_indexovanie.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_indexovanie.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Indexovanie a rezanie</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_maticove_vypocty.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_maticove_vypocty.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vektorové a maticové výpočty</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_matematicke_funkcie.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_matematicke_funkcie.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Matematické funkcie</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_import_export.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_import_export.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Import a export dát</span></a>
   </div>
 </li>
@@ -642,19 +642,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/sympy_symbolicke_vyrazy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/sympy_symbolicke_vyrazy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Symbolické výrazy a premenné</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/sympy_rovnice.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/sympy_rovnice.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Riešenie rovníc a sústav</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/sympy_derivovanie_integrovanie.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/sympy_derivovanie_integrovanie.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Derivácie a integrály</span></a>
   </div>
 </li>
@@ -671,19 +671,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/matplotlib_zakladne_grafy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/matplotlib_zakladne_grafy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Základné grafy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/matplotlib_doplnkove_grafy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/matplotlib_doplnkove_grafy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Doplnkové grafy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/matplotlib_export_upravy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/matplotlib_export_upravy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Export grafov a úpravy vzhľadu</span></a>
   </div>
 </li>
@@ -700,25 +700,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_dataframe_intro.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/pandas_dataframe_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">DataFrame</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_import_export.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/pandas_import_export.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Import a export</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_filtracia.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/pandas_filtracia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Výber stĺpcov, filtrovanie a indexovanie</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_statistika.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/pandas_statistika.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Základné štatistické funkcie</span></a>
   </div>
 </li>
@@ -737,7 +737,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../wip.html" class="sidebar-item-text sidebar-link">
+  <a href="../../wip.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🔧 Work in Progress</span></a>
   </div>
 </li>
@@ -748,35 +748,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
  <span class="menu-text">🗺️ Mat. kartografia</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/maka/rychlokurz.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/maka/rychlokurz.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🏎️ Rýchlokurz jazyka Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/maka/kniznica_degrees.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/maka/kniznica_degrees.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">📐 Knižnica Degrees</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/maka/calculus.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/maka/calculus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🧮 Calculus v jazyku Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/maka/pokrocile_nastroje.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/maka/pokrocile_nastroje.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">⚙️ Pokročilé nástroje</span></a>
   </div>
 </li>
@@ -795,7 +795,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../wip.html" class="sidebar-item-text sidebar-link">
+  <a href="../../wip.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🔧 Work in Progress</span></a>
   </div>
 </li>
@@ -811,19 +811,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Na tejto stránke</h2>
    
   <ul>
-  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">🔁 Úvod</a></li>
-  <li><a href="#range-generovanie-čísel" id="toc-range-generovanie-čísel" class="nav-link" data-scroll-target="#range-generovanie-čísel">🔢 <code>range()</code> – generovanie čísel</a>
+  <li><a href="#úvod" id="toc-úvod" class="nav-link active" data-scroll-target="#úvod">Úvod</a>
   <ul class="collapse">
-  <li><a href="#základný-tvar" id="toc-základný-tvar" class="nav-link" data-scroll-target="#základný-tvar">📌 Základný tvar:</a></li>
+  <li><a href="#prehľad-funkcií" id="toc-prehľad-funkcií" class="nav-link" data-scroll-target="#prehľad-funkcií">Prehľad funkcií</a></li>
+  <li><a href="#import" id="toc-import" class="nav-link" data-scroll-target="#import">Import</a></li>
   </ul></li>
-  <li><a href="#vlastný-začiatok-a-krok" id="toc-vlastný-začiatok-a-krok" class="nav-link" data-scroll-target="#vlastný-začiatok-a-krok">🛠️ Vlastný začiatok a krok</a></li>
-  <li><a href="#enumerate-index-hodnota" id="toc-enumerate-index-hodnota" class="nav-link" data-scroll-target="#enumerate-index-hodnota">🔍 <code>enumerate()</code> – index + hodnota</a>
-  <ul class="collapse">
-  <li><a href="#voliteľný-začiatok-indexovania" id="toc-voliteľný-začiatok-indexovania" class="nav-link" data-scroll-target="#voliteľný-začiatok-indexovania">🔢 Voliteľný začiatok indexovania:</a></li>
-  <li><a href="#kedy-použiť-enumerate" id="toc-kedy-použiť-enumerate" class="nav-link" data-scroll-target="#kedy-použiť-enumerate">🤔 Kedy použiť <code>enumerate()</code>?</a></li>
-  </ul></li>
-  <li><a href="#zhrnutie" id="toc-zhrnutie" class="nav-link" data-scroll-target="#zhrnutie">🧠 Zhrnutie</a></li>
-  <li><a href="#videonávod" id="toc-videonávod" class="nav-link" data-scroll-target="#videonávod">🎞️ Videonávod</a></li>
+  <li><a href="#dms2deg" id="toc-dms2deg" class="nav-link" data-scroll-target="#dms2deg"><code>dms2deg</code></a></li>
+  <li><a href="#deg2dms" id="toc-deg2dms" class="nav-link" data-scroll-target="#deg2dms"><code>deg2dms</code></a></li>
+  <li><a href="#print_dms" id="toc-print_dms" class="nav-link" data-scroll-target="#print_dms"><code>print_dms</code></a></li>
   </ul>
 </nav>
     </div>
@@ -831,14 +826,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">💻 Programovanie 1</li><li class="breadcrumb-item"><a href="../content/podmienky.html">🏗️ Riadiace štruktúry</a></li><li class="breadcrumb-item"><a href="../content/rozsahy_a_iteracia.html">Práca s rozsahmi a iteráciou</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">🗺️ Mat. kartografia</li><li class="breadcrumb-item"><a href="../../content/maka/kniznica_degrees.html">📐 Knižnica Degrees</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Práca s rozsahmi a iteráciou</h1>
+<h1 class="title">📐 Knižnica Degrees</h1>
   <div class="quarto-categories">
     <div class="quarto-category">JupyterLab</div>
-    <div class="quarto-category">Rozsahy</div>
-    <div class="quarto-category">Iterácia</div>
-    <div class="quarto-category">Indexy</div>
+    <div class="quarto-category">Google Colab</div>
+    <div class="quarto-category">Matematická kartografia</div>
+    <div class="quarto-category">Knižnice</div>
+    <div class="quarto-category">Degrees</div>
+    <div class="quarto-category">Vstup</div>
+    <div class="quarto-category">Výstup</div>
+    <div class="quarto-category">Uhly</div>
+    <div class="quarto-category">Stupne</div>
+    <div class="quarto-category">Radiány</div>
   </div>
   </div>
 
@@ -869,202 +870,157 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <section id="úvod" class="level2">
-<h2 class="anchored" data-anchor-id="úvod">🔁 Úvod</h2>
-<p>Pri opakovaní kódu často potrebujeme prechádzať <strong>číselné rozsahy</strong> alebo <strong>zoznamy s indexmi</strong>. Na to slúžia funkcie <code>range()</code> a <code>enumerate()</code>.</p>
-<hr>
+<h2 class="anchored" data-anchor-id="úvod">Úvod</h2>
+<p>Pre uľahčenie práce z uhlovými jednotkami a ich rôznymi tvarmi, pre potreby cvičení použijeme našu vlastnú knižnicu <em>Degrees.py</em>. Slúži na prevod jednoltivých zápisov hodnôt uhlov.</p>
+<section id="prehľad-funkcií" class="level3">
+<h3 class="anchored" data-anchor-id="prehľad-funkcií">Prehľad funkcií</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 17%">
+<col style="width: 10%">
+<col style="width: 32%">
+<col style="width: 15%">
+<col style="width: 18%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>#</th>
+<th>Funkcia</th>
+<th>Účel</th>
+<th>Vstupné parametre</th>
+<th>Výstup</th>
+<th>Poznámka</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><code>dms2deg(dd, mm, ss)</code></td>
+<td>Konverzia z DMS (stupne, minúty, sekundy) na desatinné stupne</td>
+<td><code>dd</code> – stupne (int/float)<br><code>mm</code> – minúty (int/float)<br><code>ss</code> – sekundy (int/float)</td>
+<td><code>float</code> – uhol v desatinných stupňoch</td>
+<td>Korektne spracúva aj záporné stupne</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><code>deg2dms(deg)</code></td>
+<td>Konverzia z desatinných stupňov na DMS</td>
+<td><code>deg</code> – uhol v desatinných stupňoch (float)</td>
+<td><code>tuple (dd, mm, ss)</code></td>
+<td>Používa <code>np.trunc()</code> na oddelenie stupňov a minút</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><code>angle(y, x)</code></td>
+<td>Výpočet orientovaného uhla (azimutu)</td>
+<td><code>y</code> – súradnica Y<br><code>x</code> – súradnica X</td>
+<td><code>float</code> – uhol v radiánoch ⟨0, 2π)</td>
+<td>Využíva <code>np.arctan2()</code> a modulo operáciu</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td><code>print_dms(angle_radians, seconds_rounding=3)</code></td>
+<td>Formátovaný výpis uhla v DMS tvare</td>
+<td><code>angle_radians</code> – uhol v radiánoch<br><code>seconds_rounding</code> – počet desatinných miest sekúnd</td>
+<td><code>str</code> – reťazec vo formáte <code>DD°MM'SS.SSS''</code></td>
+<td>Interné použitie <code>deg2dms()</code> a <code>np.degrees()</code></td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="range-generovanie-čísel" class="level2">
-<h2 class="anchored" data-anchor-id="range-generovanie-čísel">🔢 <code>range()</code> – generovanie čísel</h2>
-<section id="základný-tvar" class="level3">
-<h3 class="anchored" data-anchor-id="základný-tvar">📌 Základný tvar:</h3>
-<div id="aaeb01c5" class="cell" data-execution_count="1">
+<section id="import" class="level3">
+<h3 class="anchored" data-anchor-id="import">Import</h3>
+<p>Všetky funkcie knižnice pripojíme pomocou príkazu:</p>
+<div id="544da6f1-b310-4003-b008-39c14b54646e" class="cell" data-execution_count="1">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>):</span>
-<span id="cb1-2"><a href="#cb1-2"></a>    <span class="bu">print</span>(i)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">from</span> Degrees <span class="im">import</span> <span class="op">*</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-stdout">
-<pre><code>0
-1
-2
-3
-4</code></pre>
-</div>
 </div>
 <blockquote class="blockquote">
-<p>❗ <code>range(n)</code> vytvorí čísla od <code>0</code> do `n-1</p>
+<p>💡 Tento spôsob importu umožňuje pracovať z funkciami knižnice ako so vstavanými funkciami. Netreba preto deklarovať príslušnosť ku knižnici, či alias.</p>
 </blockquote>
 <hr>
 </section>
 </section>
-<section id="vlastný-začiatok-a-krok" class="level2">
-<h2 class="anchored" data-anchor-id="vlastný-začiatok-a-krok">🛠️ Vlastný začiatok a krok</h2>
-<div id="d31a48a4" class="cell" data-execution_count="2">
+<section id="dms2deg" class="level2">
+<h2 class="anchored" data-anchor-id="dms2deg"><code>dms2deg</code></h2>
+<p>Slúži na prevod hodnoty uhla v zápise <strong>DD° MM’ SS’’</strong> na tvar s desatinným rozvojom <strong>DD.DDDDD°</strong></p>
+<p>Syntax je nasledovná: <code>dms2deg(STUPNE,MINÚTY,SEKUNDY)</code></p>
+<div id="f858cb7d-ed69-4747-8800-d4c7c44fd6de" class="cell" data-execution_count="2">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">10</span>, <span class="dv">2</span>):</span>
-<span id="cb3-2"><a href="#cb3-2"></a>    <span class="bu">print</span>(i)  <span class="co"># 2, 4, 6, 8</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Ukážka použitia na hodnote 18° 30' 55''</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>deg <span class="op">=</span> dms2deg(<span class="dv">18</span>,<span class="dv">30</span>,<span class="dv">55</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-stdout">
-<pre><code>2
-4
-6
-8</code></pre>
-</div>
-</div>
-<div id="29f23a72" class="cell" data-execution_count="3">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">10</span>, <span class="dv">0</span>, <span class="op">-</span><span class="dv">1</span>):</span>
-<span id="cb5-2"><a href="#cb5-2"></a>    <span class="bu">print</span>(i)  <span class="co"># 10, 9, ..., 1</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>10
-9
-8
-7
-6
-5
-4
-3
-2
-1</code></pre>
-</div>
 </div>
 <blockquote class="blockquote">
-<p>❗ <code>range(a, b, k)</code> – od <code>a</code> po <code>b-1</code>, po krokoch <code>k</code></p>
+<p>💡 V prípade, že chceme konvertovať záporný uhol je syntax nasledovná: <code>dms2deg(-STUPNE,MINÚTY,SEKUNDY)</code></p>
 </blockquote>
+<div id="b739770d-f138-4144-98f5-44dce37f8c0a" class="cell" data-execution_count="3">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># Ukážka použitia na hodnote -18° 30' 55''</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a>neg <span class="op">=</span> dms2deg(<span class="op">-</span><span class="dv">18</span>,<span class="dv">30</span>,<span class="dv">55</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
 <hr>
 </section>
-<section id="enumerate-index-hodnota" class="level2">
-<h2 class="anchored" data-anchor-id="enumerate-index-hodnota">🔍 <code>enumerate()</code> – index + hodnota</h2>
-<div id="3558a4ff" class="cell" data-execution_count="4">
+<section id="deg2dms" class="level2">
+<h2 class="anchored" data-anchor-id="deg2dms"><code>deg2dms</code></h2>
+<p>Slúži na prevod hodnoty uhla s desatinným rozvojom <strong>DD.DDDDD°</strong> do tvaru <strong>DD° MM’ SS’’</strong>.</p>
+<p>Syntax je nasledovná: <code>deg2dms(STUPNE_S_DESATINNÝM_ROZVOJOM)</code></p>
+<div id="4615f9fc-7730-4bfd-a3d2-0cb3557f5fd1" class="cell" data-execution_count="4">
 <details open="" class="code-fold">
 <summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a>ovocie <span class="op">=</span> [<span class="st">"jablko"</span>, <span class="st">"banán"</span>, <span class="st">"kiwi"</span>]</span>
-<span id="cb7-2"><a href="#cb7-2"></a><span class="cf">for</span> index, hodnota <span class="kw">in</span> <span class="bu">enumerate</span>(ovocie):</span>
-<span id="cb7-3"><a href="#cb7-3"></a>    <span class="bu">print</span>(index, <span class="st">"→"</span>, hodnota)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># Ukážka použitia na hodnote 18.45675°</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>dms <span class="op">=</span> deg2dms(<span class="fl">18.45675</span>)</span>
+<span id="cb4-3"><a href="#cb4-3"></a></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="co"># Pre záporné hodnoty funguje analogicky</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<div class="cell-output cell-output-stdout">
-<pre><code>0 → jablko
-1 → banán
-2 → kiwi</code></pre>
 </div>
-</div>
-<section id="voliteľný-začiatok-indexovania" class="level3">
-<h3 class="anchored" data-anchor-id="voliteľný-začiatok-indexovania">🔢 Voliteľný začiatok indexovania:</h3>
-<div id="3de2ef53" class="cell" data-execution_count="5">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a><span class="cf">for</span> index, hodnota <span class="kw">in</span> <span class="bu">enumerate</span>(ovocie, start<span class="op">=</span><span class="dv">1</span>):</span>
-<span id="cb9-2"><a href="#cb9-2"></a>    <span class="bu">print</span>(index, hodnota)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>1 jablko
-2 banán
-3 kiwi</code></pre>
-</div>
-</div>
-</section>
-<section id="kedy-použiť-enumerate" class="level3">
-<h3 class="anchored" data-anchor-id="kedy-použiť-enumerate">🤔 Kedy použiť <code>enumerate()</code>?</h3>
-<section id="keď-potrebujete-index-a-hodnotu-zároveň" class="level4">
-<h4 class="anchored" data-anchor-id="keď-potrebujete-index-a-hodnotu-zároveň">✅ Keď potrebujete index a hodnotu zároveň</h4>
-<div id="523eb350" class="cell" data-execution_count="6">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a>zoznam <span class="op">=</span> [<span class="st">'a'</span>, <span class="st">'b'</span>, <span class="st">'c'</span>]</span>
-<span id="cb11-2"><a href="#cb11-2"></a><span class="cf">for</span> i, hodnota <span class="kw">in</span> <span class="bu">enumerate</span>(zoznam):</span>
-<span id="cb11-3"><a href="#cb11-3"></a>    <span class="bu">print</span>(i, hodnota)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>0 a
-1 b
-2 c</code></pre>
-</div>
-</div>
-</section>
-<section id="keď-chcete-začať-index-od-iného-čísla" class="level4">
-<h4 class="anchored" data-anchor-id="keď-chcete-začať-index-od-iného-čísla">✅ Keď chcete začať index od iného čísla</h4>
-<div id="36bb8c18" class="cell" data-execution_count="7">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1"></a><span class="cf">for</span> i, meno <span class="kw">in</span> <span class="bu">enumerate</span>([<span class="st">'Anna'</span>, <span class="st">'Ján'</span>, <span class="st">'Eva'</span>], start<span class="op">=</span><span class="dv">1</span>):</span>
-<span id="cb13-2"><a href="#cb13-2"></a>    <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span>i<span class="sc">}</span><span class="ss">. </span><span class="sc">{</span>meno<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>1. Anna
-2. Ján
-3. Eva</code></pre>
-</div>
-</div>
-</section>
-<section id="zvýšenie-čitateľnosti" class="level4">
-<h4 class="anchored" data-anchor-id="zvýšenie-čitateľnosti">✅ Zvýšenie čitateľnosti</h4>
-<p>Horšie:</p>
-<div id="53a80740" class="cell" data-execution_count="8">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1"></a></span>
-<span id="cb15-2"><a href="#cb15-2"></a>zoznam <span class="op">=</span> [<span class="st">'x'</span>, <span class="st">'y'</span>, <span class="st">'z'</span>]</span>
-<span id="cb15-3"><a href="#cb15-3"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(zoznam)):</span>
-<span id="cb15-4"><a href="#cb15-4"></a>    <span class="bu">print</span>(i, zoznam[i])</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>0 x
-1 y
-2 z</code></pre>
-</div>
-</div>
-<p>Lepšie:</p>
-<div id="2398073e-ad79-48aa-950b-8a896e481d31" class="cell" data-execution_count="9">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1"></a><span class="cf">for</span> i, val <span class="kw">in</span> <span class="bu">enumerate</span>(zoznam):</span>
-<span id="cb17-2"><a href="#cb17-2"></a>    <span class="bu">print</span>(i, val)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>0 x
-1 y
-2 z</code></pre>
-</div>
-</div>
-</section>
-<section id="kedy-enumerate-netreba" class="level4">
-<h4 class="anchored" data-anchor-id="kedy-enumerate-netreba">⛔ Kedy <code>enumerate()</code> netreba ?</h4>
-<div id="070901c5-d137-41a2-a0f8-eaca061c0631" class="cell" data-execution_count="10">
-<details open="" class="code-fold">
-<summary>Kód</summary>
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1"></a><span class="cf">for</span> meno <span class="kw">in</span> [<span class="st">"Anna"</span>, <span class="st">"Ján"</span>, <span class="st">"Eva"</span>]:</span>
-<span id="cb19-2"><a href="#cb19-2"></a>    <span class="bu">print</span>(meno)</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stdout">
-<pre><code>Anna
-Ján
-Eva</code></pre>
-</div>
-</div>
-<blockquote class="blockquote">
-<p>❗ Ak nepotrebujete index, iba hodnotu.</p>
-</blockquote>
-<hr>
-</section>
-</section>
-</section>
-<section id="zhrnutie" class="level2">
-<h2 class="anchored" data-anchor-id="zhrnutie">🧠 Zhrnutie</h2>
+<p>V prípade tohto prevodu, môžeme chcieť pracovať z jednolivými časťami výsledku (stupne, minúty, sekundy). Pre konkrétny výstup funkcie použijeme nasledujúcu syntax: <code>deg2dms(STUPNE_S_DESATINNÝM_ROZVOJOM)[INDEX_HODNOTY]</code></p>
+<p>V našom prípade pre funckiu <code>deg2dms()</code> sú indexy pre jednotlivé hodnoty nasledujúce:</p>
 <ul>
-<li><code>range(n)</code> vytvorí čísla od <code>0</code> do <code>n-1</code></li>
-<li><code>range(a, b, k)</code> – od <code>a</code> po <code>b-1</code>, po krokoch <code>k</code></li>
-<li><code>enumerate()</code> dáva <strong>index aj hodnotu</strong> zo zoznamu</li>
-<li>Použite <code>enumerate()</code>, ak potrebujete pracovať s pozíciou prvkov</li>
+<li>O = STUPNE</li>
+<li>1 = MINÚTY</li>
+<li>2 = SEKUNDY</li>
 </ul>
+<div id="dd2ffdbc-7776-41a6-bb2d-a59f03116cf9" class="cell" data-execution_count="5">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="co"># Ukážka použitia indexov na hodnote definovanej vyššie</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a>stupne <span class="op">=</span> deg2dms(<span class="fl">18.45675</span>)[<span class="dv">0</span>]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<div id="4f644477-bcd5-4470-9e47-592308d46adc" class="cell" data-execution_count="6">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="co"># Ukážka použitia indexov na premmenej do ktorej bola priradená konvertovaná hodnota</span></span>
+<span id="cb6-2"><a href="#cb6-2"></a>degs <span class="op">=</span> dms[<span class="dv">0</span>]</span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</div>
+<blockquote class="blockquote">
+<p>💡 Prípadne je možné pracovať priamo s hodnotou do ktorej bol výsledok funkcie uložený.</p>
+</blockquote>
 <hr>
 </section>
-<section id="videonávod" class="level2">
-<h2 class="anchored" data-anchor-id="videonávod">🎞️ Videonávod</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/wo9vZccmqwc" title="Rozsahy a iterácia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<hr>
+<section id="print_dms" class="level2">
+<h2 class="anchored" data-anchor-id="print_dms"><code>print_dms</code></h2>
+<p>Táto funkcia slúži na prevod uhla v radiánoch na čitateľný reťazec vo formáte stupne, minúty, sekundy.</p>
+<p>Syntax je nasledovná: <code>print_dms(UHOL_V_RADIANOCH,DES_MIESTA_SEKUND)</code></p>
+<div id="b0bf8077-7359-4d99-83fb-0e6ade58aab2" class="cell" data-execution_count="7">
+<details open="" class="code-fold">
+<summary>Kód</summary>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># Ukážka použitia</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a>vysledok <span class="op">=</span> <span class="fl">1.12423242</span> <span class="co"># hodnota v radiánoch</span></span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="bu">print</span>(print_dms(vysledok,<span class="dv">5</span>)) <span class="co"># čitateľná hodnota v tvare DD° MM' SS''</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-stdout">
+<pre><code>64°24'49.58229''</code></pre>
+</div>
+</div>
 
 
 </section>
