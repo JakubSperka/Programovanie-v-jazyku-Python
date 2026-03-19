@@ -8,7 +8,7 @@
 
 <meta name="author" content="Jakub Šperka">
 
-<title>Virtuálne prostredia – Programovanie v jazyku Python pre geodetov</title>
+<title>📄 Zadanie 3 - 1. časť – Programovanie v jazyku Python pre geodetov</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,29 +21,64 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../pictures/python_logo_2.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-521dc8794c5b24ff427a2799b2e1aafc.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-26b531f8ba0e4c0f3387bcfb1ded3377.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e686c5f1bef9cdfe607cbe4f6b62a59d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-eeafd30678d087971cb84b7047c708ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../pictures/python_logo_2.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-521dc8794c5b24ff427a2799b2e1aafc.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-26b531f8ba0e4c0f3387bcfb1ded3377.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e686c5f1bef9cdfe607cbe4f6b62a59d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-eeafd30678d087971cb84b7047c708ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -250,10 +285,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../pictures/python_logo_2.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../pictures/python_logo_2.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Programovanie v jazyku Python pre geodetov</span>
     </a>
   </div>
@@ -264,19 +299,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">🏡 Domov</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../toc.html"> 
+    <a class="nav-link" href="../../toc.html"> 
 <span class="menu-text">📑 Prehľad obsahu</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">📌 O projekte</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../site_license.html"> 
+    <a class="nav-link" href="../../site_license.html"> 
 <span class="menu-text">🔓 Licencia</span></a>
   </li>  
 </ul>
@@ -294,7 +329,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">💻 Programovanie 1</li><li class="breadcrumb-item"><a href="../content/anaconda.html">🚀 Základy Pythonu</a></li><li class="breadcrumb-item"><a href="../content/venv.html">Virtuálne prostredia</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">💻 Programovanie 1</li><li class="breadcrumb-item"><a href="../../zadania/prog1/zadanie_3_1.html">📒 Zadania cvičení (2025/2026)</a></li><li class="breadcrumb-item"><a href="../../zadania/prog1/zadanie_3_1.html">📄 Zadanie 3 - 1. časť</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Prepnúť postrannú navigáciu" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -325,76 +360,76 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
  <span class="menu-text">🚀 Základy Pythonu</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/anaconda.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/anaconda.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inštalácia a vývojové prostredia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/venv.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/venv.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Virtuálne prostredia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/zakladne_ukony_anaconda.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/zakladne_ukony_anaconda.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Základy Anaconda Prompt</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/hello_world.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/hello_world.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Prvé programy a výstup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/premenne_a_datove_typy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/premenne_a_datove_typy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Premenné a dátové typy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/operatory.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/operatory.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Operátory</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/type_a_konverzia.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/type_a_konverzia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Konverzia dátových typov</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/vstup_input.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/vstup_input.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vstup od používateľa</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/formatovany_vystup.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/formatovany_vystup.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Formátovaný výstup</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/komentovanie_kodu.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/komentovanie_kodu.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Komentovanie kódu</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/markdown.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/markdown.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Základy jazyka Markdown</span></a>
   </div>
 </li>
@@ -412,25 +447,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/zoznamy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/zoznamy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Zoznamy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/ntice.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/ntice.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">N-tice</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/mnoziny.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/mnoziny.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Množiny</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/slovniky.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/slovniky.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slovníky</span></a>
   </div>
 </li>
@@ -448,31 +483,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/podmienky.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/podmienky.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Podmienky</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/cykly.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/cykly.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Cykly</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/rozsahy_a_iteracia.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/rozsahy_a_iteracia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Práca s rozsahmi a iteráciou</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/vnorene_cykly.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/vnorene_cykly.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vnorené cykly a podmienky</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/iteracia_dva_zoznamy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/iteracia_dva_zoznamy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Iterácia cez dva zoznamy</span></a>
   </div>
 </li>
@@ -490,13 +525,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/definovanie_funkcii.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/definovanie_funkcii.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Definovanie vlastných funkcií</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/vstavane_funkcie_matematicke.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/vstavane_funkcie_matematicke.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vstavané matematické funckcie</span></a>
   </div>
 </li>
@@ -505,22 +540,22 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
  <span class="menu-text">📒 Zadania cvičení (2025/2026)</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="false" aria-label="Prepnúť sekciu">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Prepnúť sekciu">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 ">  
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../zadania/prog1/zadanie_3_1.html" class="sidebar-item-text sidebar-link">
+  <a href="../../zadania/prog1/zadanie_3_1.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">📄 Zadanie 3 - 1. časť</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../zadania/prog1/zadanie_3_2.html" class="sidebar-item-text sidebar-link">
+  <a href="../../zadania/prog1/zadanie_3_2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">📄️ Zadanie 3 - 2. časť</span></a>
   </div>
 </li>
@@ -550,7 +585,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/instalacia_a_import_kniznic.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/instalacia_a_import_kniznic.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Inštalácia a import knižníc</span></a>
   </div>
 </li>
@@ -566,31 +601,31 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_ndarray.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_ndarray.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Polia</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_indexovanie.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_indexovanie.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Indexovanie a rezanie</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_maticove_vypocty.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_maticove_vypocty.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vektorové a maticové výpočty</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_matematicke_funkcie.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_matematicke_funkcie.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Matematické funkcie</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/numpy_import_export.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/numpy_import_export.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Import a export dát</span></a>
   </div>
 </li>
@@ -607,19 +642,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/sympy_symbolicke_vyrazy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/sympy_symbolicke_vyrazy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Symbolické výrazy a premenné</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/sympy_rovnice.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/sympy_rovnice.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Riešenie rovníc a sústav</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/sympy_derivovanie_integrovanie.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/sympy_derivovanie_integrovanie.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Derivácie a integrály</span></a>
   </div>
 </li>
@@ -636,19 +671,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/matplotlib_zakladne_grafy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/matplotlib_zakladne_grafy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Základné grafy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/matplotlib_doplnkove_grafy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/matplotlib_doplnkove_grafy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Doplnkové grafy</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/matplotlib_export_upravy.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/matplotlib_export_upravy.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Export grafov a úpravy vzhľadu</span></a>
   </div>
 </li>
@@ -665,25 +700,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth3 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_dataframe_intro.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/pandas_dataframe_intro.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">DataFrame</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_import_export.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/pandas_import_export.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Import a export</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_filtracia.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/pandas_filtracia.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Výber stĺpcov, filtrovanie a indexovanie</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/pandas_statistika.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/pandas_statistika.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Základné štatistické funkcie</span></a>
   </div>
 </li>
@@ -702,7 +737,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../zadania/prog2/zadanie_2.html" class="sidebar-item-text sidebar-link">
+  <a href="../../zadania/prog2/zadanie_2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">📄️ Zadanie 2</span></a>
   </div>
 </li>
@@ -723,25 +758,25 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/maka/rychlokurz.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/maka/rychlokurz.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🏎️ Rýchlokurz jazyka Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/maka/kniznica_degrees.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/maka/kniznica_degrees.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">📐 Knižnica Degrees</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/maka/calculus.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/maka/calculus.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🧮 Calculus v jazyku Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/maka/pokrocile_nastroje.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/maka/pokrocile_nastroje.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">⚙️ Pokročilé nástroje</span></a>
   </div>
 </li>
@@ -760,7 +795,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="px-0"><hr class="sidebar-divider hi "></li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/sandbox/afwizard/afwizard.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/sandbox/afwizard/afwizard.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">🧙🏼‍♂️ AFWizard - 🚧 WIP</span></a>
   </div>
 </li>
@@ -776,9 +811,16 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Na tejto stránke</h2>
    
   <ul>
-  <li><a href="#význam-virtuálneho-prostredia" id="toc-význam-virtuálneho-prostredia" class="nav-link active" data-scroll-target="#význam-virtuálneho-prostredia">🧪 Význam virtuálneho prostredia</a></li>
-  <li><a href="#vytvorenie-virtuálneho-prostredia-v-anaconda-navigator" id="toc-vytvorenie-virtuálneho-prostredia-v-anaconda-navigator" class="nav-link" data-scroll-target="#vytvorenie-virtuálneho-prostredia-v-anaconda-navigator">🧭 Vytvorenie virtuálneho prostredia v Anaconda Navigator</a></li>
-  <li><a href="#videonávod" id="toc-videonávod" class="nav-link" data-scroll-target="#videonávod">🎞️ Videonávod</a></li>
+  <li><a href="#úvodné-nastavenia-jupyter-notebooku" id="toc-úvodné-nastavenia-jupyter-notebooku" class="nav-link active" data-scroll-target="#úvodné-nastavenia-jupyter-notebooku">⚙️ Úvodné nastavenia Jupyter notebooku</a></li>
+  <li><a href="#definovanie-premenných-a-dátové-typy" id="toc-definovanie-premenných-a-dátové-typy" class="nav-link" data-scroll-target="#definovanie-premenných-a-dátové-typy">1. Definovanie premenných a dátové typy</a></li>
+  <li><a href="#premenné-v-praxi-a-formátovanie-výstupu" id="toc-premenné-v-praxi-a-formátovanie-výstupu" class="nav-link" data-scroll-target="#premenné-v-praxi-a-formátovanie-výstupu">2. Premenné v praxi a formátovanie výstupu</a></li>
+  <li><a href="#operátory-a-výpočty" id="toc-operátory-a-výpočty" class="nav-link" data-scroll-target="#operátory-a-výpočty">3. Operátory a výpočty</a></li>
+  <li><a href="#zoznamy-a-indexovanie" id="toc-zoznamy-a-indexovanie" class="nav-link" data-scroll-target="#zoznamy-a-indexovanie">4. Zoznamy a indexovanie</a>
+  <ul class="collapse">
+  <li><a href="#ulice" id="toc-ulice" class="nav-link" data-scroll-target="#ulice">🛣️ Ulice</a></li>
+  <li><a href="#stromy" id="toc-stromy" class="nav-link" data-scroll-target="#stromy">🌲 Stromy</a></li>
+  </ul></li>
+  <li><a href="#zadanie-pokračuje-druhou-časťou" id="toc-zadanie-pokračuje-druhou-časťou" class="nav-link" data-scroll-target="#zadanie-pokračuje-druhou-časťou">⚠️ Zadanie pokračuje druhou časťou…</a></li>
   </ul>
 </nav>
     </div>
@@ -786,14 +828,10 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">💻 Programovanie 1</li><li class="breadcrumb-item"><a href="../content/anaconda.html">🚀 Základy Pythonu</a></li><li class="breadcrumb-item"><a href="../content/venv.html">Virtuálne prostredia</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">💻 Programovanie 1</li><li class="breadcrumb-item"><a href="../../zadania/prog1/zadanie_3_1.html">📒 Zadania cvičení (2025/2026)</a></li><li class="breadcrumb-item"><a href="../../zadania/prog1/zadanie_3_1.html">📄 Zadanie 3 - 1. časť</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Virtuálne prostredia</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Anaconda</div>
-    <div class="quarto-category">Virtuálne prostredia</div>
-  </div>
-  </div>
+<h1 class="title">📄 Zadanie 3 - 1. časť</h1>
+</div>
 
 
 
@@ -821,29 +859,88 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="význam-virtuálneho-prostredia" class="level2">
-<h2 class="anchored" data-anchor-id="význam-virtuálneho-prostredia">🧪 Význam virtuálneho prostredia</h2>
-<p>Virtuálne prostredie je izolovaný priestor, v ktorom môžeme nainštalovať konkrétne verzie balíkov bez ovplyvnenia iných projektov. V prostredí Anaconda môžeme virtuálne prostredia spravovať pohodlne aj cez grafické rozhranie – <strong>Anaconda Navigator</strong>.</p>
+<section id="úvodné-nastavenia-jupyter-notebooku" class="level2">
+<h2 class="anchored" data-anchor-id="úvodné-nastavenia-jupyter-notebooku">⚙️ Úvodné nastavenia Jupyter notebooku</h2>
+<p>Cez webové rozhranie <strong>Jupyter Lab</strong> vytvorte v počítači nový súbor s názvom <code>Priezvisko.ipynb</code> <em>(Pre pomenovanie súboru použite Vaše priezvisko)</em></p>
+<p>Prvú (úvodnú) bunku dokumentu definujte ako typ <code>Markdown cell</code> a v tejto bunke uveďte nasledový kód a doplnte svoje údaje:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu"># &lt;center&gt; Zadanie č. 3 &lt;/center&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">### &lt;center&gt; Programovanie v jazyku Python &lt;/center&gt;</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a>_&lt;center&gt; (Programovanie) &lt;/center&gt;_ </span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="pp">|</span>__Meno__|__Krúžok__|__Šk. rok__<span class="pp">|</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="pp">|:------:|:--------:|:---------:|</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="pp">|</span>Meno Priezvisko<span class="pp">|</span><span class="dt">&lt;</span><span class="kw">font</span><span class="ot"> color</span><span class="op">=</span><span class="st">red</span><span class="dt">&gt;</span>Kr.X<span class="dt">&lt;/</span><span class="kw">font</span><span class="dt">&gt;</span><span class="pp">|</span>2025/2026<span class="pp">|</span></span></code><button title="Kopírovať do schránky" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Riešte nasledovné úlohy:</strong></p>
 <hr>
 </section>
-<section id="vytvorenie-virtuálneho-prostredia-v-anaconda-navigator" class="level2">
-<h2 class="anchored" data-anchor-id="vytvorenie-virtuálneho-prostredia-v-anaconda-navigator">🧭 Vytvorenie virtuálneho prostredia v Anaconda Navigator</h2>
-<ol type="1">
-<li><strong>Spustite Anaconda Navigator</strong></li>
-<li>Prejdite na kartu <strong>Environments</strong></li>
-<li>Kliknite na <strong>Create</strong></li>
-<li>Vyplňte:
+<section id="definovanie-premenných-a-dátové-typy" class="level2">
+<h2 class="anchored" data-anchor-id="definovanie-premenných-a-dátové-typy">1. Definovanie premenných a dátové typy</h2>
 <ul>
-<li>Vhodný názov prostredia, napr. <code>programovanie_1</code></li>
-<li>Zvoľte jazyk <strong>Python</strong> a jeho verziu napr. <code>3.12.11</code></li>
-</ul></li>
-<li>Kliknite na <strong>Create</strong></li>
-</ol>
+<li>Pre nasledujúce situácie definujte vhodný názov premennej a priraďte k nim vzorové hodnoty
+<ol type="1">
+<li>počet bodov v meraní,</li>
+<li>dĺžka chodníka v metroch s presnosťou na milimetre,</li>
+<li>názov obce,</li>
+<li>pravdivostná informácia, či sa bod nachádza na pravom brehu rieky,</li>
+<li>zoznam súradníc X, Y, Z.</li>
+</ol></li>
+<li>Vypíšte premenné pomocou <code>print()</code>,</li>
+<li>Overte dátový typ pomocou <code>type()</code>.</li>
+</ul>
 <hr>
 </section>
-<section id="videonávod" class="level2">
-<h2 class="anchored" data-anchor-id="videonávod">🎞️ Videonávod</h2>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EgsqPm_t_ME" title="Virtuálne prostredia" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="premenné-v-praxi-a-formátovanie-výstupu" class="level2">
+<h2 class="anchored" data-anchor-id="premenné-v-praxi-a-formátovanie-výstupu">2. Premenné v praxi a formátovanie výstupu</h2>
+<ul>
+<li>Uložte do premenných informácie o dvoch bodoch:
+<ul>
+<li>názov bodu (napr. “BOD1”),</li>
+<li>súradnice X, Y,</li>
+<li>kód bodu (napr. “STROM”)</li>
+</ul></li>
+<li>Vypíšte výsledok v tvare: <code>Bod BOD1 má súradnice (X, Y) a jeho kód je STROM.</code></li>
+</ul>
+<blockquote class="blockquote">
+<p>💡 Na vypísanie vety s premennými je vhodné použiť formátovaný výstup.</p>
+</blockquote>
+<hr>
+</section>
+<section id="operátory-a-výpočty" class="level2">
+<h2 class="anchored" data-anchor-id="operátory-a-výpočty">3. Operátory a výpočty</h2>
+<ul>
+<li><p>Krokomer v <strong>prvý deň</strong> nameral: <strong>12250 krokov tam</strong> a <strong>8045 krokov späť</strong>.</p></li>
+<li><p>Krokomer v <strong>druhý deň</strong> nameral: <strong>5450 krokov tam</strong> a <strong>10500 krokov späť</strong>.</p></li>
+<li><p>Dĺžka kroku je <strong>95cm</strong>.</p></li>
+<li><p>Vypočítajte:</p>
+<ul>
+<li>celkový počet krokov a celkovú vzdialenosť v kilometroch prejdenú v jednotlivých dňoch,</li>
+<li>rozdiel medzi dĺžkou <strong>tam</strong> a <strong>späť</strong> v jednotlivých dňoch v metroch,</li>
+<li>priemerný celkový počet prejdených krokov a priemernú vzdialenosť v kilometroch prejdenú za 2 dni</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="zoznamy-a-indexovanie" class="level2">
+<h2 class="anchored" data-anchor-id="zoznamy-a-indexovanie">4. Zoznamy a indexovanie</h2>
+<section id="ulice" class="level3">
+<h3 class="anchored" data-anchor-id="ulice">🛣️ Ulice</h3>
+<ul>
+<li>Vytvorte zoznam mien piatich ulíc vo svojej obci,</li>
+<li>Na koniec zoznamu pridajte ľubovoľný iný názov ulice, ktorá sa nachádza v Bratislave.</li>
+<li>Všetky zoznamy vypíšte pomocou <code>print()</code>,</li>
+</ul>
+</section>
+<section id="stromy" class="level3">
+<h3 class="anchored" data-anchor-id="stromy">🌲 Stromy</h3>
+<ul>
+<li>Vytvorte zoznam s výškami stromov (4 × 4 hodnoty),</li>
+<li>Vypíšte výšku stromu na ľubovoľnom mieste a uveďte na akom,</li>
+<li>Všetky zoznamy vypíšte pomocou <code>print()</code>,</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="zadanie-pokračuje-druhou-časťou" class="level2">
+<h2 class="anchored" data-anchor-id="zadanie-pokračuje-druhou-časťou">⚠️ Zadanie pokračuje druhou časťou…</h2>
 <hr>
 
 

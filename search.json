@@ -1,772 +1,687 @@
 [
   {
-    "objectID": "zadania/zadanie_3_2.html",
-    "href": "zadania/zadanie_3_2.html",
-    "title": "📄️ Zadanie 3 - 2. časť",
+    "objectID": "zadania/prog2/zadanie_2.html",
+    "href": "zadania/prog2/zadanie_2.html",
+    "title": "📄️ Zadanie 2",
     "section": "",
-    "text": "Riešte nasledovné úlohy:",
+    "text": "Cez webové rozhranie Jupyter Lab vytvorte v počítači nový súbor s názvom Priezvisko.ipynb (Pre pomenovanie súboru použite Vaše priezvisko)\nPrvú (úvodnú) bunku dokumentu definujte ako typ Markdown cell a v tejto bunke uveďte nasledový kód a doplnte svoje údaje:\n# &lt;center&gt; Zadanie č. 2 &lt;/center&gt;\n### &lt;center&gt; Práca s knižnicami NumPy, Matplotlib a SymPy &lt;/center&gt;\n_&lt;center&gt; (Programovanie) &lt;/center&gt;_ \n|__Meno__|__Šk. rok__|\n|:------:|:---------:|\n|Meno Priezvisko|2025/2026|\nRiešte nasledovné úlohy:",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
+      "🖥️ Programovanie 2",
       "📒 Zadania cvičení (2025/2026)",
-      "📄️ Zadanie 3 - 2. časť"
+      "📄️ Zadanie 2"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_2.html#druhá-časť-zadania-č.3",
-    "href": "zadania/zadanie_3_2.html#druhá-časť-zadania-č.3",
-    "title": "📄️ Zadanie 3 - 2. časť",
+    "objectID": "zadania/prog2/zadanie_2.html#úvodné-nastavenia-jupyter-notebooku",
+    "href": "zadania/prog2/zadanie_2.html#úvodné-nastavenia-jupyter-notebooku",
+    "title": "📄️ Zadanie 2",
     "section": "",
-    "text": "Riešte nasledovné úlohy:",
+    "text": "Cez webové rozhranie Jupyter Lab vytvorte v počítači nový súbor s názvom Priezvisko.ipynb (Pre pomenovanie súboru použite Vaše priezvisko)\nPrvú (úvodnú) bunku dokumentu definujte ako typ Markdown cell a v tejto bunke uveďte nasledový kód a doplnte svoje údaje:\n# &lt;center&gt; Zadanie č. 2 &lt;/center&gt;\n### &lt;center&gt; Práca s knižnicami NumPy, Matplotlib a SymPy &lt;/center&gt;\n_&lt;center&gt; (Programovanie) &lt;/center&gt;_ \n|__Meno__|__Šk. rok__|\n|:------:|:---------:|\n|Meno Priezvisko|2025/2026|\nRiešte nasledovné úlohy:",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
+      "🖥️ Programovanie 2",
       "📒 Zadania cvičení (2025/2026)",
-      "📄️ Zadanie 3 - 2. časť"
+      "📄️ Zadanie 2"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_2.html#cykly",
-    "href": "zadania/zadanie_3_2.html#cykly",
-    "title": "📄️ Zadanie 3 - 2. časť",
-    "section": "5. Cykly",
-    "text": "5. Cykly\n\nVygenerujte všetky párne čísla od 0 do súčet dňa a mesiaca vášho narodenia + 20:\n\npomocou cyklu for,\npomocou cyklu while.\n\nZoznamy porovnajte.\n\n\n💡 Na porovnanie skúšte použiť relačný (porovnávací) operátor.",
+    "objectID": "zadania/prog2/zadanie_2.html#načítanie-údajov-zo-súborov-a-riešenie-sústavy-rovníc",
+    "href": "zadania/prog2/zadanie_2.html#načítanie-údajov-zo-súborov-a-riešenie-sústavy-rovníc",
+    "title": "📄️ Zadanie 2",
+    "section": "📥 1. Načítanie údajov zo súborov a riešenie sústavy rovníc",
+    "text": "📥 1. Načítanie údajov zo súborov a riešenie sústavy rovníc\nMáte k dispozícii 2 textové súbory:\n\nkoeficienty.txt – obsahuje hodnoty matice koeficientov\nprava_strana.txt – obsahuje hodnoty matice pravej strany\n\n\n💡 Súbory sú dostupné na Dokumentovom serveri\n\n\nZadanie:\n\nNačítajte oba súbory do programu.\nVyriešte sústavu lineárnych rovníc ľubovolnou metódou s použitím NumPy.\nVýsledný vektor riešení vypíšte na obrazovku.",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
+      "🖥️ Programovanie 2",
       "📒 Zadania cvičení (2025/2026)",
-      "📄️ Zadanie 3 - 2. časť"
+      "📄️ Zadanie 2"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_2.html#podmienky",
-    "href": "zadania/zadanie_3_2.html#podmienky",
-    "title": "📄️ Zadanie 3 - 2. časť",
-    "section": "6. Podmienky",
-    "text": "6. Podmienky\nS použitím podmienok if, elif a else vytvorte program, ktorý:\n\nProgram načíta vek používateľa a vypíše kategóriu:\n\n0–12 → dieťa,\n13–18 → tínedžer,\n19–64 → dospelý,\n65+ → senior.\n\n\n\n💡 Na načítanie veku používateľa skúšte použiť funkciu input().",
+    "objectID": "zadania/prog2/zadanie_2.html#vytvorenie-poľa-výber-časti-a-export-do-súboru",
+    "href": "zadania/prog2/zadanie_2.html#vytvorenie-poľa-výber-časti-a-export-do-súboru",
+    "title": "📄️ Zadanie 2",
+    "section": "📥 2. Vytvorenie poľa, výber časti a export do súboru",
+    "text": "📥 2. Vytvorenie poľa, výber časti a export do súboru\n\nZadanie:\n\nVytvorte pole hodnôt v intervale od -10 do 10, pričom pole má obsahovať 40 hodnôt.\nDo novej premennej uložte iba hodnoty z indexov 10 až 25.\nTúto časť poľa uložte do textového súboru s názvom vyber_hodnot.txt.\nKaždá hodnota musí byť zapísaná na samostatnom riadku.",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
+      "🖥️ Programovanie 2",
       "📒 Zadania cvičení (2025/2026)",
-      "📄️ Zadanie 3 - 2. časť"
+      "📄️ Zadanie 2"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_2.html#funkcie",
-    "href": "zadania/zadanie_3_2.html#funkcie",
-    "title": "📄️ Zadanie 3 - 2. časť",
-    "section": "7. Funkcie",
-    "text": "7. Funkcie\nDefinujte nasledujúce vlastné funckie. Ich funkčnosť demonštrujte na vami zvolenom vhodnom príklade.\n\ninfo_sucet()\n\n📐 funkcia vypočíta súčet, minimum a maximum vstupného zoznamu čísel,\n📥 vstup: zoznam čísel (napr. dĺžky úsekov ciest),\n\n📥 výstup: súčet, minimum, maximum.\n\npriemer()\n\n📐 funkcia vypočíta jednoduchý aritmetický priemer zo zadaného zoznamu hodnôt,\n📥 vstup: zoznam čísel (napr. výšky),\n\n📥 výstup: medián.\n\nvazeny_priemer()\n\n📐 funkcia vypočíta vážený aritmetický priemer zo zadaného zoznamu hodnôt a váh,\n📥 vstup: zoznam hodnôt a zoznam váh (napr. známky a ich váhy),\n\n📥 výstup: vážený priemer.\n\nprevod_uhlov()\n\n📐 funkcia prevedie hodnotu uhla medzi grádmi a radianmi,\n\n⚙️ smer prevodu určí vstupný parameter funckie\n📥 vstup: hodnota uhla v grádoch alebo radiánoch a smer prevodu\n\n📥 výstup: prevedená hodnota uhla",
+    "objectID": "zadania/prog2/zadanie_2.html#operácie-s-maticami",
+    "href": "zadania/prog2/zadanie_2.html#operácie-s-maticami",
+    "title": "📄️ Zadanie 2",
+    "section": "🧮 3. Operácie s maticami",
+    "text": "🧮 3. Operácie s maticami\nZadefinujte nasledujúce dve matice:\n\\[\nM_1 =\n\\begin{bmatrix}\n1 & 2 & 3 \\\\\n0 & 1 & 4 \\\\\n2 & 0 & 1\n\\end{bmatrix}\n\\]\n\\[\nM_2 =\n\\begin{bmatrix}\n2 & 1 & 0 \\\\\n1 & 3 & 2 \\\\\n4 & 0 & 1\n\\end{bmatrix}\n\\]\n\nZadanie:\n\nVypočítajte ich súčin:\n\n\\[\nM = M_1 \\cdot M_2\n\\]\n\nZ výslednej matice určte:\n\ndeterminant\nhodnosť matice\ninverznú maticu\n\nVýsledky vypíšte na obrazovku.",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
+      "🖥️ Programovanie 2",
       "📒 Zadania cvičení (2025/2026)",
-      "📄️ Zadanie 3 - 2. časť"
+      "📄️ Zadanie 2"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_2.html#pokyny-k-odovzdaniu",
-    "href": "zadania/zadanie_3_2.html#pokyny-k-odovzdaniu",
-    "title": "📄️ Zadanie 3 - 2. časť",
+    "objectID": "zadania/prog2/zadanie_2.html#vizualizácia-pomocou-matplotlib",
+    "href": "zadania/prog2/zadanie_2.html#vizualizácia-pomocou-matplotlib",
+    "title": "📄️ Zadanie 2",
+    "section": "📊 4. Vizualizácia pomocou Matplotlib",
+    "text": "📊 4. Vizualizácia pomocou Matplotlib\nPoužite výslednú maticu M z predchádzajúcej úlohy.\n\n📍 4.1 Bodový graf\nKaždý prvok matice reprezentujte ako bod. Farba bodu nech závisí od hodnoty.\nGraf musí obsahovať:\n\nnázov\npopis osí\nlegendu\ngrid\n\n\n\n📈 4.2 Čiarový graf\nKaždý riadok matice zobrazte ako samostatnú čiaru.\nGraf musí obsahovať:\n\nnázov\npopis osí\nlegendu\ngrid\n\n\n\n🥧 4.3 Koláčový graf\nPoužite hodnoty prvého riadku matice.\nGraf musí obsahovať:\n\nnázov\npercentuálne zobrazenie\nlegendu",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄️ Zadanie 2"
+    ]
+  },
+  {
+    "objectID": "zadania/prog2/zadanie_2.html#symbolické-výpočty-pomocou-sympy",
+    "href": "zadania/prog2/zadanie_2.html#symbolické-výpočty-pomocou-sympy",
+    "title": "📄️ Zadanie 2",
+    "section": "🔡 5. Symbolické výpočty pomocou SymPy",
+    "text": "🔡 5. Symbolické výpočty pomocou SymPy\n\nZadanie\n\nZjednodušte výraz:\n\n\\[\n\\frac{x^2 - 1}{x - 1} + \\sin^2(x) + \\cos^2(x)\n\\]\n\nUrčte deriváciu funkcie:\n\n\\[\nf(x) = x^3 + 2x^2 - x + 5\n\\]",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄️ Zadanie 2"
+    ]
+  },
+  {
+    "objectID": "zadania/prog2/zadanie_2.html#pokyny-k-odovzdaniu",
+    "href": "zadania/prog2/zadanie_2.html#pokyny-k-odovzdaniu",
+    "title": "📄️ Zadanie 2",
     "section": "⚠️ Pokyny k odovzdaniu",
-    "text": "⚠️ Pokyny k odovzdaniu\nDo pripraveného miesta odovzdania v AIS vložte súbor v arhvíve .zip s názvom priezvisko.zip\nOdovzdaný archív bude obsahovať:\n\nPriezvisko.ipynb\n\nRiešenie jednotlivých úloh\nVhodný popis ich riešenia v textových bunkách\n\nPriezvisko.pdf\n\nPDF súbor sa skladá z:\n\nVyplnenej úvodnej tabuľky\nZadávacích hárkov s doplneným menom študenta\nPDF vytlačeného zo súboru Priezvisko.ipynb\nDátum a miesto vypracoania s menom a podpisom\n\n\n\n\n💡️ Úvodná tabuľka a zadávacie hárky sú dostupné na dokumentovom serveri.\n⚠️ Súbor nezabudnite správne vložiť a potvrdiť jeho odovzdanie.",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "📒 Zadania cvičení (2025/2026)",
-      "📄️ Zadanie 3 - 2. časť"
-    ]
-  },
-  {
-    "objectID": "wip.html",
-    "href": "wip.html",
-    "title": "🔧 Work in Progress",
-    "section": "",
-    "text": "🚧 Stránka vo výstavbe\nTento obsah je momentálne vo vývoji.\n🛠️ Pracujeme na jeho doplnení alebo úprave.\nProsím, vráťte sa neskôr.\n\n\nAk si myslíš, že tu niečo chýba alebo máš návrh na zlepšenie, nás kontaktuje.",
+    "text": "⚠️ Pokyny k odovzdaniu\nDo pripraveného miesta odovzdania v AIS vložte súbor v arhvíve .zip s názvom priezvisko.zip\nOdovzdaný archív bude obsahovať:\n\nPriezvisko.ipynb\n\nVyplnených úvodných nastavení/tabuľky\nRiešenie jednotlivých úloh\nVhodný popis ich riešenia v textových bunkách\n\nvyber_hodnot.txt\n\n\n💡 Súbor nezabudnite správne vložiť a potvrdiť jeho odovzdanie.",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📒 Zadania cvičení (2025/2026)",
-      "🔧 Work in Progress"
+      "📄️ Zadanie 2"
     ]
   },
   {
-    "objectID": "site_license.html",
-    "href": "site_license.html",
-    "title": "🔓 Licencia",
+    "objectID": "zadania/prog1/zadanie_3_1.html",
+    "href": "zadania/prog1/zadanie_3_1.html",
+    "title": "📄 Zadanie 3 - 1. časť",
     "section": "",
-    "text": "Táto vzdelávacia stránka je sprístupnená ako otvorený zdroj.\nRozlišujeme licenciu pre obsah a pre zdrojový kód."
+    "text": "Cez webové rozhranie Jupyter Lab vytvorte v počítači nový súbor s názvom Priezvisko.ipynb (Pre pomenovanie súboru použite Vaše priezvisko)\nPrvú (úvodnú) bunku dokumentu definujte ako typ Markdown cell a v tejto bunke uveďte nasledový kód a doplnte svoje údaje:\n# &lt;center&gt; Zadanie č. 3 &lt;/center&gt;\n### &lt;center&gt; Programovanie v jazyku Python &lt;/center&gt;\n_&lt;center&gt; (Programovanie) &lt;/center&gt;_ \n|__Meno__|__Krúžok__|__Šk. rok__|\n|:------:|:--------:|:---------:|\n|Meno Priezvisko|&lt;font color=red&gt;Kr.X&lt;/font&gt;|2025/2026|\nRiešte nasledovné úlohy:",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄 Zadanie 3 - 1. časť"
+    ]
   },
   {
-    "objectID": "site_license.html#licencia",
-    "href": "site_license.html#licencia",
-    "title": "🔓 Licencia",
+    "objectID": "zadania/prog1/zadanie_3_1.html#úvodné-nastavenia-jupyter-notebooku",
+    "href": "zadania/prog1/zadanie_3_1.html#úvodné-nastavenia-jupyter-notebooku",
+    "title": "📄 Zadanie 3 - 1. časť",
     "section": "",
-    "text": "Táto vzdelávacia stránka je sprístupnená ako otvorený zdroj.\nRozlišujeme licenciu pre obsah a pre zdrojový kód."
+    "text": "Cez webové rozhranie Jupyter Lab vytvorte v počítači nový súbor s názvom Priezvisko.ipynb (Pre pomenovanie súboru použite Vaše priezvisko)\nPrvú (úvodnú) bunku dokumentu definujte ako typ Markdown cell a v tejto bunke uveďte nasledový kód a doplnte svoje údaje:\n# &lt;center&gt; Zadanie č. 3 &lt;/center&gt;\n### &lt;center&gt; Programovanie v jazyku Python &lt;/center&gt;\n_&lt;center&gt; (Programovanie) &lt;/center&gt;_ \n|__Meno__|__Krúžok__|__Šk. rok__|\n|:------:|:--------:|:---------:|\n|Meno Priezvisko|&lt;font color=red&gt;Kr.X&lt;/font&gt;|2025/2026|\nRiešte nasledovné úlohy:",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄 Zadanie 3 - 1. časť"
+    ]
   },
   {
-    "objectID": "site_license.html#obsah-texty-obrázky-návody",
-    "href": "site_license.html#obsah-texty-obrázky-návody",
-    "title": "🔓 Licencia",
-    "section": "📘 Obsah (texty, obrázky, návody)",
-    "text": "📘 Obsah (texty, obrázky, návody)\nMateriály na tejto stránke (texty, obrázky, grafy a didaktické príklady) sú dostupné pod licenciou:\nCreative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)\n\nPráva a povinnosti\n\n✅ Kopírovať, šíriť, upravovať a využívať aj komerčne\n\n✅ Povinnosť uviesť autora a zdroj\n\n✅ Úpravy zdieľať pod rovnakou licenciou\n\n❌ Nemožno obmedzovať práva iných používateľov\n\nKrátke znenie:\n© 2025, Obsah je dostupný pod licenciou CC BY-SA 4.0."
+    "objectID": "zadania/prog1/zadanie_3_1.html#definovanie-premenných-a-dátové-typy",
+    "href": "zadania/prog1/zadanie_3_1.html#definovanie-premenných-a-dátové-typy",
+    "title": "📄 Zadanie 3 - 1. časť",
+    "section": "1. Definovanie premenných a dátové typy",
+    "text": "1. Definovanie premenných a dátové typy\n\nPre nasledujúce situácie definujte vhodný názov premennej a priraďte k nim vzorové hodnoty\n\npočet bodov v meraní,\ndĺžka chodníka v metroch s presnosťou na milimetre,\nnázov obce,\npravdivostná informácia, či sa bod nachádza na pravom brehu rieky,\nzoznam súradníc X, Y, Z.\n\nVypíšte premenné pomocou print(),\nOverte dátový typ pomocou type().",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄 Zadanie 3 - 1. časť"
+    ]
   },
   {
-    "objectID": "site_license.html#zdrojový-kód-notebooky-skripty-príklady",
-    "href": "site_license.html#zdrojový-kód-notebooky-skripty-príklady",
-    "title": "🔓 Licencia",
-    "section": "💻 Zdrojový kód (notebooky, skripty, príklady)",
-    "text": "💻 Zdrojový kód (notebooky, skripty, príklady)\nZdrojový kód priložený na tejto stránke je licencovaný pod:\nGNU General Public License v3.0 (GPL-3.0)\n\nPráva a povinnosti\n\n✅ Voľne používať, upravovať a šíriť\n\n✅ Povinnosť zverejniť odvodené diela pod rovnakou licenciou\n\n✅ Povinnosť priložiť licenciu a upozorniť na zmeny\n\n❌ Nemožno meniť licenciu na uzavretú alebo obmedzujúcu\n\nKrátke znenie:\nKód je dostupný pod licenciou GNU GPL v3.0."
+    "objectID": "zadania/prog1/zadanie_3_1.html#premenné-v-praxi-a-formátovanie-výstupu",
+    "href": "zadania/prog1/zadanie_3_1.html#premenné-v-praxi-a-formátovanie-výstupu",
+    "title": "📄 Zadanie 3 - 1. časť",
+    "section": "2. Premenné v praxi a formátovanie výstupu",
+    "text": "2. Premenné v praxi a formátovanie výstupu\n\nUložte do premenných informácie o dvoch bodoch:\n\nnázov bodu (napr. “BOD1”),\nsúradnice X, Y,\nkód bodu (napr. “STROM”)\n\nVypíšte výsledok v tvare: Bod BOD1 má súradnice (X, Y) a jeho kód je STROM.\n\n\n💡 Na vypísanie vety s premennými je vhodné použiť formátovaný výstup.",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄 Zadanie 3 - 1. časť"
+    ]
   },
   {
-    "objectID": "site_license.html#ℹ-odporúčanie",
-    "href": "site_license.html#ℹ-odporúčanie",
-    "title": "🔓 Licencia",
-    "section": "ℹ️ Odporúčanie",
-    "text": "ℹ️ Odporúčanie\nPri citovaní alebo používaní materiálov vždy uveďte zdroj:\nNázov stránky, autor, rok a odkaz."
+    "objectID": "zadania/prog1/zadanie_3_1.html#operátory-a-výpočty",
+    "href": "zadania/prog1/zadanie_3_1.html#operátory-a-výpočty",
+    "title": "📄 Zadanie 3 - 1. časť",
+    "section": "3. Operátory a výpočty",
+    "text": "3. Operátory a výpočty\n\nKrokomer v prvý deň nameral: 12250 krokov tam a 8045 krokov späť.\nKrokomer v druhý deň nameral: 5450 krokov tam a 10500 krokov späť.\nDĺžka kroku je 95cm.\nVypočítajte:\n\ncelkový počet krokov a celkovú vzdialenosť v kilometroch prejdenú v jednotlivých dňoch,\nrozdiel medzi dĺžkou tam a späť v jednotlivých dňoch v metroch,\npriemerný celkový počet prejdených krokov a priemernú vzdialenosť v kilometroch prejdenú za 2 dni",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄 Zadanie 3 - 1. časť"
+    ]
   },
   {
-    "objectID": "site_license.html#poznámka-o-použití-generatívnej-umelej-inteligencie",
-    "href": "site_license.html#poznámka-o-použití-generatívnej-umelej-inteligencie",
-    "title": "🔓 Licencia",
-    "section": "🤖 Poznámka o použití generatívnej umelej inteligencie",
-    "text": "🤖 Poznámka o použití generatívnej umelej inteligencie\nPri tvorbe tejto webovej stránky boli použité nástroje umelej inteligencie, GPT-5 (ChatGPT od OpenAI), ktoré pomáhali pri návrhu textov, štruktúry a optimalizácii obsahu a kódu."
+    "objectID": "zadania/prog1/zadanie_3_1.html#zoznamy-a-indexovanie",
+    "href": "zadania/prog1/zadanie_3_1.html#zoznamy-a-indexovanie",
+    "title": "📄 Zadanie 3 - 1. časť",
+    "section": "4. Zoznamy a indexovanie",
+    "text": "4. Zoznamy a indexovanie\n\n🛣️ Ulice\n\nVytvorte zoznam mien piatich ulíc vo svojej obci,\nNa koniec zoznamu pridajte ľubovoľný iný názov ulice, ktorá sa nachádza v Bratislave.\nVšetky zoznamy vypíšte pomocou print(),\n\n\n\n🌲 Stromy\n\nVytvorte zoznam s výškami stromov (4 × 4 hodnoty),\nVypíšte výšku stromu na ľubovoľnom mieste a uveďte na akom,\nVšetky zoznamy vypíšte pomocou print(),",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄 Zadanie 3 - 1. časť"
+    ]
   },
   {
-    "objectID": "content/zoznamy.html",
-    "href": "content/zoznamy.html",
-    "title": "Zoznamy",
+    "objectID": "zadania/prog1/zadanie_3_1.html#zadanie-pokračuje-druhou-časťou",
+    "href": "zadania/prog1/zadanie_3_1.html#zadanie-pokračuje-druhou-časťou",
+    "title": "📄 Zadanie 3 - 1. časť",
+    "section": "⚠️ Zadanie pokračuje druhou časťou…",
+    "text": "⚠️ Zadanie pokračuje druhou časťou…",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "📒 Zadania cvičení (2025/2026)",
+      "📄 Zadanie 3 - 1. časť"
+    ]
+  },
+  {
+    "objectID": "toc.html",
+    "href": "toc.html",
+    "title": "📑 Prehľad obsahu",
     "section": "",
-    "text": "Zoznam (list) je usporiadaná kolekcia hodnôt. Môže obsahovať čísla, texty, iné zoznamy alebo kombináciu rôznych typov. Zoznamy sú základná dátová štruktúra v Pythone.",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
-    ]
+    "text": "🚀 Základy Pythonu\n💾 Dátové štruktúry\n🏗️ Riadiace štruktúry\n⚙ Funkcie\n📒 Zadania cvičení"
   },
   {
-    "objectID": "content/zoznamy.html#úvod",
-    "href": "content/zoznamy.html#úvod",
-    "title": "Zoznamy",
+    "objectID": "toc.html#programovanie-1",
+    "href": "toc.html#programovanie-1",
+    "title": "📑 Prehľad obsahu",
     "section": "",
-    "text": "Zoznam (list) je usporiadaná kolekcia hodnôt. Môže obsahovať čísla, texty, iné zoznamy alebo kombináciu rôznych typov. Zoznamy sú základná dátová štruktúra v Pythone.",
+    "text": "🚀 Základy Pythonu\n💾 Dátové štruktúry\n🏗️ Riadiace štruktúry\n⚙ Funkcie\n📒 Zadania cvičení"
+  },
+  {
+    "objectID": "toc.html#programovanie-2",
+    "href": "toc.html#programovanie-2",
+    "title": "📑 Prehľad obsahu",
+    "section": "🖥️ Programovanie 2",
+    "text": "🖥️ Programovanie 2\n\n📚 Knižnice\n\nInštalácia a import\n📐 NumPy\n🧮 SymPy\n📊 Matplotlib\n🗃️ Pandas\n\n📒 Zadania cvičení"
+  },
+  {
+    "objectID": "toc.html#matematická-kartografia",
+    "href": "toc.html#matematická-kartografia",
+    "title": "📑 Prehľad obsahu",
+    "section": "🗺️ Matematická kartografia",
+    "text": "🗺️ Matematická kartografia\n\n🏎️ Rýchlokurz jazyka Python pre potreby Matematickej kartografie\n📐 Dokumentácia k nami vyvinutej knižnici Degrees.py\n🧮 Calculus v jazyku Python (integrály a derivácie) pre potreby Matematickej kartografie\n️⚙ Pokročilé nástroje pre potreby Matematickej kartografie"
+  },
+  {
+    "objectID": "toc.html#pieskovisko",
+    "href": "toc.html#pieskovisko",
+    "title": "📑 Prehľad obsahu",
+    "section": "🛝 Pieskovisko",
+    "text": "🛝 Pieskovisko\n\nDoplnkové kapitoly (nielen) pre študentov, ktorých programovanie pohltilo."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Programovanie v jazyku Python pre geodetov",
+    "section": "",
+    "text": "Táto stránka predstavuje centrálnu platformu pre rozvoj programátorských kompetencií v jazyku Python v rámci študijného programu Geodézia a kartografia. Obsahovo nadväzuje na predmety:\n\nProgramovanie 1\nProgramovanie 2\nMatematická kartografia\nObjektovo orientované programovanie v geodézii\n\n, pričom vytvára jednotné metodické zázemie pre podporu ich výuky.\nProgramovanie je tu chápané nie ako izolovaný predmet, ale ako univerzálny nástroj na riešenie odborných úloh – od základnej algoritmizácie až po numerické modelovanie, spracovanie dát a tvorbu vlastných analytických nástrojov. Stránka funguje ako online študijný materiál, ktorý systematicky buduje znalosti jazyka Python a jeho aplikácie v technických, matematických a geodetických kontextoch."
+  },
+  {
+    "objectID": "index.html#vitajte-na-stránke-py4geodesy.xyz",
+    "href": "index.html#vitajte-na-stránke-py4geodesy.xyz",
+    "title": "Programovanie v jazyku Python pre geodetov",
+    "section": "",
+    "text": "Táto stránka predstavuje centrálnu platformu pre rozvoj programátorských kompetencií v jazyku Python v rámci študijného programu Geodézia a kartografia. Obsahovo nadväzuje na predmety:\n\nProgramovanie 1\nProgramovanie 2\nMatematická kartografia\nObjektovo orientované programovanie v geodézii\n\n, pričom vytvára jednotné metodické zázemie pre podporu ich výuky.\nProgramovanie je tu chápané nie ako izolovaný predmet, ale ako univerzálny nástroj na riešenie odborných úloh – od základnej algoritmizácie až po numerické modelovanie, spracovanie dát a tvorbu vlastných analytických nástrojov. Stránka funguje ako online študijný materiál, ktorý systematicky buduje znalosti jazyka Python a jeho aplikácie v technických, matematických a geodetických kontextoch."
+  },
+  {
+    "objectID": "index.html#čo-si-osvojíte",
+    "href": "index.html#čo-si-osvojíte",
+    "title": "Programovanie v jazyku Python pre geodetov",
+    "section": "🎯 Čo si osvojíte?",
+    "text": "🎯 Čo si osvojíte?\n\nSyntax a základné princípy programovania v jazyku Python\nAlgoritmické myslenie a návrh efektívnych riešení technických úloh\nNumerické výpočty a prácu s poľami pomocou knižnice NumPy\nSymbolické výpočty a analytické operácie s využitím SymPy\nVizualizáciu dát a matematických vzťahov a grafov pomocou Matplotlib\nSpracovanie a analýzu dátových súborov prostredníctvom Pandas\nZáklady štruktúrovaného a objektovo orientovaného prístupu"
+  },
+  {
+    "objectID": "index.html#prečo-je-programovanie-dôležité",
+    "href": "index.html#prečo-je-programovanie-dôležité",
+    "title": "Programovanie v jazyku Python pre geodetov",
+    "section": "❓ Prečo je programovanie dôležité?",
+    "text": "❓ Prečo je programovanie dôležité?\nModerná geodézia, kartografia a priestorové inžinierstvo pracujú s veľkými objemami dát, numerickými modelmi a komplexnými matematickými výpočtami. Schopnosť:\n\nautomatizovať rutinné výpočty,\nefektívne spracovávať a filtrovať údaje,\nvizualizovať výsledky analýz,\nimplementovať vlastné výpočtové postupy,\n\npredstavuje zásadnú odbornú kompetenciu pre modernú prax.\nJazyk Python poskytuje robustné a zároveň prehľadné prostredie, ktoré umožňuje prepájať matematiku, kartografiu a výpočtovú techniku do funkčných nástrojov využiteľných v ďalšom štúdiu, pri riešení projektov, záverečných prác aj v profesionálnej praxi."
+  },
+  {
+    "objectID": "index.html#pre-koho-je-obsah-určený",
+    "href": "index.html#pre-koho-je-obsah-určený",
+    "title": "Programovanie v jazyku Python pre geodetov",
+    "section": "🔧 Pre koho je obsah určený?",
+    "text": "🔧 Pre koho je obsah určený?\n(Nielen) pre študentov, ktorí chcú systematicky budovať znalosti programovania v jazyku Python a aplikovať ich v:\n\ngeodetických výpočtoch,\nmatematickej kartografii,\nspracovaní a analýze meraní,\nanalýze priestorových a technických dát,\nnávrhu vlastných výpočtových algoritmov.\n\n\n\n📚 Programovanie v jazyku Python tvorí metodický základ pre efektívnu prácu s dátami a výpočtovými modelmi v geodézii, kartografii a ďalších technických disciplínach."
+  },
+  {
+    "objectID": "content/zakladne_ukony_anaconda.html",
+    "href": "content/zakladne_ukony_anaconda.html",
+    "title": "Základy Anaconda Prompt",
+    "section": "",
+    "text": "Táto kapitola predstavuje základné príkazy používané v Anaconda Prompt pri práci s Pythonom, virtuálnymi prostrediami a Jupyter Lab. Postup je zameraný na jednoduché a jasné pochopenie najdôležitejších krokov, ktoré môžete pri práci s jazykom Python potrebovať.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
+      "🚀 Základy Pythonu",
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/zoznamy.html#vytvorenie-zoznamu",
-    "href": "content/zoznamy.html#vytvorenie-zoznamu",
-    "title": "Zoznamy",
-    "section": "🧪 Vytvorenie zoznamu",
-    "text": "🧪 Vytvorenie zoznamu\n\n\nKód\ncisla = [1, 2, 3] # Číselný zoznam (vektor)\nslova = [\"jablko\", \"banán\", \"kiwi\"] # Zoznam s textovými reťazcami\nzmiesany = [1, \"text\", True] # Zoznam so zmiešanými dátovými typmi\nprazdny = [] # Prázdny zoznam\n\n\n\n❕ Zoznam je definovaný pomocou []. ❕ Jednotlivé prvky sú oddelené čiarkou.",
+    "objectID": "content/zakladne_ukony_anaconda.html#anaconda-prompt",
+    "href": "content/zakladne_ukony_anaconda.html#anaconda-prompt",
+    "title": "Základy Anaconda Prompt",
+    "section": "",
+    "text": "Táto kapitola predstavuje základné príkazy používané v Anaconda Prompt pri práci s Pythonom, virtuálnymi prostrediami a Jupyter Lab. Postup je zameraný na jednoduché a jasné pochopenie najdôležitejších krokov, ktoré môžete pri práci s jazykom Python potrebovať.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
+      "🚀 Základy Pythonu",
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/zoznamy.html#prístup-k-prvkom",
-    "href": "content/zoznamy.html#prístup-k-prvkom",
-    "title": "Zoznamy",
-    "section": "🔢 Prístup k prvkom",
-    "text": "🔢 Prístup k prvkom\n\n\nKód\novocie = [\"jablko\", \"banán\", \"kiwi\"]\nprint(ovocie[0])\nprint(ovocie[1])\n\n\njablko\nbanán\n\n\n\n❗ Indexovanie zoznamu začína od 0.",
+    "objectID": "content/zakladne_ukony_anaconda.html#spustenie-anaconda-prompt",
+    "href": "content/zakladne_ukony_anaconda.html#spustenie-anaconda-prompt",
+    "title": "Základy Anaconda Prompt",
+    "section": "🔍 Spustenie Anaconda Prompt",
+    "text": "🔍 Spustenie Anaconda Prompt\nAnaconda Prompt otvoríte cez:\n\nWindows Search → „Anaconda Prompt“\nPonuka Štart → „Anaconda Prompt“\nJe dôležité pracovať práve v tomto termináli, pretože už obsahuje nástroje conda.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
+      "🚀 Základy Pythonu",
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/zoznamy.html#iterácia-cez-zoznam",
-    "href": "content/zoznamy.html#iterácia-cez-zoznam",
-    "title": "Zoznamy",
-    "section": "🔄 Iterácia cez zoznam",
-    "text": "🔄 Iterácia cez zoznam\n\n\nKód\nfor polozka in ovocie:\n    print(polozka)\n\n\njablko\nbanán\nkiwi",
+    "objectID": "content/zakladne_ukony_anaconda.html#práca-s-adresármi",
+    "href": "content/zakladne_ukony_anaconda.html#práca-s-adresármi",
+    "title": "Základy Anaconda Prompt",
+    "section": "📁 Práca s adresármi",
+    "text": "📁 Práca s adresármi\nZákladný príkaz na pohyb po adresároch je:\ncd cesta/k/adresáru\n\nZobrazenie aktuálnej cesty:\ncd\n\n\nPrechod o jeden priečinok vyššie:\ncd ..\n\n\nPrechod na konkrétny disk (napr. D:):\nD:\n\n❗Cesty s medzerami píšte do úvodzoviek, napr.: bash cd \"C:\\Users\\Student\\Moje Projekty\"",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
+      "🚀 Základy Pythonu",
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/zoznamy.html#zmena-hodnoty",
-    "href": "content/zoznamy.html#zmena-hodnoty",
-    "title": "Zoznamy",
-    "section": "✏️ Zmena hodnoty",
-    "text": "✏️ Zmena hodnoty\n\n\nKód\novocie[1] = \"hruška\"\nprint(ovocie)\n\n\n['jablko', 'hruška', 'kiwi']\n\n\n\n❗ Hodnota v zozname na danom indexe sa prepíše",
+    "objectID": "content/zakladne_ukony_anaconda.html#vytvorenie-nového-conda-prostredia",
+    "href": "content/zakladne_ukony_anaconda.html#vytvorenie-nového-conda-prostredia",
+    "title": "Základy Anaconda Prompt",
+    "section": "🔧 Vytvorenie nového conda prostredia",
+    "text": "🔧 Vytvorenie nového conda prostredia\nconda create -n nazov_prostredia python=3.11 jupyterlab\n\n💡Tento príkaz vytvorí prostredie s verziou Pythonu 3.11 a zároveň nainštaluje aj prostredie JupyterLab ❗Relevantné sú všetky verzie Pythonu od 3.9 a vyššie.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
+      "🚀 Základy Pythonu",
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/zoznamy.html#pridanie-prvkov",
-    "href": "content/zoznamy.html#pridanie-prvkov",
-    "title": "Zoznamy",
-    "section": "➕ Pridanie prvkov",
-    "text": "➕ Pridanie prvkov\n\nNa koniec zoznamu\n\n\nKód\novocie.append(\"pomaranč\") \nprint(ovocie)\n\n\n['jablko', 'hruška', 'kiwi', 'pomaranč']\n\n\n\n\nNa konkrétne miesto (index)\n\n\nKód\novocie.insert(1, \"slivka\")\nprint(ovocie)\n\n\n['jablko', 'slivka', 'hruška', 'kiwi', 'pomaranč']",
+    "objectID": "content/zakladne_ukony_anaconda.html#aktivácia-a-deaktivácia-prostredia",
+    "href": "content/zakladne_ukony_anaconda.html#aktivácia-a-deaktivácia-prostredia",
+    "title": "Základy Anaconda Prompt",
+    "section": "⚙️ Aktivácia a deaktivácia prostredia",
+    "text": "⚙️ Aktivácia a deaktivácia prostredia\nPred prácou vo virtuálnom prostredí je potrebná jeho aktivácia.\n\nAktivácia\nconda activate nazov_prostredia\n\n\nDeaktivácia\nconda deactivate",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
+      "🚀 Základy Pythonu",
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/zoznamy.html#odstránenie-prvkov",
-    "href": "content/zoznamy.html#odstránenie-prvkov",
-    "title": "Zoznamy",
-    "section": "❌ Odstránenie prvkov",
-    "text": "❌ Odstránenie prvkov\n\nOdstránenie prvku podľa hodnoty\n\n\nKód\novocie.remove(\"hruška\")\nprint(ovocie)\n\n\n['jablko', 'slivka', 'kiwi', 'pomaranč']\n\n\n\n\nOdstránenie prvku podľa indexu\n\n\nKód\ndel ovocie[0]\nprint(ovocie)\n\n\n['slivka', 'kiwi', 'pomaranč']",
+    "objectID": "content/zakladne_ukony_anaconda.html#inštalácia-balíkov",
+    "href": "content/zakladne_ukony_anaconda.html#inštalácia-balíkov",
+    "title": "Základy Anaconda Prompt",
+    "section": "📦 Inštalácia balíkov",
+    "text": "📦 Inštalácia balíkov\n\nPomocou conda\nconda install numpy pandas matplotlib\n\n\nPomocou pip\npip install numpy pandas matplotlib\n\n❗Použitiu pip môže predchádzať jeho inštalácia, nakoľko nemusí byť obsiahnutý v základnej distribúcii.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
+      "🚀 Základy Pythonu",
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/zoznamy.html#dĺžka-zoznamu",
-    "href": "content/zoznamy.html#dĺžka-zoznamu",
-    "title": "Zoznamy",
-    "section": "📏 Dĺžka zoznamu",
-    "text": "📏 Dĺžka zoznamu\n\n\nKód\nprint(len(ovocie))\n\n\n3",
+    "objectID": "content/zakladne_ukony_anaconda.html#spustenie-jupyter-lab",
+    "href": "content/zakladne_ukony_anaconda.html#spustenie-jupyter-lab",
+    "title": "Základy Anaconda Prompt",
+    "section": "🪐 Spustenie Jupyter Lab",
+    "text": "🪐 Spustenie Jupyter Lab\njupyter-lab\n… alebo…\njupyter lab",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
+      "🚀 Základy Pythonu",
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/zoznamy.html#hľadanie-v-zozname",
-    "href": "content/zoznamy.html#hľadanie-v-zozname",
-    "title": "Zoznamy",
-    "section": "🔍 Hľadanie v zozname",
-    "text": "🔍 Hľadanie v zozname\n\n\nKód\nif \"kiwi\" in ovocie:\n    print(\"Je tam!\")\n\n\nJe tam!",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
-    ]
-  },
-  {
-    "objectID": "content/zoznamy.html#vyprázdnenie-zoznamu",
-    "href": "content/zoznamy.html#vyprázdnenie-zoznamu",
-    "title": "Zoznamy",
-    "section": "🧹 Vyprázdnenie zoznamu",
-    "text": "🧹 Vyprázdnenie zoznamu\n\n\nKód\novocie.clear()\nprint(ovocie)\n\n\n[]",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
-    ]
-  },
-  {
-    "objectID": "content/zoznamy.html#zoznamy-môžu-obsahovať-zoznamy",
-    "href": "content/zoznamy.html#zoznamy-môžu-obsahovať-zoznamy",
-    "title": "Zoznamy",
-    "section": "💡 Zoznamy môžu obsahovať zoznamy",
-    "text": "💡 Zoznamy môžu obsahovať zoznamy\n\n\nKód\nm = [[1, 2], [3, 4]]\nprint(m[1][0])\n\n\n3\n\n\n\n💡 Takýmto spôsobom je jednoduché reprezentovať maticu (riadky a stĺpce)",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
-    ]
-  },
-  {
-    "objectID": "content/zoznamy.html#zhrnutie",
-    "href": "content/zoznamy.html#zhrnutie",
-    "title": "Zoznamy",
+    "objectID": "content/zakladne_ukony_anaconda.html#zhrnutie",
+    "href": "content/zakladne_ukony_anaconda.html#zhrnutie",
+    "title": "Základy Anaconda Prompt",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nZoznam (list) je usporiadaná kolekcia hodnôt\nIndexovanie začína od 0\nZoznam vieme meniť – pridávať, mazať, nahrádzať prvky\nfor cyklus je vhodný na prechod zoznamom\nZoznamy sú dynamické – môžu rásť alebo sa vyprázdniť",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
-    ]
-  },
-  {
-    "objectID": "content/zoznamy.html#videonávod",
-    "href": "content/zoznamy.html#videonávod",
-    "title": "Zoznamy",
-    "section": "🎞️ Videonávod",
-    "text": "🎞️ Videonávod",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Zoznamy"
-    ]
-  },
-  {
-    "objectID": "content/vstup_input.html",
-    "href": "content/vstup_input.html",
-    "title": "Vstup od používateľa",
-    "section": "",
-    "text": "Funkcia input() slúži na získanie údajov od používateľa. Keď program zavolá input(), čaká, kým používateľ niečo zadá a stlačí Enter. Zadaný text sa vráti ako reťazec (str).\n\n⚠️ Kedže webová stránka nie je dynamická, je potrebné si kódy s funkciou ´input´ spustiť vo vlastnom prostredí.",
+    "text": "🧠 Zhrnutie\n\n\n\nÚkon\nPríkaz\n\n\n\n\nVytvorenie prostredia\nconda create -n env python=3.11 jupyterlab\n\n\nAktivácia\nconda activate env\n\n\nDeaktivácia\nconda deactivate\n\n\nPohyb po adresároch\ncd, cd .., cd \"cesta\"\n\n\nSpustenie Jupyter Lab\njupyter-lab",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Vstup od používateľa"
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/vstup_input.html#úvod",
-    "href": "content/vstup_input.html#úvod",
-    "title": "Vstup od používateľa",
-    "section": "",
-    "text": "Funkcia input() slúži na získanie údajov od používateľa. Keď program zavolá input(), čaká, kým používateľ niečo zadá a stlačí Enter. Zadaný text sa vráti ako reťazec (str).\n\n⚠️ Kedže webová stránka nie je dynamická, je potrebné si kódy s funkciou ´input´ spustiť vo vlastnom prostredí.",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Vstup od používateľa"
-    ]
-  },
-  {
-    "objectID": "content/vstup_input.html#základné-použitie",
-    "href": "content/vstup_input.html#základné-použitie",
-    "title": "Vstup od používateľa",
-    "section": "🧪 Základné použitie",
-    "text": "🧪 Základné použitie\n\n\nKód\nmeno = input(\"Ako sa voláš? \")\nprint(\"Ahoj,\", meno)\n\n\nAko sa voláš?  Jakub\n\n\nAhoj, Jakub",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Vstup od používateľa"
-    ]
-  },
-  {
-    "objectID": "content/vstup_input.html#hodnota-je-vždy-str",
-    "href": "content/vstup_input.html#hodnota-je-vždy-str",
-    "title": "Vstup od používateľa",
-    "section": "📦 Hodnota je vždy str",
-    "text": "📦 Hodnota je vždy str\n\n\nKód\nvek = input(\"Zadaj vek: \")\nprint(type(vek))\n\n\nZadaj vek:  25\n\n\n&lt;class 'str'&gt;",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Vstup od používateľa"
-    ]
-  },
-  {
-    "objectID": "content/vstup_input.html#prevod-na-číslo",
-    "href": "content/vstup_input.html#prevod-na-číslo",
-    "title": "Vstup od používateľa",
-    "section": "🔁 Prevod na číslo",
-    "text": "🔁 Prevod na číslo\n\n\nKód\nvek = input(\"Zadaj vek: \")\nvek = int(vek)\nprint(\"O rok budeš mať\", vek + 1)\n\n\nZadaj vek:  25\n\n\nO rok budeš mať 26\n\n\n\n💡 Príklad\n\n\nKód\ncena = float(input(\"Zadaj cenu v €: \"))\nprint(\"Cena s DPH:\", cena * 1.23)\n\n\nZadaj cenu v €:  50\n\n\nCena s DPH: 61.5",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Vstup od používateľa"
-    ]
-  },
-  {
-    "objectID": "content/vstup_input.html#chyby-pri-zlom-vstupe",
-    "href": "content/vstup_input.html#chyby-pri-zlom-vstupe",
-    "title": "Vstup od používateľa",
-    "section": "💥 Chyby pri zlom vstupe",
-    "text": "💥 Chyby pri zlom vstupe\n\n\nKód\n# cislo = int(input(\"Zadaj číslo: \"))  # Zadajte text ako \"abc\" a spôsobí chybu",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Vstup od používateľa"
-    ]
-  },
-  {
-    "objectID": "content/vstup_input.html#viac-vstupov-naraz",
-    "href": "content/vstup_input.html#viac-vstupov-naraz",
-    "title": "Vstup od používateľa",
-    "section": "🔄 Viac vstupov naraz",
-    "text": "🔄 Viac vstupov naraz\n\n\nKód\nx, y = input(\"Zadaj dve čísla: \").split()\nx = int(x)\ny = int(y)\nprint(\"Súčet:\", x + y)\n\n\nZadaj dve čísla:  10 20\n\n\nSúčet: 30",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Vstup od používateľa"
-    ]
-  },
-  {
-    "objectID": "content/vstup_input.html#zhrnutie",
-    "href": "content/vstup_input.html#zhrnutie",
-    "title": "Vstup od používateľa",
-    "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\ninput() získa vstup od používateľa ako reťazec\nPre čísla použijeme int() alebo float() na prevod\nVstup môžeme priamo uložiť do premennej\nViac vstupov naraz oddelíme a spracujeme so split(), prípadne jednotlivé dopyty pomocou funckie input() odelíme v kóde.",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Vstup od používateľa"
-    ]
-  },
-  {
-    "objectID": "content/vstup_input.html#videonávod",
-    "href": "content/vstup_input.html#videonávod",
-    "title": "Vstup od používateľa",
+    "objectID": "content/zakladne_ukony_anaconda.html#videonávod",
+    "href": "content/zakladne_ukony_anaconda.html#videonávod",
+    "title": "Základy Anaconda Prompt",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Vstup od používateľa"
+      "Základy Anaconda Prompt"
     ]
   },
   {
-    "objectID": "content/vnorene_cykly.html",
-    "href": "content/vnorene_cykly.html",
-    "title": "Vnorené cykly a podmienky",
+    "objectID": "content/vstavane_funkcie_matematicke.html",
+    "href": "content/vstavane_funkcie_matematicke.html",
+    "title": "Vstavané matematické funckcie",
     "section": "",
-    "text": "Vnorený cyklus znamená, že máme jeden cyklus vo vnútri druhého. Podobne môžeme vkladať aj podmienky (if) do cyklov, aby sme kontrolovali špecifické situácie pri opakovaní.",
+    "text": "Táto kapitola sumarizuje najpoužívanejšie dostupné matematické a logické vstavané funkcie v Pythone a ukazuje ich použitie na krátkych príkladoch bez nutnosti použitia externých knižníc.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
+      "⚙️ Funkcie",
+      "Vstavané matematické funckcie"
     ]
   },
   {
-    "objectID": "content/vnorene_cykly.html#úvod",
-    "href": "content/vnorene_cykly.html#úvod",
-    "title": "Vnorené cykly a podmienky",
+    "objectID": "content/vstavane_funkcie_matematicke.html#úvod",
+    "href": "content/vstavane_funkcie_matematicke.html#úvod",
+    "title": "Vstavané matematické funckcie",
     "section": "",
-    "text": "Vnorený cyklus znamená, že máme jeden cyklus vo vnútri druhého. Podobne môžeme vkladať aj podmienky (if) do cyklov, aby sme kontrolovali špecifické situácie pri opakovaní.",
+    "text": "Táto kapitola sumarizuje najpoužívanejšie dostupné matematické a logické vstavané funkcie v Pythone a ukazuje ich použitie na krátkych príkladoch bez nutnosti použitia externých knižníc.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
+      "⚙️ Funkcie",
+      "Vstavané matematické funckcie"
     ]
   },
   {
-    "objectID": "content/vnorene_cykly.html#vnorený-for-cyklus",
-    "href": "content/vnorene_cykly.html#vnorený-for-cyklus",
-    "title": "Vnorené cykly a podmienky",
-    "section": "🔂 Vnorený for cyklus",
-    "text": "🔂 Vnorený for cyklus\n\n\nKód\nfor i in range(3):\n    for j in range(2):\n        print(f\"i={i}, j={j}\")\n\n\ni=0, j=0\ni=0, j=1\ni=1, j=0\ni=1, j=1\ni=2, j=0\ni=2, j=1\n\n\n\n📦 Príklad – tabuľka násobkov\n\n\nKód\nfor riadok in range(1, 4):\n    for stlpec in range(1, 6):\n        print(riadok * stlpec, end=\"\\t\")\n    print()\n\n\n1   2   3   4   5   \n2   4   6   8   10  \n3   6   9   12  15",
+    "objectID": "content/vstavane_funkcie_matematicke.html#matematické-funkcie",
+    "href": "content/vstavane_funkcie_matematicke.html#matematické-funkcie",
+    "title": "Vstavané matematické funckcie",
+    "section": "📒 Matematické funkcie",
+    "text": "📒 Matematické funkcie\n\nabs() – absolútna hodnota\n\nVráti nezápornú hodnotu čísla.\nTypické použitie: odchýlky, rozdiely, tolerancie.\n\n\n\nKód\nprint(abs(-12))\nprint(abs(5))\nprint(abs(-3.5))\n\n\n12\n5\n3.5\n\n\n\n\nround() – zaokrúhľovanie\n\nround(x, n) zaokrúhli na n desatinných miest.\nPoznámka: Python používa tzv. banker’s rounding (zaokrúhľovanie k párnemu)\n\n\n\nKód\nprint(round(3.14159, 2))\nprint(round(2.5))     # 2 (banker's rounding)\nprint(round(3.5))     # 4\n\n\n3.14\n2\n4\n\n\n\n\npow() – mocnina\n\npow(a, b) je ekvivalent a ** b.\nUžitočné aj pre odmocniny: pow(x, 0.5).\n\n\n\nKód\nprint(pow(3, 2))\nprint(3 ** 2)\nprint(pow(2, 0.5))\n\n\n9\n9\n1.4142135623730951\n\n\n\n\ndivmod() – podiel a zvyšok\n\ndivmod(a, b) vráti dvojicu (a // b, a % b).\nUžitočné pri indexovaní, diskretizácii, rozklade jednotiek (napr. minúty/sekundy).\n\n\n\nKód\nprint(divmod(17, 5))\nq, r = divmod(17, 5)\nprint(\"podiel:\", q, \"zvyšok:\", r)\n\n\n(3, 2)\npodiel: 3 zvyšok: 2\n\n\n\n\nAgregácie nad zoznammi: sum(), min(), max()\n\nsum(iterable) – súčet\nmin(iterable) – minimum\nmax(iterable) – maximum\nTypické použitie: priemer, rozsah (max-min), kontrola extrémov.\n\n\n\nKód\ndata = [12.4, 11.8, 12.1, 12.6]\nprint(\"sum:\", sum(data))\nprint(\"min:\", min(data))\nprint(\"max:\", max(data))\nprint(\"priemer:\", sum(data)/len(data))\nprint(\"rozsah:\", max(data)-min(data))\n\n\nsum: 48.9\nmin: 11.8\nmax: 12.6\npriemer: 12.225\nrozsah: 0.7999999999999989",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
+      "⚙️ Funkcie",
+      "Vstavané matematické funckcie"
     ]
   },
   {
-    "objectID": "content/vnorene_cykly.html#kombinácia-while-vo-for-a-naopak",
-    "href": "content/vnorene_cykly.html#kombinácia-while-vo-for-a-naopak",
-    "title": "Vnorené cykly a podmienky",
-    "section": "🔁 Kombinácia while vo for (a naopak)",
-    "text": "🔁 Kombinácia while vo for (a naopak)\n\n\nKód\ni = 0\nwhile i &lt; 3:\n    for j in range(2):\n        print(f\"{i=}, {j=}\")\n    i += 1\n\n\ni=0, j=0\ni=0, j=1\ni=1, j=0\ni=1, j=1\ni=2, j=0\ni=2, j=1",
+    "objectID": "content/vstavane_funkcie_matematicke.html#logické-funkcie-all-a-any",
+    "href": "content/vstavane_funkcie_matematicke.html#logické-funkcie-all-a-any",
+    "title": "Vstavané matematické funckcie",
+    "section": "⚖️ Logické funkcie: all() a any()",
+    "text": "⚖️ Logické funkcie: all() a any()\n\nall(iterable) → True, ak sú všetky prvky pravdivé\nany(iterable) → True, ak aspoň jeden prvok je pravdivý\n\nPoužitie: validácia dát, detekcia výskytu podmienky v dátach.\n\n\nKód\nprint(all([True, True, True]))\nprint(all([True, False, True]))\nprint(any([False, False, True]))\nprint(any([False, False, False]))\n\n\nTrue\nFalse\nTrue\nFalse\n\n\n\nValidácia bez cyklu\nNamiesto vytvárania pomocných zoznamov sa často používa validácia bez cyklu:\n\nall(x &gt; 0 for x in hodnoty)\nany(x &lt; 0 for x in hodnoty)\n\n\n\nKód\nhodnoty = [5, 7, 9]\nvsetky_kladne = all(x &gt; 0 for x in hodnoty)\nprint(\"všetky kladné:\", vsetky_kladne)\n\ndata2 = [-1, 3, 4]\nobsahuje_zapornu = any(x &lt; 0 for x in data2)\nprint(\"obsahuje zápornú:\", obsahuje_zapornu)\n\n\nvšetky kladné: True\nobsahuje zápornú: True\n\n\n\n\nLogické hodnoty ako čísla (True==1, False==0)\nTo umožňuje jednoduché počítanie splnených podmienok pomocou sum().\n\n\nKód\ndata = [3, -2, 5, -1, 0]\npocet_zapornych = sum(x &lt; 0 for x in data)\npocet_nul = sum(x == 0 for x in data)\nprint(\"počet záporných:\", pocet_zapornych)\nprint(\"počet núl:\", pocet_nul)\n\n\npočet záporných: 2\npočet núl: 1",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
+      "⚙️ Funkcie",
+      "Vstavané matematické funckcie"
     ]
   },
   {
-    "objectID": "content/vnorene_cykly.html#podmienky-vo-vnútri-cyklu",
-    "href": "content/vnorene_cykly.html#podmienky-vo-vnútri-cyklu",
-    "title": "Vnorené cykly a podmienky",
-    "section": "🔍 Podmienky vo vnútri cyklu",
-    "text": "🔍 Podmienky vo vnútri cyklu\n\n\nKód\nfor i in range(10):\n    if i % 2 == 0:\n        print(i, \"je párne\")\n\n\n0 je párne\n2 je párne\n4 je párne\n6 je párne\n8 je párne",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
-    ]
-  },
-  {
-    "objectID": "content/vnorene_cykly.html#vnorený-if-vo-vnorenom-for",
-    "href": "content/vnorene_cykly.html#vnorený-if-vo-vnorenom-for",
-    "title": "Vnorené cykly a podmienky",
-    "section": "🧠 Vnorený if vo vnorenom for",
-    "text": "🧠 Vnorený if vo vnorenom for\n\n\nKód\nfor x in range(3):\n    for y in range(3):\n        if x == y:\n            print(f\"Na diagonále: ({x},{y})\")\n\n\nNa diagonále: (0,0)\nNa diagonále: (1,1)\nNa diagonále: (2,2)",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
-    ]
-  },
-  {
-    "objectID": "content/vnorene_cykly.html#break-predčasné-ukončenie-cyklu",
-    "href": "content/vnorene_cykly.html#break-predčasné-ukončenie-cyklu",
-    "title": "Vnorené cykly a podmienky",
-    "section": "🛑 break – predčasné ukončenie cyklu",
-    "text": "🛑 break – predčasné ukončenie cyklu\n\n\nKód\nfor i in range(10):\n    if i == 5:\n        break\n    print(i)\n\n\n0\n1\n2\n3\n4",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
-    ]
-  },
-  {
-    "objectID": "content/vnorene_cykly.html#continue-preskočenie-iterácie",
-    "href": "content/vnorene_cykly.html#continue-preskočenie-iterácie",
-    "title": "Vnorené cykly a podmienky",
-    "section": "⏭️ continue – preskočenie iterácie",
-    "text": "⏭️ continue – preskočenie iterácie\n\n\nKód\nfor i in range(5):\n    if i == 2:\n        continue\n    print(i)\n\n\n0\n1\n3\n4",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
-    ]
-  },
-  {
-    "objectID": "content/vnorene_cykly.html#zhrnutie",
-    "href": "content/vnorene_cykly.html#zhrnutie",
-    "title": "Vnorené cykly a podmienky",
+    "objectID": "content/vstavane_funkcie_matematicke.html#zhrnutie",
+    "href": "content/vstavane_funkcie_matematicke.html#zhrnutie",
+    "title": "Vstavané matematické funckcie",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nCykly môžeme vkladať do seba (vnorené cykly)\nDo cyklu môžeme vložiť if, break, continue\nbreak ukončí cyklus, continue preskočí zvyšok iterácie\nDbajte na správne odsadenie a prehľadnosť vnoreného kódu",
+    "text": "🧠 Zhrnutie\n\nMatematické funkcie riešia výpočty (abs, round, pow, divmod, sum, min, max).\nLogické funkcie riešia rozhodovanie nad dátami (all, any).\nKombináciou sum() s logickými výrazmi vieme elegantne počítať splnené podmienky.\n\n\n\n\n\n\n\n\n\n\n\nFunkcia\nVstup\nVýstup\nTypické použitie\nKrátky príklad\n\n\n\n\nabs(x)\nčíslo\nčíslo\nodchýlky, tolerancie, rozdiely\nabs(-3.5) -&gt; 3.5\n\n\nround(x, n)\nčíslo, počet des. miest\nčíslo\nzaokrúhľovanie výsledkov\nround(3.14159, 2) -&gt; 3.14\n\n\npow(a, b)\nzáklad, exponent\nčíslo\nmocniny, odmocniny\npow(2, 0.5) -&gt; 1.414...\n\n\ndivmod(a, b)\ndve celé čísla\n(podiel, zvyšok)\nindexovanie, rozklady, zvyšky\ndivmod(17, 5) -&gt; (3, 2)\n\n\nsum(iter)\nkolekcia čísiel / bool výrazov\nčíslo\nsúčet, priemer, počty podmienok\nsum([1,2,3]) -&gt; 6\n\n\nmin(iter)\nkolekcia\nprvok\nminimum, kontrola extrémov\nmin([3,1,4]) -&gt; 1\n\n\nmax(iter)\nkolekcia\nprvok\nmaximum, kontrola extrémov\nmax([3,1,4]) -&gt; 4\n\n\nall(iter)\nkolekcia bool\nTrue/False\nvalidácia „všetky platia“\nall(x&gt;0 for x in m)\n\n\nany(iter)\nkolekcia bool\nTrue/False\ndetekcia „aspoň jedna platí“\nany(x&lt;0 for x in m)",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
+      "⚙️ Funkcie",
+      "Vstavané matematické funckcie"
     ]
   },
   {
-    "objectID": "content/vnorene_cykly.html#videonávod",
-    "href": "content/vnorene_cykly.html#videonávod",
-    "title": "Vnorené cykly a podmienky",
+    "objectID": "content/vstavane_funkcie_matematicke.html#videonávod",
+    "href": "content/vstavane_funkcie_matematicke.html#videonávod",
+    "title": "Vstavané matematické funckcie",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "🏗️ Riadiace štruktúry",
-      "Vnorené cykly a podmienky"
+      "⚙️ Funkcie",
+      "Vstavané matematické funckcie"
     ]
   },
   {
-    "objectID": "content/type_a_konverzia.html",
-    "href": "content/type_a_konverzia.html",
-    "title": "Konverzia dátových typov",
+    "objectID": "content/venv.html",
+    "href": "content/venv.html",
+    "title": "Virtuálne prostredia",
     "section": "",
-    "text": "Funkcia type() zistí, aký dátový typ má hodnota alebo premenná.",
+    "text": "Virtuálne prostredie je izolovaný priestor, v ktorom môžeme nainštalovať konkrétne verzie balíkov bez ovplyvnenia iných projektov. V prostredí Anaconda môžeme virtuálne prostredia spravovať pohodlne aj cez grafické rozhranie – Anaconda Navigator.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Konverzia dátových typov"
+      "Virtuálne prostredia"
     ]
   },
   {
-    "objectID": "content/type_a_konverzia.html#úvod",
-    "href": "content/type_a_konverzia.html#úvod",
-    "title": "Konverzia dátových typov",
+    "objectID": "content/venv.html#význam-virtuálneho-prostredia",
+    "href": "content/venv.html#význam-virtuálneho-prostredia",
+    "title": "Virtuálne prostredia",
     "section": "",
-    "text": "Funkcia type() zistí, aký dátový typ má hodnota alebo premenná.",
+    "text": "Virtuálne prostredie je izolovaný priestor, v ktorom môžeme nainštalovať konkrétne verzie balíkov bez ovplyvnenia iných projektov. V prostredí Anaconda môžeme virtuálne prostredia spravovať pohodlne aj cez grafické rozhranie – Anaconda Navigator.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Konverzia dátových typov"
+      "Virtuálne prostredia"
     ]
   },
   {
-    "objectID": "content/type_a_konverzia.html#príklad",
-    "href": "content/type_a_konverzia.html#príklad",
-    "title": "Konverzia dátových typov",
-    "section": "🧪 Príklad:",
-    "text": "🧪 Príklad:\n\n\nKód\nprint(type(10))\nprint(type(3.14))\nprint(type(\"text\"))\nprint(type(True))\n\n\n&lt;class 'int'&gt;\n&lt;class 'float'&gt;\n&lt;class 'str'&gt;\n&lt;class 'bool'&gt;",
+    "objectID": "content/venv.html#vytvorenie-virtuálneho-prostredia-v-anaconda-navigator",
+    "href": "content/venv.html#vytvorenie-virtuálneho-prostredia-v-anaconda-navigator",
+    "title": "Virtuálne prostredia",
+    "section": "🧭 Vytvorenie virtuálneho prostredia v Anaconda Navigator",
+    "text": "🧭 Vytvorenie virtuálneho prostredia v Anaconda Navigator\n\nSpustite Anaconda Navigator\nPrejdite na kartu Environments\nKliknite na Create\nVyplňte:\n\nVhodný názov prostredia, napr. programovanie_1\nZvoľte jazyk Python a jeho verziu napr. 3.12.11\n\nKliknite na Create",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Konverzia dátových typov"
+      "Virtuálne prostredia"
     ]
   },
   {
-    "objectID": "content/type_a_konverzia.html#prevod-konverzia-medzi-typmi",
-    "href": "content/type_a_konverzia.html#prevod-konverzia-medzi-typmi",
-    "title": "Konverzia dátových typov",
-    "section": "🔄 Prevod (konverzia) medzi typmi",
-    "text": "🔄 Prevod (konverzia) medzi typmi\nPython umožňuje prevádzať hodnoty medzi typmi pomocou vstavaných funkcií:\n\n\n\nFunkcia\nÚčel\nPríklad\n\n\n\n\nint(x)\nna celé číslo\nint(\"5\") → 5\n\n\nfloat(x)\nna desatinné číslo\nfloat(\"3.14\")\n\n\nstr(x)\nna reťazec\nstr(10) → “10”\n\n\nbool(x)\nna logickú hodnotu\nbool(0) → False",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Konverzia dátových typov"
-    ]
-  },
-  {
-    "objectID": "content/type_a_konverzia.html#príklady-prevodov",
-    "href": "content/type_a_konverzia.html#príklady-prevodov",
-    "title": "Konverzia dátových typov",
-    "section": "📦 Príklady prevodov",
-    "text": "📦 Príklady prevodov\n\n\nKód\nx = \"42\"\ncislo = int(x)\nprint(cislo + 1)\n\ny = 3.14\ntext = str(y)\nprint(text + \"!\")\n\n\n43\n3.14!",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Konverzia dátových typov"
-    ]
-  },
-  {
-    "objectID": "content/type_a_konverzia.html#chybné-prevody",
-    "href": "content/type_a_konverzia.html#chybné-prevody",
-    "title": "Konverzia dátových typov",
-    "section": "💥 Chybné prevody",
-    "text": "💥 Chybné prevody\n\n\nKód\n# int(\"abc\")     # chyba: nedá sa previesť na číslo\n# float(\"3,14\")  # chyba: použi bodku namiesto čiarky",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Konverzia dátových typov"
-    ]
-  },
-  {
-    "objectID": "content/type_a_konverzia.html#zhrnutie",
-    "href": "content/type_a_konverzia.html#zhrnutie",
-    "title": "Konverzia dátových typov",
-    "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\ntype(x) zistí typ hodnoty alebo premennej.\nint(), float(), str(), bool() slúžia na prevody.\nNiektoré prevody môžu spôsobiť chybu, ak formát nie je správny.\nReťazec musí byť číselný, aby sa dal previesť na int alebo float.",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Konverzia dátových typov"
-    ]
-  },
-  {
-    "objectID": "content/type_a_konverzia.html#videonávod",
-    "href": "content/type_a_konverzia.html#videonávod",
-    "title": "Konverzia dátových typov",
+    "objectID": "content/venv.html#videonávod",
+    "href": "content/venv.html#videonávod",
+    "title": "Virtuálne prostredia",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Konverzia dátových typov"
+      "Virtuálne prostredia"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html",
-    "href": "content/sympy_rovnice.html",
-    "title": "Riešenie rovníc a sústav",
+    "objectID": "content/sympy_symbolicke_vyrazy.html",
+    "href": "content/sympy_symbolicke_vyrazy.html",
+    "title": "Symbolické výrazy a premenné",
     "section": "",
-    "text": "V tejto kapitole prejdeme spôsoby riešenia jednoduchých rovníc a sústav v SymPy:",
+    "text": "Balíček SymPy je určený na symbolickú matematiku v Pythone. Umožňuje pracovať so symbolickými premennými, výrazmi a funkciami podobne ako v algebre a analýze – t.j. bez okamžitej numerickej evaluácie.\n\n\nKód\nimport sympy as sp\nsp.init_printing()  # krajšie (2D) zobrazenie výrazov v notebooku",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html#úvod",
-    "href": "content/sympy_rovnice.html#úvod",
-    "title": "Riešenie rovníc a sústav",
+    "objectID": "content/sympy_symbolicke_vyrazy.html#úvod",
+    "href": "content/sympy_symbolicke_vyrazy.html#úvod",
+    "title": "Symbolické výrazy a premenné",
     "section": "",
-    "text": "V tejto kapitole prejdeme spôsoby riešenia jednoduchých rovníc a sústav v SymPy:",
+    "text": "Balíček SymPy je určený na symbolickú matematiku v Pythone. Umožňuje pracovať so symbolickými premennými, výrazmi a funkciami podobne ako v algebre a analýze – t.j. bez okamžitej numerickej evaluácie.\n\n\nKód\nimport sympy as sp\nsp.init_printing()  # krajšie (2D) zobrazenie výrazov v notebooku",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html#definovanie-rovnice",
-    "href": "content/sympy_rovnice.html#definovanie-rovnice",
-    "title": "Riešenie rovníc a sústav",
-    "section": "🟰 Definovanie rovnice",
-    "text": "🟰 Definovanie rovnice\n\n\nKód\nimport sympy as sp\n\n\n\n\nKód\nx, y = sp.symbols('x y')\nrovnica = sp.Eq(2*x + 3, 11)   # 2x + 3 = 11",
+    "objectID": "content/sympy_symbolicke_vyrazy.html#definovanie-symbolov",
+    "href": "content/sympy_symbolicke_vyrazy.html#definovanie-symbolov",
+    "title": "Symbolické výrazy a premenné",
+    "section": "🆎 Definovanie symbolov",
+    "text": "🆎 Definovanie symbolov\n\nDefinovanie jednej symbolickej premennej\n\n\nKód\ni = sp.Symbol('i')\ni\n\n\n\\(\\displaystyle i\\)\n\n\n\n\nDefinovanie viacerých symbolických premenných\n\n\nKód\nx, y, z = sp.symbols('x y z')\nx, y, z\n\n\n\\(\\displaystyle \\left( x, \\  y, \\  z\\right)\\)\n\n\n\n\nSymbol vs. symbols a assumptions\n\nsymbols('x y') je skratka na vytváranie viacerých symbolov naraz.\nTrieda Symbol vytvorí jediný symbol; užitočné, keď chcete zadať predpoklady (assumptions), napr. že premenná je kladná alebo celé číslo.\n\n\n\nKód\na = sp.Symbol('a', positive=True, real=True)   # a &gt; 0, a ∈ ℝ\nn = sp.Symbol('n', integer=True)               # n ∈ ℤ\na, n\n\n\n\\(\\displaystyle \\left( a, \\  n\\right)\\)\n\n\n\n\nZobrazenie výrazov\n\n\nKód\ndisplay(i)\ndisplay(x,y,z)\n\n\n\\(\\displaystyle i\\)\n\n\n\\(\\displaystyle x\\)\n\n\n\\(\\displaystyle y\\)\n\n\n\\(\\displaystyle z\\)",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html#solve-vs.-solveset",
-    "href": "content/sympy_rovnice.html#solve-vs.-solveset",
-    "title": "Riešenie rovníc a sústav",
-    "section": "🆚 solve vs. solveset",
-    "text": "🆚 solve vs. solveset\n\nsolve(expr, x) hľadá korene rovnice expr = 0 a vracia zoznam/dict.\nsolveset(expr, x, domain=...) vracia množinu riešení a pracuje lepšie s doménami (ℝ/ℂ).",
+    "objectID": "content/sympy_symbolicke_vyrazy.html#práca-so-symbolickými-výrazmi",
+    "href": "content/sympy_symbolicke_vyrazy.html#práca-so-symbolickými-výrazmi",
+    "title": "Symbolické výrazy a premenné",
+    "section": "🧮 Práca so symbolickými výrazmi",
+    "text": "🧮 Práca so symbolickými výrazmi\nVýrazy skladáme rovnako, ako píšeme matematiku. SymPy si uchováva strom výrazov, s ktorým vie ďalej pracovať.\n\n\nKód\nvyraz_1 = x + y + 2*z\nvyraz_2 = x**2 + 3*x*y + y**2\nvyraz_3 = (x + y)**2\n\nvyraz_1, vyraz_2, vyraz_3\n\n\n\\(\\displaystyle \\left( x + y + 2 z, \\  x^{2} + 3 x y + y^{2}, \\  \\left(x + y\\right)^{2}\\right)\\)",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html#riešenie-jednoduchých-rovníc",
-    "href": "content/sympy_rovnice.html#riešenie-jednoduchých-rovníc",
-    "title": "Riešenie rovníc a sústav",
-    "section": "1️⃣ Riešenie jednoduchých rovníc",
-    "text": "1️⃣ Riešenie jednoduchých rovníc\n\nRiešenie s výrazom rovným 0\n\n\nKód\nsp.solve(2*x + 3 - 11, x) # 2x + 3 = 11\n\n\n[4]\n\n\n\n\nKód\nsp.solveset(2*x + 3 - 11, x) \n\n\n\\(\\displaystyle \\left\\{4\\right\\}\\)\n\n\n\n\nRiešenie s definovanou rovnicou\n\n\nKód\nsp.solve(rovnica, x)\n\n\n[4]\n\n\n\n\nKód\nsp.solveset(rovnica, x)\n\n\n\\(\\displaystyle \\left\\{4\\right\\}\\)",
+    "objectID": "content/sympy_symbolicke_vyrazy.html#zjednodušovanie-výrazov-simplify",
+    "href": "content/sympy_symbolicke_vyrazy.html#zjednodušovanie-výrazov-simplify",
+    "title": "Symbolické výrazy a premenné",
+    "section": "🔄 Zjednodušovanie výrazov — simplify",
+    "text": "🔄 Zjednodušovanie výrazov — simplify\nsimplify() sa pokúsi nájsť algebraicky jednoduchšiu (alebo kanonickejšiu) formu výrazu.\n\n\nKód\nvyraz = (x**2 + 2*x + 1) / (x + 1)\nsp.simplify(vyraz)\n\n\n\\(\\displaystyle x + 1\\)",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html#riešenie-sústav-rovníc",
-    "href": "content/sympy_rovnice.html#riešenie-sústav-rovníc",
-    "title": "Riešenie rovníc a sústav",
-    "section": "🔡 Riešenie sústav rovníc",
-    "text": "🔡 Riešenie sústav rovníc\n\n\nKód\nrovnica_1 = sp.Eq(2*x + y, 5)   # 2x + y = 5\nrovnica_2 = sp.Eq(-x + 3*y, 1)  # -x + 3y = 1\n\nsp.solve([rovnica_1, rovnica_2], (x, y))   # {x: 2, y: 1}\n\n\n{x: 2, y: 1}",
+    "objectID": "content/sympy_symbolicke_vyrazy.html#rozšírenie-a-rozklad-polynómov-expand-factor",
+    "href": "content/sympy_symbolicke_vyrazy.html#rozšírenie-a-rozklad-polynómov-expand-factor",
+    "title": "Symbolické výrazy a premenné",
+    "section": "📦 Rozšírenie a rozklad polynómov — expand, factor",
+    "text": "📦 Rozšírenie a rozklad polynómov — expand, factor\n\n\nKód\npolynom = (x + y)**2\n\nrozsireny = sp.expand(polynom)\nfaktorizovany = sp.factor(rozsireny)\n\nrozsireny, faktorizovany\n\n\n\\(\\displaystyle \\left( x^{2} + 2 x y + y^{2}, \\  \\left(x + y\\right)^{2}\\right)\\)",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html#zhrnutie",
-    "href": "content/sympy_rovnice.html#zhrnutie",
-    "title": "Riešenie rovníc a sústav",
+    "objectID": "content/sympy_symbolicke_vyrazy.html#použitie-funkcií-a-konštánt-v-symbolických-výrazoch",
+    "href": "content/sympy_symbolicke_vyrazy.html#použitie-funkcií-a-konštánt-v-symbolických-výrazoch",
+    "title": "Symbolické výrazy a premenné",
+    "section": "📐 Použitie funkcií a konštánt v symbolických výrazoch",
+    "text": "📐 Použitie funkcií a konštánt v symbolických výrazoch\n\n\nKód\ngoniometricky_vyraz = sp.sin(x)**2 + sp.cos(x)**2\nsp.simplify(goniometricky_vyraz)\n\n\n\\(\\displaystyle 1\\)\n\n\n\n\nKód\nsp.pi, sp.E\n\n\n\\(\\displaystyle \\left( \\pi, \\  e\\right)\\)",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Symbolické výrazy a premenné"
+    ]
+  },
+  {
+    "objectID": "content/sympy_symbolicke_vyrazy.html#substitúcia",
+    "href": "content/sympy_symbolicke_vyrazy.html#substitúcia",
+    "title": "Symbolické výrazy a premenné",
+    "section": "🎯Substitúcia",
+    "text": "🎯Substitúcia\nDo symbolických výrazov môžeme dosadiť čísla, iné symboly alebo celé výrazy.\n\n\nKód\nvyraz = x**2 + y\n\n\n\nDosadenie jedinej hodnoty\n\n\nKód\ndosadenie_1 = vyraz.subs(x, 3)\ndosadenie_1\n\n\n\\(\\displaystyle y + 9\\)\n\n\n\n\nDosadenie viacerých hodnôd\n\n\nKód\ndosadenie_2 = vyraz.subs({x: 2, y: 5})\ndosadenie_2\n\n\n\\(\\displaystyle 9\\)\n\n\n\n\nDosadenie výrazu do výrazu\n\n\nKód\ndosadenie_vyrazu = vyraz.subs(y, (1 - x))\ndosadenie_vyrazu\n\n\n\\(\\displaystyle x^{2} - x + 1\\)",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Symbolické výrazy a premenné"
+    ]
+  },
+  {
+    "objectID": "content/sympy_symbolicke_vyrazy.html#numerická-evaluácia",
+    "href": "content/sympy_symbolicke_vyrazy.html#numerická-evaluácia",
+    "title": "Symbolické výrazy a premenné",
+    "section": "📊 Numerická evaluácia",
+    "text": "📊 Numerická evaluácia\nAk chcete desatinné čísla (floating-point), použite evalf(). Je bežné kombinovať subs → evalf.\n\n\nKód\nvyraz = ((x + 1)/3)\ndisplay(vyraz)\ntype(vyraz)\n\n\n\\(\\displaystyle \\frac{x}{3} + \\frac{1}{3}\\)\n\n\nsympy.core.add.Add\n\n\n\n\nKód\nhodnota = vyraz.subs(x,2)\ndisplay(hodnota)\ntype(hodnota)\n\n\n\\(\\displaystyle 1\\)\n\n\nsympy.core.numbers.One\n\n\n\n\nKód\nhodnota = hodnota.evalf()\ndisplay(hodnota)\ntype(hodnota)\n\n\n\\(\\displaystyle 1.0\\)\n\n\nsympy.core.numbers.Float",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Symbolické výrazy a premenné"
+    ]
+  },
+  {
+    "objectID": "content/sympy_symbolicke_vyrazy.html#predpoklady-assumptions-a-ich-vplyv",
+    "href": "content/sympy_symbolicke_vyrazy.html#predpoklady-assumptions-a-ich-vplyv",
+    "title": "Symbolické výrazy a premenné",
+    "section": "🔐 Predpoklady (assumptions) a ich vplyv",
+    "text": "🔐 Predpoklady (assumptions) a ich vplyv\nPredpoklady môžu zjednodušiť výsledky (napr. positive=True umožní rušiť absolútne hodnoty).\n\n\nKód\nb = sp.Symbol('b', positive=True)\nsp.simplify((b**2)**(1/2))  # pre b&gt;0 sa √(b²) zjednoduší na b\n\n\n\\(\\displaystyle b^{1.0}\\)",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Symbolické výrazy a premenné"
+    ]
+  },
+  {
+    "objectID": "content/sympy_symbolicke_vyrazy.html#zhrnutie",
+    "href": "content/sympy_symbolicke_vyrazy.html#zhrnutie",
+    "title": "Symbolické výrazy a premenné",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nJedna premenná: preferovaný solveset(expr, x, domain=...) (ℝ/ℂ).\nLineárne sústavy: linsolve (vracia množinu riešení, zvláda aj parametre).\nNelineárne sústavy: nonlinsolve (symbolicky), nsolve (numericky, potrebuje odhad).\nOverenie: Eq + substitúcia + simplify().",
+    "text": "🧠 Zhrnutie\n\nSymboly: symbols('x y z'), Symbol('a', positive=True, integer=True, ...)\n\nVýrazy: bežná algebra s + - * / **, funkcie sin, cos, exp, …\n\nUpravy: expand, factor, simplify\n\nDosadzovanie: subs (aj viacnásobné)\n\nNumerika: evalf (väčšinou po subs)\n\nPredpoklady: uľahčujú zjednodušenia a kontrolu domény symbolov.",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html#oficiálna-dokumentácia-sympy",
-    "href": "content/sympy_rovnice.html#oficiálna-dokumentácia-sympy",
-    "title": "Riešenie rovníc a sústav",
+    "objectID": "content/sympy_symbolicke_vyrazy.html#oficiálna-dokumentácia-sympy",
+    "href": "content/sympy_symbolicke_vyrazy.html#oficiálna-dokumentácia-sympy",
+    "title": "Symbolické výrazy a premenné",
     "section": "📚 Oficiálna dokumentácia SymPy",
     "text": "📚 Oficiálna dokumentácia SymPy\nPodrobný popis funkcií, ich parametrov a príkladov použitia nájdete v oficiálnej dokumentácii knižnice SymPy na adrese: https://docs.sympy.org/latest/index.html.",
     "crumbs": [
@@ -774,13 +689,13 @@
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/sympy_rovnice.html#videonávod",
-    "href": "content/sympy_rovnice.html#videonávod",
-    "title": "Riešenie rovníc a sústav",
+    "objectID": "content/sympy_symbolicke_vyrazy.html#videonávod",
+    "href": "content/sympy_symbolicke_vyrazy.html#videonávod",
+    "title": "Symbolické výrazy a premenné",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
@@ -788,163 +703,189 @@
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Riešenie rovníc a sústav"
+      "Symbolické výrazy a premenné"
     ]
   },
   {
-    "objectID": "content/slovniky.html",
-    "href": "content/slovniky.html",
-    "title": "Slovníky",
+    "objectID": "content/sympy_derivovanie_integrovanie.html",
+    "href": "content/sympy_derivovanie_integrovanie.html",
+    "title": "Derivácie a integrály",
     "section": "",
-    "text": "Slovník (dict) je kolekcia párov kľúč: hodnota. Hodnoty získavame cez kľúče, nie cez indexy ako pri zoznamoch.",
+    "text": "Balíček SymPy umožňuje symbolicky derivovať a integrovať výrazy.\nKľúčové funkcie: - Derivácie: diff, Derivative (formálny objekt), doit()\n- Integrály: integrate, Integral (formálny objekt), doit()\n- Hodnotenie: subs, evalf / N —",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Derivácie a integrály"
     ]
   },
   {
-    "objectID": "content/slovniky.html#úvod",
-    "href": "content/slovniky.html#úvod",
-    "title": "Slovníky",
+    "objectID": "content/sympy_derivovanie_integrovanie.html#úvod",
+    "href": "content/sympy_derivovanie_integrovanie.html#úvod",
+    "title": "Derivácie a integrály",
     "section": "",
-    "text": "Slovník (dict) je kolekcia párov kľúč: hodnota. Hodnoty získavame cez kľúče, nie cez indexy ako pri zoznamoch.",
+    "text": "Balíček SymPy umožňuje symbolicky derivovať a integrovať výrazy.\nKľúčové funkcie: - Derivácie: diff, Derivative (formálny objekt), doit()\n- Integrály: integrate, Integral (formálny objekt), doit()\n- Hodnotenie: subs, evalf / N —",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Derivácie a integrály"
     ]
   },
   {
-    "objectID": "content/slovniky.html#vytvorenie-slovníka",
-    "href": "content/slovniky.html#vytvorenie-slovníka",
-    "title": "Slovníky",
-    "section": "🧪 Vytvorenie slovníka",
-    "text": "🧪 Vytvorenie slovníka\n\n\nKód\nosoba = {\"meno\": \"Anna\", \"vek\": 25, \"student\": True}",
+    "objectID": "content/sympy_derivovanie_integrovanie.html#derivovanie",
+    "href": "content/sympy_derivovanie_integrovanie.html#derivovanie",
+    "title": "Derivácie a integrály",
+    "section": "🧮 Derivovanie",
+    "text": "🧮 Derivovanie\n\n\nKód\nimport sympy as sp\nsp.init_printing()\n\nx, y, a = sp.symbols('x y a')\n\n\n\nJednoduché derivácie\n\n\nKód\nsp.diff(x**3 + 2*x - 5, x)          # 3*x**2 + 2\n\n\n\\(\\displaystyle 3 x^{2} + 2\\)\n\n\n\n\nKód\nsp.diff(sp.sin(x) + sp.exp(2*x), x)       # cos(x) + 2*exp(2*x)\n\n\n\\(\\displaystyle 2 e^{2 x} + \\cos{\\left(x \\right)}\\)\n\n\n\n\nKód\nsp.diff(sp.log(x), x)                  # 1/x\n\n\n\\(\\displaystyle \\frac{1}{x}\\)\n\n\n\n\nVyšší rád derivácie\n\n\nKód\nsp.diff(sp.sin(x), x, 2), \n\n\n\\(\\displaystyle \\left( - \\sin{\\left(x \\right)},\\right)\\)\n\n\n\n\nKód\nsp.diff(sp.exp(a*x), x, 3)\n\n\n\\(\\displaystyle a^{3} e^{a x}\\)\n\n\n\n\nParciálne derivácie\n\n\nKód\nf = x**2 * y + sp.sin(x*y)\n\n\n\n\nKód\nsp.diff(f, x)\n\n\n\\(\\displaystyle 2 x y + y \\cos{\\left(x y \\right)}\\)\n\n\n\n\nKód\nsp.diff(f, y)\n\n\n\\(\\displaystyle x^{2} + x \\cos{\\left(x y \\right)}\\)\n\n\n\nZmiešaná parciálna derivácia\n\n\nKód\nsp.diff(f, x, 1, y, 2) \n\n\n\\(\\displaystyle - x \\left(x y \\cos{\\left(x y \\right)} + 2 \\sin{\\left(x y \\right)}\\right)\\)\n\n\nTento zápis namená derivovanie funkcie f podľa viacerých premenných naraz. - f – funkcia, ktorú derivujeme, - x, 1 – derivuje raz podľa x, - y, 2 – derivuje dvakrát podľa y.\n➡️ Výsledkom je zmiešaná parciálna derivácia.\n\n\n\nFormálny diferenciálny objekt a vyhodnotenie\n\n\nKód\nD = sp.Derivative(sp.sin(x**2), x)\nD, D.doit()\n\n\n\\(\\displaystyle \\left( \\frac{d}{d x} \\sin{\\left(x^{2} \\right)}, \\  2 x \\cos{\\left(x^{2} \\right)}\\right)\\)",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Derivácie a integrály"
     ]
   },
   {
-    "objectID": "content/slovniky.html#prístup-k-hodnote-pomocou-kľúča",
-    "href": "content/slovniky.html#prístup-k-hodnote-pomocou-kľúča",
-    "title": "Slovníky",
-    "section": "🔍 Prístup k hodnote pomocou kľúča",
-    "text": "🔍 Prístup k hodnote pomocou kľúča\n\n\nKód\nprint(osoba[\"meno\"])\nprint(osoba[\"vek\"])\n\n\nAnna\n25",
+    "objectID": "content/sympy_derivovanie_integrovanie.html#integrovanie",
+    "href": "content/sympy_derivovanie_integrovanie.html#integrovanie",
+    "title": "Derivácie a integrály",
+    "section": "🧮 Integrovanie",
+    "text": "🧮 Integrovanie\n\nNeurčitý integrál\n\n⚠️ SymPy nevracia „+c“ — integračná konštanta je implicitná.\n\n\n\nKód\nsp.integrate(3*x**2 + 2, x), \n\n\n\\(\\displaystyle \\left( x^{3} + 2 x,\\right)\\)\n\n\n\n\nKód\nsp.integrate(sp.exp(a*x), x)\n\n\n\\(\\displaystyle \\begin{cases} \\frac{e^{a x}}{a} & \\text{for}\\: a \\neq 0 \\\\x & \\text{otherwise} \\end{cases}\\)\n\n\n\n\nKód\nsp.integrate(sp.cos(x), x)\n\n\n\\(\\displaystyle \\sin{\\left(x \\right)}\\)\n\n\n\n\nUrčitý integrál\n\n\nKód\nsp.integrate(sp.sin(x), (x, 0, sp.pi)), \n\n\n\\(\\displaystyle \\left( 2,\\right)\\)\n\n\n\n\nKód\nsp.integrate(x**2, (x, -1, 2))\n\n\n\\(\\displaystyle 3\\)\n\n\n\nFormálny objekt a vyhodnotenie\n\n\nKód\nI = sp.Integral((x**2),(x,0,10))\nI, I.doit()\n\n\n\\(\\displaystyle \\left( \\int\\limits_{0}^{10} x^{2}\\, dx, \\  \\frac{1000}{3}\\right)\\)",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Derivácie a integrály"
     ]
   },
   {
-    "objectID": "content/slovniky.html#zmena-a-pridanie-hodnoty",
-    "href": "content/slovniky.html#zmena-a-pridanie-hodnoty",
-    "title": "Slovníky",
-    "section": "✏️ Zmena a pridanie hodnoty",
-    "text": "✏️ Zmena a pridanie hodnoty\n\n\nKód\nosoba[\"vek\"] = 26\nosoba[\"mesto\"] = \"Bratislava\"\nprint(osoba)\n\n\n{'meno': 'Anna', 'vek': 26, 'student': True, 'mesto': 'Bratislava'}",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
-    ]
-  },
-  {
-    "objectID": "content/slovniky.html#odstránenie-prvkov",
-    "href": "content/slovniky.html#odstránenie-prvkov",
-    "title": "Slovníky",
-    "section": "❌ Odstránenie prvkov",
-    "text": "❌ Odstránenie prvkov\n\n\nKód\ndel osoba[\"student\"]\nprint(osoba)\n\n\n{'meno': 'Anna', 'vek': 26, 'mesto': 'Bratislava'}",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
-    ]
-  },
-  {
-    "objectID": "content/slovniky.html#iterácia-cez-slovník",
-    "href": "content/slovniky.html#iterácia-cez-slovník",
-    "title": "Slovníky",
-    "section": "📜 Iterácia cez slovník",
-    "text": "📜 Iterácia cez slovník\n\n\nKód\nfor kluc, hodnota in osoba.items():\n    print(kluc, \"→\", hodnota)\n\n\nmeno → Anna\nvek → 26\nmesto → Bratislava",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
-    ]
-  },
-  {
-    "objectID": "content/slovniky.html#užitočné-metódy",
-    "href": "content/slovniky.html#užitočné-metódy",
-    "title": "Slovníky",
-    "section": "🧰 Užitočné metódy",
-    "text": "🧰 Užitočné metódy\n\nVypísanie všetkých kľúčov v slovníku\n\n\nKód\nprint(osoba.keys())      # všetky kľúče\n\n\ndict_keys(['meno', 'vek', 'mesto'])\n\n\n\n\nVypísanie všetkých hodnôt v slovníku\n\n\nKód\nprint(osoba.values())    # všetky hodnoty\n\n\ndict_values(['Anna', 26, 'Bratislava'])\n\n\n\n\nVypísanie všetkých párov v slovníku\n\n\nKód\nprint(osoba.items())     # všetky páry\n\n\ndict_items([('meno', 'Anna'), ('vek', 26), ('mesto', 'Bratislava')])",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
-    ]
-  },
-  {
-    "objectID": "content/slovniky.html#overenie-existencie-kľúča",
-    "href": "content/slovniky.html#overenie-existencie-kľúča",
-    "title": "Slovníky",
-    "section": "🔎 Overenie existencie kľúča",
-    "text": "🔎 Overenie existencie kľúča\n\n\nKód\nif \"vek\" in osoba:\n    print(\"Kľúč 'vek' existuje!\")\n\n\nKľúč 'vek' existuje!",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
-    ]
-  },
-  {
-    "objectID": "content/slovniky.html#vnorené-slovníky-a-kombinácie",
-    "href": "content/slovniky.html#vnorené-slovníky-a-kombinácie",
-    "title": "Slovníky",
-    "section": "🧪 Vnorené slovníky a kombinácie",
-    "text": "🧪 Vnorené slovníky a kombinácie\n\n\nKód\nstudenti = {\n    \"001\": {\"meno\": \"Eva\", \"vek\": 20},\n    \"002\": {\"meno\": \"Ján\", \"vek\": 22}\n}\nprint(studenti[\"001\"][\"meno\"])\n\n\nEva",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
-    ]
-  },
-  {
-    "objectID": "content/slovniky.html#zhrnutie",
-    "href": "content/slovniky.html#zhrnutie",
-    "title": "Slovníky",
+    "objectID": "content/sympy_derivovanie_integrovanie.html#zhrnutie",
+    "href": "content/sympy_derivovanie_integrovanie.html#zhrnutie",
+    "title": "Derivácie a integrály",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\ndict = kolekcia párov kľúč: hodnota\nHodnoty získavame cez kľúč\nMôžeme meniť, pridávať aj mazať páry\nPodporuje iteráciu, kontrolu členstva a vnorené štruktúry",
+    "text": "🧠 Zhrnutie\n\nDerivácie: diff(expr, var, n).\nIntegrály: integrate(expr, (var, a, b)) alebo integrate(expr, var).\nFormálne objekty: Derivative, Integral + doit().",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Derivácie a integrály"
     ]
   },
   {
-    "objectID": "content/slovniky.html#videonávod",
-    "href": "content/slovniky.html#videonávod",
-    "title": "Slovníky",
+    "objectID": "content/sympy_derivovanie_integrovanie.html#oficiálna-dokumentácia-sympy",
+    "href": "content/sympy_derivovanie_integrovanie.html#oficiálna-dokumentácia-sympy",
+    "title": "Derivácie a integrály",
+    "section": "📚 Oficiálna dokumentácia SymPy",
+    "text": "📚 Oficiálna dokumentácia SymPy\nPodrobný popis funkcií, ich parametrov a príkladov použitia nájdete v oficiálnej dokumentácii knižnice SymPy na adrese: https://docs.sympy.org/latest/index.html.",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Derivácie a integrály"
+    ]
+  },
+  {
+    "objectID": "content/sympy_derivovanie_integrovanie.html#videonávod",
+    "href": "content/sympy_derivovanie_integrovanie.html#videonávod",
+    "title": "Derivácie a integrály",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "🏡 Domov",
-      "💻 Programovanie 1",
-      "💾 Dátové štruktúry",
-      "Slovníky"
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Derivácie a integrály"
+    ]
+  },
+  {
+    "objectID": "content/sandbox/afwizard/afwizard.html",
+    "href": "content/sandbox/afwizard/afwizard.html",
+    "title": "🧙🏼‍♂️ AFWizard - 🚧 WIP",
+    "section": "",
+    "text": "Placeholder",
+    "crumbs": [
+      "🏡 Domov",
+      "🛝 Pieskovisko",
+      "🧙🏼‍♂️ AFWizard - 🚧 WIP"
+    ]
+  },
+  {
+    "objectID": "content/sandbox/afwizard/afwizard.html#úvod",
+    "href": "content/sandbox/afwizard/afwizard.html#úvod",
+    "title": "🧙🏼‍♂️ AFWizard - 🚧 WIP",
+    "section": "",
+    "text": "Placeholder",
+    "crumbs": [
+      "🏡 Domov",
+      "🛝 Pieskovisko",
+      "🧙🏼‍♂️ AFWizard - 🚧 WIP"
+    ]
+  },
+  {
+    "objectID": "content/sandbox/afwizard/afwizard.html#inštalácia-knižnice-afwizard",
+    "href": "content/sandbox/afwizard/afwizard.html#inštalácia-knižnice-afwizard",
+    "title": "🧙🏼‍♂️ AFWizard - 🚧 WIP",
+    "section": "🗃️ Inštalácia knižnice AfWizard",
+    "text": "🗃️ Inštalácia knižnice AfWizard\nPlaceholder",
+    "crumbs": [
+      "🏡 Domov",
+      "🛝 Pieskovisko",
+      "🧙🏼‍♂️ AFWizard - 🚧 WIP"
+    ]
+  },
+  {
+    "objectID": "content/sandbox/afwizard/afwizard.html#vstupné-dáta",
+    "href": "content/sandbox/afwizard/afwizard.html#vstupné-dáta",
+    "title": "🧙🏼‍♂️ AFWizard - 🚧 WIP",
+    "section": "☁️ Vstupné dáta",
+    "text": "☁️ Vstupné dáta\nPlaceholder",
+    "crumbs": [
+      "🏡 Domov",
+      "🛝 Pieskovisko",
+      "🧙🏼‍♂️ AFWizard - 🚧 WIP"
+    ]
+  },
+  {
+    "objectID": "content/sandbox/afwizard/afwizard.html#postup",
+    "href": "content/sandbox/afwizard/afwizard.html#postup",
+    "title": "🧙🏼‍♂️ AFWizard - 🚧 WIP",
+    "section": "⚙️ Postup",
+    "text": "⚙️ Postup\nPlaceholder\n\nPredspracovanie\nPlaceholder\n\n\nSpracovanie\nPlaceholder",
+    "crumbs": [
+      "🏡 Domov",
+      "🛝 Pieskovisko",
+      "🧙🏼‍♂️ AFWizard - 🚧 WIP"
+    ]
+  },
+  {
+    "objectID": "content/sandbox/afwizard/afwizard.html#výstupy-a-záver",
+    "href": "content/sandbox/afwizard/afwizard.html#výstupy-a-záver",
+    "title": "🧙🏼‍♂️ AFWizard - 🚧 WIP",
+    "section": "📤 Výstupy a záver",
+    "text": "📤 Výstupy a záver\nPlaceholder",
+    "crumbs": [
+      "🏡 Domov",
+      "🛝 Pieskovisko",
+      "🧙🏼‍♂️ AFWizard - 🚧 WIP"
+    ]
+  },
+  {
+    "objectID": "content/sandbox/afwizard/afwizard.html#zdroje-a-užitočné-odkazy",
+    "href": "content/sandbox/afwizard/afwizard.html#zdroje-a-užitočné-odkazy",
+    "title": "🧙🏼‍♂️ AFWizard - 🚧 WIP",
+    "section": "🔗 Zdroje a užitočné odkazy",
+    "text": "🔗 Zdroje a užitočné odkazy\nPlaceholder",
+    "crumbs": [
+      "🏡 Domov",
+      "🛝 Pieskovisko",
+      "🧙🏼‍♂️ AFWizard - 🚧 WIP"
     ]
   },
   {
@@ -4546,79 +4487,263 @@
     ]
   },
   {
-    "objectID": "content/sympy_derivovanie_integrovanie.html",
-    "href": "content/sympy_derivovanie_integrovanie.html",
-    "title": "Derivácie a integrály",
+    "objectID": "content/slovniky.html",
+    "href": "content/slovniky.html",
+    "title": "Slovníky",
     "section": "",
-    "text": "Balíček SymPy umožňuje symbolicky derivovať a integrovať výrazy.\nKľúčové funkcie: - Derivácie: diff, Derivative (formálny objekt), doit()\n- Integrály: integrate, Integral (formálny objekt), doit()\n- Hodnotenie: subs, evalf / N —",
+    "text": "Slovník (dict) je kolekcia párov kľúč: hodnota. Hodnoty získavame cez kľúče, nie cez indexy ako pri zoznamoch.",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Derivácie a integrály"
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
     ]
   },
   {
-    "objectID": "content/sympy_derivovanie_integrovanie.html#úvod",
-    "href": "content/sympy_derivovanie_integrovanie.html#úvod",
-    "title": "Derivácie a integrály",
+    "objectID": "content/slovniky.html#úvod",
+    "href": "content/slovniky.html#úvod",
+    "title": "Slovníky",
     "section": "",
-    "text": "Balíček SymPy umožňuje symbolicky derivovať a integrovať výrazy.\nKľúčové funkcie: - Derivácie: diff, Derivative (formálny objekt), doit()\n- Integrály: integrate, Integral (formálny objekt), doit()\n- Hodnotenie: subs, evalf / N —",
+    "text": "Slovník (dict) je kolekcia párov kľúč: hodnota. Hodnoty získavame cez kľúče, nie cez indexy ako pri zoznamoch.",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Derivácie a integrály"
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
     ]
   },
   {
-    "objectID": "content/sympy_derivovanie_integrovanie.html#derivovanie",
-    "href": "content/sympy_derivovanie_integrovanie.html#derivovanie",
-    "title": "Derivácie a integrály",
-    "section": "🧮 Derivovanie",
-    "text": "🧮 Derivovanie\n\n\nKód\nimport sympy as sp\nsp.init_printing()\n\nx, y, a = sp.symbols('x y a')\n\n\n\nJednoduché derivácie\n\n\nKód\nsp.diff(x**3 + 2*x - 5, x)          # 3*x**2 + 2\n\n\n\\(\\displaystyle 3 x^{2} + 2\\)\n\n\n\n\nKód\nsp.diff(sp.sin(x) + sp.exp(2*x), x)       # cos(x) + 2*exp(2*x)\n\n\n\\(\\displaystyle 2 e^{2 x} + \\cos{\\left(x \\right)}\\)\n\n\n\n\nKód\nsp.diff(sp.log(x), x)                  # 1/x\n\n\n\\(\\displaystyle \\frac{1}{x}\\)\n\n\n\n\nVyšší rád derivácie\n\n\nKód\nsp.diff(sp.sin(x), x, 2), \n\n\n\\(\\displaystyle \\left( - \\sin{\\left(x \\right)},\\right)\\)\n\n\n\n\nKód\nsp.diff(sp.exp(a*x), x, 3)\n\n\n\\(\\displaystyle a^{3} e^{a x}\\)\n\n\n\n\nParciálne derivácie\n\n\nKód\nf = x**2 * y + sp.sin(x*y)\n\n\n\n\nKód\nsp.diff(f, x)\n\n\n\\(\\displaystyle 2 x y + y \\cos{\\left(x y \\right)}\\)\n\n\n\n\nKód\nsp.diff(f, y)\n\n\n\\(\\displaystyle x^{2} + x \\cos{\\left(x y \\right)}\\)\n\n\n\nZmiešaná parciálna derivácia\n\n\nKód\nsp.diff(f, x, 1, y, 2) \n\n\n\\(\\displaystyle - x \\left(x y \\cos{\\left(x y \\right)} + 2 \\sin{\\left(x y \\right)}\\right)\\)\n\n\nTento zápis namená derivovanie funkcie f podľa viacerých premenných naraz. - f – funkcia, ktorú derivujeme, - x, 1 – derivuje raz podľa x, - y, 2 – derivuje dvakrát podľa y.\n➡️ Výsledkom je zmiešaná parciálna derivácia.\n\n\n\nFormálny diferenciálny objekt a vyhodnotenie\n\n\nKód\nD = sp.Derivative(sp.sin(x**2), x)\nD, D.doit()\n\n\n\\(\\displaystyle \\left( \\frac{d}{d x} \\sin{\\left(x^{2} \\right)}, \\  2 x \\cos{\\left(x^{2} \\right)}\\right)\\)",
+    "objectID": "content/slovniky.html#vytvorenie-slovníka",
+    "href": "content/slovniky.html#vytvorenie-slovníka",
+    "title": "Slovníky",
+    "section": "🧪 Vytvorenie slovníka",
+    "text": "🧪 Vytvorenie slovníka\n\n\nKód\nosoba = {\"meno\": \"Anna\", \"vek\": 25, \"student\": True}",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Derivácie a integrály"
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
     ]
   },
   {
-    "objectID": "content/sympy_derivovanie_integrovanie.html#integrovanie",
-    "href": "content/sympy_derivovanie_integrovanie.html#integrovanie",
-    "title": "Derivácie a integrály",
-    "section": "🧮 Integrovanie",
-    "text": "🧮 Integrovanie\n\nNeurčitý integrál\n\n⚠️ SymPy nevracia „+c“ — integračná konštanta je implicitná.\n\n\n\nKód\nsp.integrate(3*x**2 + 2, x), \n\n\n\\(\\displaystyle \\left( x^{3} + 2 x,\\right)\\)\n\n\n\n\nKód\nsp.integrate(sp.exp(a*x), x)\n\n\n\\(\\displaystyle \\begin{cases} \\frac{e^{a x}}{a} & \\text{for}\\: a \\neq 0 \\\\x & \\text{otherwise} \\end{cases}\\)\n\n\n\n\nKód\nsp.integrate(sp.cos(x), x)\n\n\n\\(\\displaystyle \\sin{\\left(x \\right)}\\)\n\n\n\n\nUrčitý integrál\n\n\nKód\nsp.integrate(sp.sin(x), (x, 0, sp.pi)), \n\n\n\\(\\displaystyle \\left( 2,\\right)\\)\n\n\n\n\nKód\nsp.integrate(x**2, (x, -1, 2))\n\n\n\\(\\displaystyle 3\\)\n\n\n\nFormálny objekt a vyhodnotenie\n\n\nKód\nI = sp.Integral((x**2),(x,0,10))\nI, I.doit()\n\n\n\\(\\displaystyle \\left( \\int\\limits_{0}^{10} x^{2}\\, dx, \\  \\frac{1000}{3}\\right)\\)",
+    "objectID": "content/slovniky.html#prístup-k-hodnote-pomocou-kľúča",
+    "href": "content/slovniky.html#prístup-k-hodnote-pomocou-kľúča",
+    "title": "Slovníky",
+    "section": "🔍 Prístup k hodnote pomocou kľúča",
+    "text": "🔍 Prístup k hodnote pomocou kľúča\n\n\nKód\nprint(osoba[\"meno\"])\nprint(osoba[\"vek\"])\n\n\nAnna\n25",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Derivácie a integrály"
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
     ]
   },
   {
-    "objectID": "content/sympy_derivovanie_integrovanie.html#zhrnutie",
-    "href": "content/sympy_derivovanie_integrovanie.html#zhrnutie",
-    "title": "Derivácie a integrály",
+    "objectID": "content/slovniky.html#zmena-a-pridanie-hodnoty",
+    "href": "content/slovniky.html#zmena-a-pridanie-hodnoty",
+    "title": "Slovníky",
+    "section": "✏️ Zmena a pridanie hodnoty",
+    "text": "✏️ Zmena a pridanie hodnoty\n\n\nKód\nosoba[\"vek\"] = 26\nosoba[\"mesto\"] = \"Bratislava\"\nprint(osoba)\n\n\n{'meno': 'Anna', 'vek': 26, 'student': True, 'mesto': 'Bratislava'}",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
+    ]
+  },
+  {
+    "objectID": "content/slovniky.html#odstránenie-prvkov",
+    "href": "content/slovniky.html#odstránenie-prvkov",
+    "title": "Slovníky",
+    "section": "❌ Odstránenie prvkov",
+    "text": "❌ Odstránenie prvkov\n\n\nKód\ndel osoba[\"student\"]\nprint(osoba)\n\n\n{'meno': 'Anna', 'vek': 26, 'mesto': 'Bratislava'}",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
+    ]
+  },
+  {
+    "objectID": "content/slovniky.html#iterácia-cez-slovník",
+    "href": "content/slovniky.html#iterácia-cez-slovník",
+    "title": "Slovníky",
+    "section": "📜 Iterácia cez slovník",
+    "text": "📜 Iterácia cez slovník\n\n\nKód\nfor kluc, hodnota in osoba.items():\n    print(kluc, \"→\", hodnota)\n\n\nmeno → Anna\nvek → 26\nmesto → Bratislava",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
+    ]
+  },
+  {
+    "objectID": "content/slovniky.html#užitočné-metódy",
+    "href": "content/slovniky.html#užitočné-metódy",
+    "title": "Slovníky",
+    "section": "🧰 Užitočné metódy",
+    "text": "🧰 Užitočné metódy\n\nVypísanie všetkých kľúčov v slovníku\n\n\nKód\nprint(osoba.keys())      # všetky kľúče\n\n\ndict_keys(['meno', 'vek', 'mesto'])\n\n\n\n\nVypísanie všetkých hodnôt v slovníku\n\n\nKód\nprint(osoba.values())    # všetky hodnoty\n\n\ndict_values(['Anna', 26, 'Bratislava'])\n\n\n\n\nVypísanie všetkých párov v slovníku\n\n\nKód\nprint(osoba.items())     # všetky páry\n\n\ndict_items([('meno', 'Anna'), ('vek', 26), ('mesto', 'Bratislava')])",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
+    ]
+  },
+  {
+    "objectID": "content/slovniky.html#overenie-existencie-kľúča",
+    "href": "content/slovniky.html#overenie-existencie-kľúča",
+    "title": "Slovníky",
+    "section": "🔎 Overenie existencie kľúča",
+    "text": "🔎 Overenie existencie kľúča\n\n\nKód\nif \"vek\" in osoba:\n    print(\"Kľúč 'vek' existuje!\")\n\n\nKľúč 'vek' existuje!",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
+    ]
+  },
+  {
+    "objectID": "content/slovniky.html#vnorené-slovníky-a-kombinácie",
+    "href": "content/slovniky.html#vnorené-slovníky-a-kombinácie",
+    "title": "Slovníky",
+    "section": "🧪 Vnorené slovníky a kombinácie",
+    "text": "🧪 Vnorené slovníky a kombinácie\n\n\nKód\nstudenti = {\n    \"001\": {\"meno\": \"Eva\", \"vek\": 20},\n    \"002\": {\"meno\": \"Ján\", \"vek\": 22}\n}\nprint(studenti[\"001\"][\"meno\"])\n\n\nEva",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
+    ]
+  },
+  {
+    "objectID": "content/slovniky.html#zhrnutie",
+    "href": "content/slovniky.html#zhrnutie",
+    "title": "Slovníky",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nDerivácie: diff(expr, var, n).\nIntegrály: integrate(expr, (var, a, b)) alebo integrate(expr, var).\nFormálne objekty: Derivative, Integral + doit().",
+    "text": "🧠 Zhrnutie\n\ndict = kolekcia párov kľúč: hodnota\nHodnoty získavame cez kľúč\nMôžeme meniť, pridávať aj mazať páry\nPodporuje iteráciu, kontrolu členstva a vnorené štruktúry",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
+    ]
+  },
+  {
+    "objectID": "content/slovniky.html#videonávod",
+    "href": "content/slovniky.html#videonávod",
+    "title": "Slovníky",
+    "section": "🎞️ Videonávod",
+    "text": "🎞️ Videonávod",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Slovníky"
+    ]
+  },
+  {
+    "objectID": "content/sympy_rovnice.html",
+    "href": "content/sympy_rovnice.html",
+    "title": "Riešenie rovníc a sústav",
+    "section": "",
+    "text": "V tejto kapitole prejdeme spôsoby riešenia jednoduchých rovníc a sústav v SymPy:",
     "crumbs": [
       "🏡 Domov",
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Derivácie a integrály"
+      "Riešenie rovníc a sústav"
     ]
   },
   {
-    "objectID": "content/sympy_derivovanie_integrovanie.html#oficiálna-dokumentácia-sympy",
-    "href": "content/sympy_derivovanie_integrovanie.html#oficiálna-dokumentácia-sympy",
-    "title": "Derivácie a integrály",
+    "objectID": "content/sympy_rovnice.html#úvod",
+    "href": "content/sympy_rovnice.html#úvod",
+    "title": "Riešenie rovníc a sústav",
+    "section": "",
+    "text": "V tejto kapitole prejdeme spôsoby riešenia jednoduchých rovníc a sústav v SymPy:",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Riešenie rovníc a sústav"
+    ]
+  },
+  {
+    "objectID": "content/sympy_rovnice.html#definovanie-rovnice",
+    "href": "content/sympy_rovnice.html#definovanie-rovnice",
+    "title": "Riešenie rovníc a sústav",
+    "section": "🟰 Definovanie rovnice",
+    "text": "🟰 Definovanie rovnice\n\n\nKód\nimport sympy as sp\n\n\n\n\nKód\nx, y = sp.symbols('x y')\nrovnica = sp.Eq(2*x + 3, 11)   # 2x + 3 = 11",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Riešenie rovníc a sústav"
+    ]
+  },
+  {
+    "objectID": "content/sympy_rovnice.html#solve-vs.-solveset",
+    "href": "content/sympy_rovnice.html#solve-vs.-solveset",
+    "title": "Riešenie rovníc a sústav",
+    "section": "🆚 solve vs. solveset",
+    "text": "🆚 solve vs. solveset\n\nsolve(expr, x) hľadá korene rovnice expr = 0 a vracia zoznam/dict.\nsolveset(expr, x, domain=...) vracia množinu riešení a pracuje lepšie s doménami (ℝ/ℂ).",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Riešenie rovníc a sústav"
+    ]
+  },
+  {
+    "objectID": "content/sympy_rovnice.html#riešenie-jednoduchých-rovníc",
+    "href": "content/sympy_rovnice.html#riešenie-jednoduchých-rovníc",
+    "title": "Riešenie rovníc a sústav",
+    "section": "1️⃣ Riešenie jednoduchých rovníc",
+    "text": "1️⃣ Riešenie jednoduchých rovníc\n\nRiešenie s výrazom rovným 0\n\n\nKód\nsp.solve(2*x + 3 - 11, x) # 2x + 3 = 11\n\n\n[4]\n\n\n\n\nKód\nsp.solveset(2*x + 3 - 11, x) \n\n\n\\(\\displaystyle \\left\\{4\\right\\}\\)\n\n\n\n\nRiešenie s definovanou rovnicou\n\n\nKód\nsp.solve(rovnica, x)\n\n\n[4]\n\n\n\n\nKód\nsp.solveset(rovnica, x)\n\n\n\\(\\displaystyle \\left\\{4\\right\\}\\)",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Riešenie rovníc a sústav"
+    ]
+  },
+  {
+    "objectID": "content/sympy_rovnice.html#riešenie-sústav-rovníc",
+    "href": "content/sympy_rovnice.html#riešenie-sústav-rovníc",
+    "title": "Riešenie rovníc a sústav",
+    "section": "🔡 Riešenie sústav rovníc",
+    "text": "🔡 Riešenie sústav rovníc\n\n\nKód\nrovnica_1 = sp.Eq(2*x + y, 5)   # 2x + y = 5\nrovnica_2 = sp.Eq(-x + 3*y, 1)  # -x + 3y = 1\n\nsp.solve([rovnica_1, rovnica_2], (x, y))   # {x: 2, y: 1}\n\n\n{x: 2, y: 1}",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Riešenie rovníc a sústav"
+    ]
+  },
+  {
+    "objectID": "content/sympy_rovnice.html#zhrnutie",
+    "href": "content/sympy_rovnice.html#zhrnutie",
+    "title": "Riešenie rovníc a sústav",
+    "section": "🧠 Zhrnutie",
+    "text": "🧠 Zhrnutie\n\nJedna premenná: preferovaný solveset(expr, x, domain=...) (ℝ/ℂ).\nLineárne sústavy: linsolve (vracia množinu riešení, zvláda aj parametre).\nNelineárne sústavy: nonlinsolve (symbolicky), nsolve (numericky, potrebuje odhad).\nOverenie: Eq + substitúcia + simplify().",
+    "crumbs": [
+      "🏡 Domov",
+      "🖥️ Programovanie 2",
+      "📚 Knižnice",
+      "🧮 SymPy",
+      "Riešenie rovníc a sústav"
+    ]
+  },
+  {
+    "objectID": "content/sympy_rovnice.html#oficiálna-dokumentácia-sympy",
+    "href": "content/sympy_rovnice.html#oficiálna-dokumentácia-sympy",
+    "title": "Riešenie rovníc a sústav",
     "section": "📚 Oficiálna dokumentácia SymPy",
     "text": "📚 Oficiálna dokumentácia SymPy\nPodrobný popis funkcií, ich parametrov a príkladov použitia nájdete v oficiálnej dokumentácii knižnice SymPy na adrese: https://docs.sympy.org/latest/index.html.",
     "crumbs": [
@@ -4626,13 +4751,13 @@
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Derivácie a integrály"
+      "Riešenie rovníc a sústav"
     ]
   },
   {
-    "objectID": "content/sympy_derivovanie_integrovanie.html#videonávod",
-    "href": "content/sympy_derivovanie_integrovanie.html#videonávod",
-    "title": "Derivácie a integrály",
+    "objectID": "content/sympy_rovnice.html#videonávod",
+    "href": "content/sympy_rovnice.html#videonávod",
+    "title": "Riešenie rovníc a sústav",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
@@ -4640,610 +4765,667 @@
       "🖥️ Programovanie 2",
       "📚 Knižnice",
       "🧮 SymPy",
-      "Derivácie a integrály"
+      "Riešenie rovníc a sústav"
     ]
   },
   {
-    "objectID": "content/sympy_symbolicke_vyrazy.html",
-    "href": "content/sympy_symbolicke_vyrazy.html",
-    "title": "Symbolické výrazy a premenné",
+    "objectID": "content/type_a_konverzia.html",
+    "href": "content/type_a_konverzia.html",
+    "title": "Konverzia dátových typov",
     "section": "",
-    "text": "Balíček SymPy je určený na symbolickú matematiku v Pythone. Umožňuje pracovať so symbolickými premennými, výrazmi a funkciami podobne ako v algebre a analýze – t.j. bez okamžitej numerickej evaluácie.\n\n\nKód\nimport sympy as sp\nsp.init_printing()  # krajšie (2D) zobrazenie výrazov v notebooku",
+    "text": "Funkcia type() zistí, aký dátový typ má hodnota alebo premenná.",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
+      "💻 Programovanie 1",
+      "🚀 Základy Pythonu",
+      "Konverzia dátových typov"
     ]
   },
   {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#úvod",
-    "href": "content/sympy_symbolicke_vyrazy.html#úvod",
-    "title": "Symbolické výrazy a premenné",
+    "objectID": "content/type_a_konverzia.html#úvod",
+    "href": "content/type_a_konverzia.html#úvod",
+    "title": "Konverzia dátových typov",
     "section": "",
-    "text": "Balíček SymPy je určený na symbolickú matematiku v Pythone. Umožňuje pracovať so symbolickými premennými, výrazmi a funkciami podobne ako v algebre a analýze – t.j. bez okamžitej numerickej evaluácie.\n\n\nKód\nimport sympy as sp\nsp.init_printing()  # krajšie (2D) zobrazenie výrazov v notebooku",
+    "text": "Funkcia type() zistí, aký dátový typ má hodnota alebo premenná.",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
+      "💻 Programovanie 1",
+      "🚀 Základy Pythonu",
+      "Konverzia dátových typov"
     ]
   },
   {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#definovanie-symbolov",
-    "href": "content/sympy_symbolicke_vyrazy.html#definovanie-symbolov",
-    "title": "Symbolické výrazy a premenné",
-    "section": "🆎 Definovanie symbolov",
-    "text": "🆎 Definovanie symbolov\n\nDefinovanie jednej symbolickej premennej\n\n\nKód\ni = sp.Symbol('i')\ni\n\n\n\\(\\displaystyle i\\)\n\n\n\n\nDefinovanie viacerých symbolických premenných\n\n\nKód\nx, y, z = sp.symbols('x y z')\nx, y, z\n\n\n\\(\\displaystyle \\left( x, \\  y, \\  z\\right)\\)\n\n\n\n\nSymbol vs. symbols a assumptions\n\nsymbols('x y') je skratka na vytváranie viacerých symbolov naraz.\nTrieda Symbol vytvorí jediný symbol; užitočné, keď chcete zadať predpoklady (assumptions), napr. že premenná je kladná alebo celé číslo.\n\n\n\nKód\na = sp.Symbol('a', positive=True, real=True)   # a &gt; 0, a ∈ ℝ\nn = sp.Symbol('n', integer=True)               # n ∈ ℤ\na, n\n\n\n\\(\\displaystyle \\left( a, \\  n\\right)\\)\n\n\n\n\nZobrazenie výrazov\n\n\nKód\ndisplay(i)\ndisplay(x,y,z)\n\n\n\\(\\displaystyle i\\)\n\n\n\\(\\displaystyle x\\)\n\n\n\\(\\displaystyle y\\)\n\n\n\\(\\displaystyle z\\)",
+    "objectID": "content/type_a_konverzia.html#príklad",
+    "href": "content/type_a_konverzia.html#príklad",
+    "title": "Konverzia dátových typov",
+    "section": "🧪 Príklad:",
+    "text": "🧪 Príklad:\n\n\nKód\nprint(type(10))\nprint(type(3.14))\nprint(type(\"text\"))\nprint(type(True))\n\n\n&lt;class 'int'&gt;\n&lt;class 'float'&gt;\n&lt;class 'str'&gt;\n&lt;class 'bool'&gt;",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
+      "💻 Programovanie 1",
+      "🚀 Základy Pythonu",
+      "Konverzia dátových typov"
     ]
   },
   {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#práca-so-symbolickými-výrazmi",
-    "href": "content/sympy_symbolicke_vyrazy.html#práca-so-symbolickými-výrazmi",
-    "title": "Symbolické výrazy a premenné",
-    "section": "🧮 Práca so symbolickými výrazmi",
-    "text": "🧮 Práca so symbolickými výrazmi\nVýrazy skladáme rovnako, ako píšeme matematiku. SymPy si uchováva strom výrazov, s ktorým vie ďalej pracovať.\n\n\nKód\nvyraz_1 = x + y + 2*z\nvyraz_2 = x**2 + 3*x*y + y**2\nvyraz_3 = (x + y)**2\n\nvyraz_1, vyraz_2, vyraz_3\n\n\n\\(\\displaystyle \\left( x + y + 2 z, \\  x^{2} + 3 x y + y^{2}, \\  \\left(x + y\\right)^{2}\\right)\\)",
+    "objectID": "content/type_a_konverzia.html#prevod-konverzia-medzi-typmi",
+    "href": "content/type_a_konverzia.html#prevod-konverzia-medzi-typmi",
+    "title": "Konverzia dátových typov",
+    "section": "🔄 Prevod (konverzia) medzi typmi",
+    "text": "🔄 Prevod (konverzia) medzi typmi\nPython umožňuje prevádzať hodnoty medzi typmi pomocou vstavaných funkcií:\n\n\n\nFunkcia\nÚčel\nPríklad\n\n\n\n\nint(x)\nna celé číslo\nint(\"5\") → 5\n\n\nfloat(x)\nna desatinné číslo\nfloat(\"3.14\")\n\n\nstr(x)\nna reťazec\nstr(10) → “10”\n\n\nbool(x)\nna logickú hodnotu\nbool(0) → False",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
+      "💻 Programovanie 1",
+      "🚀 Základy Pythonu",
+      "Konverzia dátových typov"
     ]
   },
   {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#zjednodušovanie-výrazov-simplify",
-    "href": "content/sympy_symbolicke_vyrazy.html#zjednodušovanie-výrazov-simplify",
-    "title": "Symbolické výrazy a premenné",
-    "section": "🔄 Zjednodušovanie výrazov — simplify",
-    "text": "🔄 Zjednodušovanie výrazov — simplify\nsimplify() sa pokúsi nájsť algebraicky jednoduchšiu (alebo kanonickejšiu) formu výrazu.\n\n\nKód\nvyraz = (x**2 + 2*x + 1) / (x + 1)\nsp.simplify(vyraz)\n\n\n\\(\\displaystyle x + 1\\)",
+    "objectID": "content/type_a_konverzia.html#príklady-prevodov",
+    "href": "content/type_a_konverzia.html#príklady-prevodov",
+    "title": "Konverzia dátových typov",
+    "section": "📦 Príklady prevodov",
+    "text": "📦 Príklady prevodov\n\n\nKód\nx = \"42\"\ncislo = int(x)\nprint(cislo + 1)\n\ny = 3.14\ntext = str(y)\nprint(text + \"!\")\n\n\n43\n3.14!",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
+      "💻 Programovanie 1",
+      "🚀 Základy Pythonu",
+      "Konverzia dátových typov"
     ]
   },
   {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#rozšírenie-a-rozklad-polynómov-expand-factor",
-    "href": "content/sympy_symbolicke_vyrazy.html#rozšírenie-a-rozklad-polynómov-expand-factor",
-    "title": "Symbolické výrazy a premenné",
-    "section": "📦 Rozšírenie a rozklad polynómov — expand, factor",
-    "text": "📦 Rozšírenie a rozklad polynómov — expand, factor\n\n\nKód\npolynom = (x + y)**2\n\nrozsireny = sp.expand(polynom)\nfaktorizovany = sp.factor(rozsireny)\n\nrozsireny, faktorizovany\n\n\n\\(\\displaystyle \\left( x^{2} + 2 x y + y^{2}, \\  \\left(x + y\\right)^{2}\\right)\\)",
+    "objectID": "content/type_a_konverzia.html#chybné-prevody",
+    "href": "content/type_a_konverzia.html#chybné-prevody",
+    "title": "Konverzia dátových typov",
+    "section": "💥 Chybné prevody",
+    "text": "💥 Chybné prevody\n\n\nKód\n# int(\"abc\")     # chyba: nedá sa previesť na číslo\n# float(\"3,14\")  # chyba: použi bodku namiesto čiarky",
     "crumbs": [
       "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
+      "💻 Programovanie 1",
+      "🚀 Základy Pythonu",
+      "Konverzia dátových typov"
     ]
   },
   {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#použitie-funkcií-a-konštánt-v-symbolických-výrazoch",
-    "href": "content/sympy_symbolicke_vyrazy.html#použitie-funkcií-a-konštánt-v-symbolických-výrazoch",
-    "title": "Symbolické výrazy a premenné",
-    "section": "📐 Použitie funkcií a konštánt v symbolických výrazoch",
-    "text": "📐 Použitie funkcií a konštánt v symbolických výrazoch\n\n\nKód\ngoniometricky_vyraz = sp.sin(x)**2 + sp.cos(x)**2\nsp.simplify(goniometricky_vyraz)\n\n\n\\(\\displaystyle 1\\)\n\n\n\n\nKód\nsp.pi, sp.E\n\n\n\\(\\displaystyle \\left( \\pi, \\  e\\right)\\)",
-    "crumbs": [
-      "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
-    ]
-  },
-  {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#substitúcia",
-    "href": "content/sympy_symbolicke_vyrazy.html#substitúcia",
-    "title": "Symbolické výrazy a premenné",
-    "section": "🎯Substitúcia",
-    "text": "🎯Substitúcia\nDo symbolických výrazov môžeme dosadiť čísla, iné symboly alebo celé výrazy.\n\n\nKód\nvyraz = x**2 + y\n\n\n\nDosadenie jedinej hodnoty\n\n\nKód\ndosadenie_1 = vyraz.subs(x, 3)\ndosadenie_1\n\n\n\\(\\displaystyle y + 9\\)\n\n\n\n\nDosadenie viacerých hodnôd\n\n\nKód\ndosadenie_2 = vyraz.subs({x: 2, y: 5})\ndosadenie_2\n\n\n\\(\\displaystyle 9\\)\n\n\n\n\nDosadenie výrazu do výrazu\n\n\nKód\ndosadenie_vyrazu = vyraz.subs(y, (1 - x))\ndosadenie_vyrazu\n\n\n\\(\\displaystyle x^{2} - x + 1\\)",
-    "crumbs": [
-      "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
-    ]
-  },
-  {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#numerická-evaluácia",
-    "href": "content/sympy_symbolicke_vyrazy.html#numerická-evaluácia",
-    "title": "Symbolické výrazy a premenné",
-    "section": "📊 Numerická evaluácia",
-    "text": "📊 Numerická evaluácia\nAk chcete desatinné čísla (floating-point), použite evalf(). Je bežné kombinovať subs → evalf.\n\n\nKód\nvyraz = ((x + 1)/3)\ndisplay(vyraz)\ntype(vyraz)\n\n\n\\(\\displaystyle \\frac{x}{3} + \\frac{1}{3}\\)\n\n\nsympy.core.add.Add\n\n\n\n\nKód\nhodnota = vyraz.subs(x,2)\ndisplay(hodnota)\ntype(hodnota)\n\n\n\\(\\displaystyle 1\\)\n\n\nsympy.core.numbers.One\n\n\n\n\nKód\nhodnota = hodnota.evalf()\ndisplay(hodnota)\ntype(hodnota)\n\n\n\\(\\displaystyle 1.0\\)\n\n\nsympy.core.numbers.Float",
-    "crumbs": [
-      "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
-    ]
-  },
-  {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#predpoklady-assumptions-a-ich-vplyv",
-    "href": "content/sympy_symbolicke_vyrazy.html#predpoklady-assumptions-a-ich-vplyv",
-    "title": "Symbolické výrazy a premenné",
-    "section": "🔐 Predpoklady (assumptions) a ich vplyv",
-    "text": "🔐 Predpoklady (assumptions) a ich vplyv\nPredpoklady môžu zjednodušiť výsledky (napr. positive=True umožní rušiť absolútne hodnoty).\n\n\nKód\nb = sp.Symbol('b', positive=True)\nsp.simplify((b**2)**(1/2))  # pre b&gt;0 sa √(b²) zjednoduší na b\n\n\n\\(\\displaystyle b^{1.0}\\)",
-    "crumbs": [
-      "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
-    ]
-  },
-  {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#zhrnutie",
-    "href": "content/sympy_symbolicke_vyrazy.html#zhrnutie",
-    "title": "Symbolické výrazy a premenné",
+    "objectID": "content/type_a_konverzia.html#zhrnutie",
+    "href": "content/type_a_konverzia.html#zhrnutie",
+    "title": "Konverzia dátových typov",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nSymboly: symbols('x y z'), Symbol('a', positive=True, integer=True, ...)\n\nVýrazy: bežná algebra s + - * / **, funkcie sin, cos, exp, …\n\nUpravy: expand, factor, simplify\n\nDosadzovanie: subs (aj viacnásobné)\n\nNumerika: evalf (väčšinou po subs)\n\nPredpoklady: uľahčujú zjednodušenia a kontrolu domény symbolov.",
-    "crumbs": [
-      "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
-    ]
-  },
-  {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#oficiálna-dokumentácia-sympy",
-    "href": "content/sympy_symbolicke_vyrazy.html#oficiálna-dokumentácia-sympy",
-    "title": "Symbolické výrazy a premenné",
-    "section": "📚 Oficiálna dokumentácia SymPy",
-    "text": "📚 Oficiálna dokumentácia SymPy\nPodrobný popis funkcií, ich parametrov a príkladov použitia nájdete v oficiálnej dokumentácii knižnice SymPy na adrese: https://docs.sympy.org/latest/index.html.",
-    "crumbs": [
-      "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
-    ]
-  },
-  {
-    "objectID": "content/sympy_symbolicke_vyrazy.html#videonávod",
-    "href": "content/sympy_symbolicke_vyrazy.html#videonávod",
-    "title": "Symbolické výrazy a premenné",
-    "section": "🎞️ Videonávod",
-    "text": "🎞️ Videonávod",
-    "crumbs": [
-      "🏡 Domov",
-      "🖥️ Programovanie 2",
-      "📚 Knižnice",
-      "🧮 SymPy",
-      "Symbolické výrazy a premenné"
-    ]
-  },
-  {
-    "objectID": "content/venv.html",
-    "href": "content/venv.html",
-    "title": "Virtuálne prostredia",
-    "section": "",
-    "text": "Virtuálne prostredie je izolovaný priestor, v ktorom môžeme nainštalovať konkrétne verzie balíkov bez ovplyvnenia iných projektov. V prostredí Anaconda môžeme virtuálne prostredia spravovať pohodlne aj cez grafické rozhranie – Anaconda Navigator.",
+    "text": "🧠 Zhrnutie\n\ntype(x) zistí typ hodnoty alebo premennej.\nint(), float(), str(), bool() slúžia na prevody.\nNiektoré prevody môžu spôsobiť chybu, ak formát nie je správny.\nReťazec musí byť číselný, aby sa dal previesť na int alebo float.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Virtuálne prostredia"
+      "Konverzia dátových typov"
     ]
   },
   {
-    "objectID": "content/venv.html#význam-virtuálneho-prostredia",
-    "href": "content/venv.html#význam-virtuálneho-prostredia",
-    "title": "Virtuálne prostredia",
-    "section": "",
-    "text": "Virtuálne prostredie je izolovaný priestor, v ktorom môžeme nainštalovať konkrétne verzie balíkov bez ovplyvnenia iných projektov. V prostredí Anaconda môžeme virtuálne prostredia spravovať pohodlne aj cez grafické rozhranie – Anaconda Navigator.",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Virtuálne prostredia"
-    ]
-  },
-  {
-    "objectID": "content/venv.html#vytvorenie-virtuálneho-prostredia-v-anaconda-navigator",
-    "href": "content/venv.html#vytvorenie-virtuálneho-prostredia-v-anaconda-navigator",
-    "title": "Virtuálne prostredia",
-    "section": "🧭 Vytvorenie virtuálneho prostredia v Anaconda Navigator",
-    "text": "🧭 Vytvorenie virtuálneho prostredia v Anaconda Navigator\n\nSpustite Anaconda Navigator\nPrejdite na kartu Environments\nKliknite na Create\nVyplňte:\n\nVhodný názov prostredia, napr. programovanie_1\nZvoľte jazyk Python a jeho verziu napr. 3.12.11\n\nKliknite na Create",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Virtuálne prostredia"
-    ]
-  },
-  {
-    "objectID": "content/venv.html#videonávod",
-    "href": "content/venv.html#videonávod",
-    "title": "Virtuálne prostredia",
+    "objectID": "content/type_a_konverzia.html#videonávod",
+    "href": "content/type_a_konverzia.html#videonávod",
+    "title": "Konverzia dátových typov",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Virtuálne prostredia"
+      "Konverzia dátových typov"
     ]
   },
   {
-    "objectID": "content/vstavane_funkcie_matematicke.html",
-    "href": "content/vstavane_funkcie_matematicke.html",
-    "title": "Vstavané matematické funckcie",
+    "objectID": "content/vnorene_cykly.html",
+    "href": "content/vnorene_cykly.html",
+    "title": "Vnorené cykly a podmienky",
     "section": "",
-    "text": "Táto kapitola sumarizuje najpoužívanejšie dostupné matematické a logické vstavané funkcie v Pythone a ukazuje ich použitie na krátkych príkladoch bez nutnosti použitia externých knižníc.",
+    "text": "Vnorený cyklus znamená, že máme jeden cyklus vo vnútri druhého. Podobne môžeme vkladať aj podmienky (if) do cyklov, aby sme kontrolovali špecifické situácie pri opakovaní.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "⚙️ Funkcie",
-      "Vstavané matematické funckcie"
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
     ]
   },
   {
-    "objectID": "content/vstavane_funkcie_matematicke.html#úvod",
-    "href": "content/vstavane_funkcie_matematicke.html#úvod",
-    "title": "Vstavané matematické funckcie",
+    "objectID": "content/vnorene_cykly.html#úvod",
+    "href": "content/vnorene_cykly.html#úvod",
+    "title": "Vnorené cykly a podmienky",
     "section": "",
-    "text": "Táto kapitola sumarizuje najpoužívanejšie dostupné matematické a logické vstavané funkcie v Pythone a ukazuje ich použitie na krátkych príkladoch bez nutnosti použitia externých knižníc.",
+    "text": "Vnorený cyklus znamená, že máme jeden cyklus vo vnútri druhého. Podobne môžeme vkladať aj podmienky (if) do cyklov, aby sme kontrolovali špecifické situácie pri opakovaní.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "⚙️ Funkcie",
-      "Vstavané matematické funckcie"
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
     ]
   },
   {
-    "objectID": "content/vstavane_funkcie_matematicke.html#matematické-funkcie",
-    "href": "content/vstavane_funkcie_matematicke.html#matematické-funkcie",
-    "title": "Vstavané matematické funckcie",
-    "section": "📒 Matematické funkcie",
-    "text": "📒 Matematické funkcie\n\nabs() – absolútna hodnota\n\nVráti nezápornú hodnotu čísla.\nTypické použitie: odchýlky, rozdiely, tolerancie.\n\n\n\nKód\nprint(abs(-12))\nprint(abs(5))\nprint(abs(-3.5))\n\n\n12\n5\n3.5\n\n\n\n\nround() – zaokrúhľovanie\n\nround(x, n) zaokrúhli na n desatinných miest.\nPoznámka: Python používa tzv. banker’s rounding (zaokrúhľovanie k párnemu)\n\n\n\nKód\nprint(round(3.14159, 2))\nprint(round(2.5))     # 2 (banker's rounding)\nprint(round(3.5))     # 4\n\n\n3.14\n2\n4\n\n\n\n\npow() – mocnina\n\npow(a, b) je ekvivalent a ** b.\nUžitočné aj pre odmocniny: pow(x, 0.5).\n\n\n\nKód\nprint(pow(3, 2))\nprint(3 ** 2)\nprint(pow(2, 0.5))\n\n\n9\n9\n1.4142135623730951\n\n\n\n\ndivmod() – podiel a zvyšok\n\ndivmod(a, b) vráti dvojicu (a // b, a % b).\nUžitočné pri indexovaní, diskretizácii, rozklade jednotiek (napr. minúty/sekundy).\n\n\n\nKód\nprint(divmod(17, 5))\nq, r = divmod(17, 5)\nprint(\"podiel:\", q, \"zvyšok:\", r)\n\n\n(3, 2)\npodiel: 3 zvyšok: 2\n\n\n\n\nAgregácie nad zoznammi: sum(), min(), max()\n\nsum(iterable) – súčet\nmin(iterable) – minimum\nmax(iterable) – maximum\nTypické použitie: priemer, rozsah (max-min), kontrola extrémov.\n\n\n\nKód\ndata = [12.4, 11.8, 12.1, 12.6]\nprint(\"sum:\", sum(data))\nprint(\"min:\", min(data))\nprint(\"max:\", max(data))\nprint(\"priemer:\", sum(data)/len(data))\nprint(\"rozsah:\", max(data)-min(data))\n\n\nsum: 48.9\nmin: 11.8\nmax: 12.6\npriemer: 12.225\nrozsah: 0.7999999999999989",
+    "objectID": "content/vnorene_cykly.html#vnorený-for-cyklus",
+    "href": "content/vnorene_cykly.html#vnorený-for-cyklus",
+    "title": "Vnorené cykly a podmienky",
+    "section": "🔂 Vnorený for cyklus",
+    "text": "🔂 Vnorený for cyklus\n\n\nKód\nfor i in range(3):\n    for j in range(2):\n        print(f\"i={i}, j={j}\")\n\n\ni=0, j=0\ni=0, j=1\ni=1, j=0\ni=1, j=1\ni=2, j=0\ni=2, j=1\n\n\n\n📦 Príklad – tabuľka násobkov\n\n\nKód\nfor riadok in range(1, 4):\n    for stlpec in range(1, 6):\n        print(riadok * stlpec, end=\"\\t\")\n    print()\n\n\n1   2   3   4   5   \n2   4   6   8   10  \n3   6   9   12  15",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "⚙️ Funkcie",
-      "Vstavané matematické funckcie"
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
     ]
   },
   {
-    "objectID": "content/vstavane_funkcie_matematicke.html#logické-funkcie-all-a-any",
-    "href": "content/vstavane_funkcie_matematicke.html#logické-funkcie-all-a-any",
-    "title": "Vstavané matematické funckcie",
-    "section": "⚖️ Logické funkcie: all() a any()",
-    "text": "⚖️ Logické funkcie: all() a any()\n\nall(iterable) → True, ak sú všetky prvky pravdivé\nany(iterable) → True, ak aspoň jeden prvok je pravdivý\n\nPoužitie: validácia dát, detekcia výskytu podmienky v dátach.\n\n\nKód\nprint(all([True, True, True]))\nprint(all([True, False, True]))\nprint(any([False, False, True]))\nprint(any([False, False, False]))\n\n\nTrue\nFalse\nTrue\nFalse\n\n\n\nValidácia bez cyklu\nNamiesto vytvárania pomocných zoznamov sa často používa validácia bez cyklu:\n\nall(x &gt; 0 for x in hodnoty)\nany(x &lt; 0 for x in hodnoty)\n\n\n\nKód\nhodnoty = [5, 7, 9]\nvsetky_kladne = all(x &gt; 0 for x in hodnoty)\nprint(\"všetky kladné:\", vsetky_kladne)\n\ndata2 = [-1, 3, 4]\nobsahuje_zapornu = any(x &lt; 0 for x in data2)\nprint(\"obsahuje zápornú:\", obsahuje_zapornu)\n\n\nvšetky kladné: True\nobsahuje zápornú: True\n\n\n\n\nLogické hodnoty ako čísla (True==1, False==0)\nTo umožňuje jednoduché počítanie splnených podmienok pomocou sum().\n\n\nKód\ndata = [3, -2, 5, -1, 0]\npocet_zapornych = sum(x &lt; 0 for x in data)\npocet_nul = sum(x == 0 for x in data)\nprint(\"počet záporných:\", pocet_zapornych)\nprint(\"počet núl:\", pocet_nul)\n\n\npočet záporných: 2\npočet núl: 1",
+    "objectID": "content/vnorene_cykly.html#kombinácia-while-vo-for-a-naopak",
+    "href": "content/vnorene_cykly.html#kombinácia-while-vo-for-a-naopak",
+    "title": "Vnorené cykly a podmienky",
+    "section": "🔁 Kombinácia while vo for (a naopak)",
+    "text": "🔁 Kombinácia while vo for (a naopak)\n\n\nKód\ni = 0\nwhile i &lt; 3:\n    for j in range(2):\n        print(f\"{i=}, {j=}\")\n    i += 1\n\n\ni=0, j=0\ni=0, j=1\ni=1, j=0\ni=1, j=1\ni=2, j=0\ni=2, j=1",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "⚙️ Funkcie",
-      "Vstavané matematické funckcie"
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
     ]
   },
   {
-    "objectID": "content/vstavane_funkcie_matematicke.html#zhrnutie",
-    "href": "content/vstavane_funkcie_matematicke.html#zhrnutie",
-    "title": "Vstavané matematické funckcie",
+    "objectID": "content/vnorene_cykly.html#podmienky-vo-vnútri-cyklu",
+    "href": "content/vnorene_cykly.html#podmienky-vo-vnútri-cyklu",
+    "title": "Vnorené cykly a podmienky",
+    "section": "🔍 Podmienky vo vnútri cyklu",
+    "text": "🔍 Podmienky vo vnútri cyklu\n\n\nKód\nfor i in range(10):\n    if i % 2 == 0:\n        print(i, \"je párne\")\n\n\n0 je párne\n2 je párne\n4 je párne\n6 je párne\n8 je párne",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
+    ]
+  },
+  {
+    "objectID": "content/vnorene_cykly.html#vnorený-if-vo-vnorenom-for",
+    "href": "content/vnorene_cykly.html#vnorený-if-vo-vnorenom-for",
+    "title": "Vnorené cykly a podmienky",
+    "section": "🧠 Vnorený if vo vnorenom for",
+    "text": "🧠 Vnorený if vo vnorenom for\n\n\nKód\nfor x in range(3):\n    for y in range(3):\n        if x == y:\n            print(f\"Na diagonále: ({x},{y})\")\n\n\nNa diagonále: (0,0)\nNa diagonále: (1,1)\nNa diagonále: (2,2)",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
+    ]
+  },
+  {
+    "objectID": "content/vnorene_cykly.html#break-predčasné-ukončenie-cyklu",
+    "href": "content/vnorene_cykly.html#break-predčasné-ukončenie-cyklu",
+    "title": "Vnorené cykly a podmienky",
+    "section": "🛑 break – predčasné ukončenie cyklu",
+    "text": "🛑 break – predčasné ukončenie cyklu\n\n\nKód\nfor i in range(10):\n    if i == 5:\n        break\n    print(i)\n\n\n0\n1\n2\n3\n4",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
+    ]
+  },
+  {
+    "objectID": "content/vnorene_cykly.html#continue-preskočenie-iterácie",
+    "href": "content/vnorene_cykly.html#continue-preskočenie-iterácie",
+    "title": "Vnorené cykly a podmienky",
+    "section": "⏭️ continue – preskočenie iterácie",
+    "text": "⏭️ continue – preskočenie iterácie\n\n\nKód\nfor i in range(5):\n    if i == 2:\n        continue\n    print(i)\n\n\n0\n1\n3\n4",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
+    ]
+  },
+  {
+    "objectID": "content/vnorene_cykly.html#zhrnutie",
+    "href": "content/vnorene_cykly.html#zhrnutie",
+    "title": "Vnorené cykly a podmienky",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\nMatematické funkcie riešia výpočty (abs, round, pow, divmod, sum, min, max).\nLogické funkcie riešia rozhodovanie nad dátami (all, any).\nKombináciou sum() s logickými výrazmi vieme elegantne počítať splnené podmienky.\n\n\n\n\n\n\n\n\n\n\n\nFunkcia\nVstup\nVýstup\nTypické použitie\nKrátky príklad\n\n\n\n\nabs(x)\nčíslo\nčíslo\nodchýlky, tolerancie, rozdiely\nabs(-3.5) -&gt; 3.5\n\n\nround(x, n)\nčíslo, počet des. miest\nčíslo\nzaokrúhľovanie výsledkov\nround(3.14159, 2) -&gt; 3.14\n\n\npow(a, b)\nzáklad, exponent\nčíslo\nmocniny, odmocniny\npow(2, 0.5) -&gt; 1.414...\n\n\ndivmod(a, b)\ndve celé čísla\n(podiel, zvyšok)\nindexovanie, rozklady, zvyšky\ndivmod(17, 5) -&gt; (3, 2)\n\n\nsum(iter)\nkolekcia čísiel / bool výrazov\nčíslo\nsúčet, priemer, počty podmienok\nsum([1,2,3]) -&gt; 6\n\n\nmin(iter)\nkolekcia\nprvok\nminimum, kontrola extrémov\nmin([3,1,4]) -&gt; 1\n\n\nmax(iter)\nkolekcia\nprvok\nmaximum, kontrola extrémov\nmax([3,1,4]) -&gt; 4\n\n\nall(iter)\nkolekcia bool\nTrue/False\nvalidácia „všetky platia“\nall(x&gt;0 for x in m)\n\n\nany(iter)\nkolekcia bool\nTrue/False\ndetekcia „aspoň jedna platí“\nany(x&lt;0 for x in m)",
+    "text": "🧠 Zhrnutie\n\nCykly môžeme vkladať do seba (vnorené cykly)\nDo cyklu môžeme vložiť if, break, continue\nbreak ukončí cyklus, continue preskočí zvyšok iterácie\nDbajte na správne odsadenie a prehľadnosť vnoreného kódu",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "⚙️ Funkcie",
-      "Vstavané matematické funckcie"
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
     ]
   },
   {
-    "objectID": "content/vstavane_funkcie_matematicke.html#videonávod",
-    "href": "content/vstavane_funkcie_matematicke.html#videonávod",
-    "title": "Vstavané matematické funckcie",
+    "objectID": "content/vnorene_cykly.html#videonávod",
+    "href": "content/vnorene_cykly.html#videonávod",
+    "title": "Vnorené cykly a podmienky",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
-      "⚙️ Funkcie",
-      "Vstavané matematické funckcie"
+      "🏗️ Riadiace štruktúry",
+      "Vnorené cykly a podmienky"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html",
-    "href": "content/zakladne_ukony_anaconda.html",
-    "title": "Základy Anaconda Prompt",
+    "objectID": "content/vstup_input.html",
+    "href": "content/vstup_input.html",
+    "title": "Vstup od používateľa",
     "section": "",
-    "text": "Táto kapitola predstavuje základné príkazy používané v Anaconda Prompt pri práci s Pythonom, virtuálnymi prostrediami a Jupyter Lab. Postup je zameraný na jednoduché a jasné pochopenie najdôležitejších krokov, ktoré môžete pri práci s jazykom Python potrebovať.",
+    "text": "Funkcia input() slúži na získanie údajov od používateľa. Keď program zavolá input(), čaká, kým používateľ niečo zadá a stlačí Enter. Zadaný text sa vráti ako reťazec (str).\n\n⚠️ Kedže webová stránka nie je dynamická, je potrebné si kódy s funkciou ´input´ spustiť vo vlastnom prostredí.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html#anaconda-prompt",
-    "href": "content/zakladne_ukony_anaconda.html#anaconda-prompt",
-    "title": "Základy Anaconda Prompt",
+    "objectID": "content/vstup_input.html#úvod",
+    "href": "content/vstup_input.html#úvod",
+    "title": "Vstup od používateľa",
     "section": "",
-    "text": "Táto kapitola predstavuje základné príkazy používané v Anaconda Prompt pri práci s Pythonom, virtuálnymi prostrediami a Jupyter Lab. Postup je zameraný na jednoduché a jasné pochopenie najdôležitejších krokov, ktoré môžete pri práci s jazykom Python potrebovať.",
+    "text": "Funkcia input() slúži na získanie údajov od používateľa. Keď program zavolá input(), čaká, kým používateľ niečo zadá a stlačí Enter. Zadaný text sa vráti ako reťazec (str).\n\n⚠️ Kedže webová stránka nie je dynamická, je potrebné si kódy s funkciou ´input´ spustiť vo vlastnom prostredí.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html#spustenie-anaconda-prompt",
-    "href": "content/zakladne_ukony_anaconda.html#spustenie-anaconda-prompt",
-    "title": "Základy Anaconda Prompt",
-    "section": "🔍 Spustenie Anaconda Prompt",
-    "text": "🔍 Spustenie Anaconda Prompt\nAnaconda Prompt otvoríte cez:\n\nWindows Search → „Anaconda Prompt“\nPonuka Štart → „Anaconda Prompt“\nJe dôležité pracovať práve v tomto termináli, pretože už obsahuje nástroje conda.",
+    "objectID": "content/vstup_input.html#základné-použitie",
+    "href": "content/vstup_input.html#základné-použitie",
+    "title": "Vstup od používateľa",
+    "section": "🧪 Základné použitie",
+    "text": "🧪 Základné použitie\n\n\nKód\nmeno = input(\"Ako sa voláš? \")\nprint(\"Ahoj,\", meno)\n\n\nAko sa voláš?  Jakub\n\n\nAhoj, Jakub",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html#práca-s-adresármi",
-    "href": "content/zakladne_ukony_anaconda.html#práca-s-adresármi",
-    "title": "Základy Anaconda Prompt",
-    "section": "📁 Práca s adresármi",
-    "text": "📁 Práca s adresármi\nZákladný príkaz na pohyb po adresároch je:\ncd cesta/k/adresáru\n\nZobrazenie aktuálnej cesty:\ncd\n\n\nPrechod o jeden priečinok vyššie:\ncd ..\n\n\nPrechod na konkrétny disk (napr. D:):\nD:\n\n❗Cesty s medzerami píšte do úvodzoviek, napr.: bash cd \"C:\\Users\\Student\\Moje Projekty\"",
+    "objectID": "content/vstup_input.html#hodnota-je-vždy-str",
+    "href": "content/vstup_input.html#hodnota-je-vždy-str",
+    "title": "Vstup od používateľa",
+    "section": "📦 Hodnota je vždy str",
+    "text": "📦 Hodnota je vždy str\n\n\nKód\nvek = input(\"Zadaj vek: \")\nprint(type(vek))\n\n\nZadaj vek:  25\n\n\n&lt;class 'str'&gt;",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html#vytvorenie-nového-conda-prostredia",
-    "href": "content/zakladne_ukony_anaconda.html#vytvorenie-nového-conda-prostredia",
-    "title": "Základy Anaconda Prompt",
-    "section": "🔧 Vytvorenie nového conda prostredia",
-    "text": "🔧 Vytvorenie nového conda prostredia\nconda create -n nazov_prostredia python=3.11 jupyterlab\n\n💡Tento príkaz vytvorí prostredie s verziou Pythonu 3.11 a zároveň nainštaluje aj prostredie JupyterLab ❗Relevantné sú všetky verzie Pythonu od 3.9 a vyššie.",
+    "objectID": "content/vstup_input.html#prevod-na-číslo",
+    "href": "content/vstup_input.html#prevod-na-číslo",
+    "title": "Vstup od používateľa",
+    "section": "🔁 Prevod na číslo",
+    "text": "🔁 Prevod na číslo\n\n\nKód\nvek = input(\"Zadaj vek: \")\nvek = int(vek)\nprint(\"O rok budeš mať\", vek + 1)\n\n\nZadaj vek:  25\n\n\nO rok budeš mať 26\n\n\n\n💡 Príklad\n\n\nKód\ncena = float(input(\"Zadaj cenu v €: \"))\nprint(\"Cena s DPH:\", cena * 1.23)\n\n\nZadaj cenu v €:  50\n\n\nCena s DPH: 61.5",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html#aktivácia-a-deaktivácia-prostredia",
-    "href": "content/zakladne_ukony_anaconda.html#aktivácia-a-deaktivácia-prostredia",
-    "title": "Základy Anaconda Prompt",
-    "section": "⚙️ Aktivácia a deaktivácia prostredia",
-    "text": "⚙️ Aktivácia a deaktivácia prostredia\nPred prácou vo virtuálnom prostredí je potrebná jeho aktivácia.\n\nAktivácia\nconda activate nazov_prostredia\n\n\nDeaktivácia\nconda deactivate",
+    "objectID": "content/vstup_input.html#chyby-pri-zlom-vstupe",
+    "href": "content/vstup_input.html#chyby-pri-zlom-vstupe",
+    "title": "Vstup od používateľa",
+    "section": "💥 Chyby pri zlom vstupe",
+    "text": "💥 Chyby pri zlom vstupe\n\n\nKód\n# cislo = int(input(\"Zadaj číslo: \"))  # Zadajte text ako \"abc\" a spôsobí chybu",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html#inštalácia-balíkov",
-    "href": "content/zakladne_ukony_anaconda.html#inštalácia-balíkov",
-    "title": "Základy Anaconda Prompt",
-    "section": "📦 Inštalácia balíkov",
-    "text": "📦 Inštalácia balíkov\n\nPomocou conda\nconda install numpy pandas matplotlib\n\n\nPomocou pip\npip install numpy pandas matplotlib\n\n❗Použitiu pip môže predchádzať jeho inštalácia, nakoľko nemusí byť obsiahnutý v základnej distribúcii.",
+    "objectID": "content/vstup_input.html#viac-vstupov-naraz",
+    "href": "content/vstup_input.html#viac-vstupov-naraz",
+    "title": "Vstup od používateľa",
+    "section": "🔄 Viac vstupov naraz",
+    "text": "🔄 Viac vstupov naraz\n\n\nKód\nx, y = input(\"Zadaj dve čísla: \").split()\nx = int(x)\ny = int(y)\nprint(\"Súčet:\", x + y)\n\n\nZadaj dve čísla:  10 20\n\n\nSúčet: 30",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html#spustenie-jupyter-lab",
-    "href": "content/zakladne_ukony_anaconda.html#spustenie-jupyter-lab",
-    "title": "Základy Anaconda Prompt",
-    "section": "🪐 Spustenie Jupyter Lab",
-    "text": "🪐 Spustenie Jupyter Lab\njupyter-lab\n… alebo…\njupyter lab",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
-    ]
-  },
-  {
-    "objectID": "content/zakladne_ukony_anaconda.html#zhrnutie",
-    "href": "content/zakladne_ukony_anaconda.html#zhrnutie",
-    "title": "Základy Anaconda Prompt",
+    "objectID": "content/vstup_input.html#zhrnutie",
+    "href": "content/vstup_input.html#zhrnutie",
+    "title": "Vstup od používateľa",
     "section": "🧠 Zhrnutie",
-    "text": "🧠 Zhrnutie\n\n\n\nÚkon\nPríkaz\n\n\n\n\nVytvorenie prostredia\nconda create -n env python=3.11 jupyterlab\n\n\nAktivácia\nconda activate env\n\n\nDeaktivácia\nconda deactivate\n\n\nPohyb po adresároch\ncd, cd .., cd \"cesta\"\n\n\nSpustenie Jupyter Lab\njupyter-lab",
+    "text": "🧠 Zhrnutie\n\ninput() získa vstup od používateľa ako reťazec\nPre čísla použijeme int() alebo float() na prevod\nVstup môžeme priamo uložiť do premennej\nViac vstupov naraz oddelíme a spracujeme so split(), prípadne jednotlivé dopyty pomocou funckie input() odelíme v kóde.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "content/zakladne_ukony_anaconda.html#videonávod",
-    "href": "content/zakladne_ukony_anaconda.html#videonávod",
-    "title": "Základy Anaconda Prompt",
+    "objectID": "content/vstup_input.html#videonávod",
+    "href": "content/vstup_input.html#videonávod",
+    "title": "Vstup od používateľa",
     "section": "🎞️ Videonávod",
     "text": "🎞️ Videonávod",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "🚀 Základy Pythonu",
-      "Základy Anaconda Prompt"
+      "Vstup od používateľa"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Programovanie v jazyku Python pre geodetov",
+    "objectID": "content/zoznamy.html",
+    "href": "content/zoznamy.html",
+    "title": "Zoznamy",
     "section": "",
-    "text": "Táto stránka predstavuje centrálnu platformu pre rozvoj programátorských kompetencií v jazyku Python v rámci študijného programu Geodézia a kartografia. Obsahovo nadväzuje na predmety:\n\nProgramovanie 1\nProgramovanie 2\nMatematická kartografia\nObjektovo orientované programovanie v geodézii\n\n, pričom vytvára jednotné metodické zázemie pre podporu ich výuky.\nProgramovanie je tu chápané nie ako izolovaný predmet, ale ako univerzálny nástroj na riešenie odborných úloh – od základnej algoritmizácie až po numerické modelovanie, spracovanie dát a tvorbu vlastných analytických nástrojov. Stránka funguje ako online študijný materiál, ktorý systematicky buduje znalosti jazyka Python a jeho aplikácie v technických, matematických a geodetických kontextoch."
+    "text": "Zoznam (list) je usporiadaná kolekcia hodnôt. Môže obsahovať čísla, texty, iné zoznamy alebo kombináciu rôznych typov. Zoznamy sú základná dátová štruktúra v Pythone.",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
   },
   {
-    "objectID": "index.html#vitajte-na-stránke-py4geodesy.xyz",
-    "href": "index.html#vitajte-na-stránke-py4geodesy.xyz",
-    "title": "Programovanie v jazyku Python pre geodetov",
+    "objectID": "content/zoznamy.html#úvod",
+    "href": "content/zoznamy.html#úvod",
+    "title": "Zoznamy",
     "section": "",
-    "text": "Táto stránka predstavuje centrálnu platformu pre rozvoj programátorských kompetencií v jazyku Python v rámci študijného programu Geodézia a kartografia. Obsahovo nadväzuje na predmety:\n\nProgramovanie 1\nProgramovanie 2\nMatematická kartografia\nObjektovo orientované programovanie v geodézii\n\n, pričom vytvára jednotné metodické zázemie pre podporu ich výuky.\nProgramovanie je tu chápané nie ako izolovaný predmet, ale ako univerzálny nástroj na riešenie odborných úloh – od základnej algoritmizácie až po numerické modelovanie, spracovanie dát a tvorbu vlastných analytických nástrojov. Stránka funguje ako online študijný materiál, ktorý systematicky buduje znalosti jazyka Python a jeho aplikácie v technických, matematických a geodetických kontextoch."
+    "text": "Zoznam (list) je usporiadaná kolekcia hodnôt. Môže obsahovať čísla, texty, iné zoznamy alebo kombináciu rôznych typov. Zoznamy sú základná dátová štruktúra v Pythone.",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
   },
   {
-    "objectID": "index.html#čo-si-osvojíte",
-    "href": "index.html#čo-si-osvojíte",
-    "title": "Programovanie v jazyku Python pre geodetov",
-    "section": "🎯 Čo si osvojíte?",
-    "text": "🎯 Čo si osvojíte?\n\nSyntax a základné princípy programovania v jazyku Python\nAlgoritmické myslenie a návrh efektívnych riešení technických úloh\nNumerické výpočty a prácu s poľami pomocou knižnice NumPy\nSymbolické výpočty a analytické operácie s využitím SymPy\nVizualizáciu dát a matematických vzťahov a grafov pomocou Matplotlib\nSpracovanie a analýzu dátových súborov prostredníctvom Pandas\nZáklady štruktúrovaného a objektovo orientovaného prístupu"
+    "objectID": "content/zoznamy.html#vytvorenie-zoznamu",
+    "href": "content/zoznamy.html#vytvorenie-zoznamu",
+    "title": "Zoznamy",
+    "section": "🧪 Vytvorenie zoznamu",
+    "text": "🧪 Vytvorenie zoznamu\n\n\nKód\ncisla = [1, 2, 3] # Číselný zoznam (vektor)\nslova = [\"jablko\", \"banán\", \"kiwi\"] # Zoznam s textovými reťazcami\nzmiesany = [1, \"text\", True] # Zoznam so zmiešanými dátovými typmi\nprazdny = [] # Prázdny zoznam\n\n\n\n❕ Zoznam je definovaný pomocou []. ❕ Jednotlivé prvky sú oddelené čiarkou.",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
   },
   {
-    "objectID": "index.html#prečo-je-programovanie-dôležité",
-    "href": "index.html#prečo-je-programovanie-dôležité",
-    "title": "Programovanie v jazyku Python pre geodetov",
-    "section": "❓ Prečo je programovanie dôležité?",
-    "text": "❓ Prečo je programovanie dôležité?\nModerná geodézia, kartografia a priestorové inžinierstvo pracujú s veľkými objemami dát, numerickými modelmi a komplexnými matematickými výpočtami. Schopnosť:\n\nautomatizovať rutinné výpočty,\nefektívne spracovávať a filtrovať údaje,\nvizualizovať výsledky analýz,\nimplementovať vlastné výpočtové postupy,\n\npredstavuje zásadnú odbornú kompetenciu pre modernú prax.\nJazyk Python poskytuje robustné a zároveň prehľadné prostredie, ktoré umožňuje prepájať matematiku, kartografiu a výpočtovú techniku do funkčných nástrojov využiteľných v ďalšom štúdiu, pri riešení projektov, záverečných prác aj v profesionálnej praxi."
+    "objectID": "content/zoznamy.html#prístup-k-prvkom",
+    "href": "content/zoznamy.html#prístup-k-prvkom",
+    "title": "Zoznamy",
+    "section": "🔢 Prístup k prvkom",
+    "text": "🔢 Prístup k prvkom\n\n\nKód\novocie = [\"jablko\", \"banán\", \"kiwi\"]\nprint(ovocie[0])\nprint(ovocie[1])\n\n\njablko\nbanán\n\n\n\n❗ Indexovanie zoznamu začína od 0.",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
   },
   {
-    "objectID": "index.html#pre-koho-je-obsah-určený",
-    "href": "index.html#pre-koho-je-obsah-určený",
-    "title": "Programovanie v jazyku Python pre geodetov",
-    "section": "🔧 Pre koho je obsah určený?",
-    "text": "🔧 Pre koho je obsah určený?\n(Nielen) pre študentov, ktorí chcú systematicky budovať znalosti programovania v jazyku Python a aplikovať ich v:\n\ngeodetických výpočtoch,\nmatematickej kartografii,\nspracovaní a analýze meraní,\nanalýze priestorových a technických dát,\nnávrhu vlastných výpočtových algoritmov.\n\n\n\n📚 Programovanie v jazyku Python tvorí metodický základ pre efektívnu prácu s dátami a výpočtovými modelmi v geodézii, kartografii a ďalších technických disciplínach."
+    "objectID": "content/zoznamy.html#iterácia-cez-zoznam",
+    "href": "content/zoznamy.html#iterácia-cez-zoznam",
+    "title": "Zoznamy",
+    "section": "🔄 Iterácia cez zoznam",
+    "text": "🔄 Iterácia cez zoznam\n\n\nKód\nfor polozka in ovocie:\n    print(polozka)\n\n\njablko\nbanán\nkiwi",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
   },
   {
-    "objectID": "toc.html",
-    "href": "toc.html",
-    "title": "📑 Prehľad obsahu",
+    "objectID": "content/zoznamy.html#zmena-hodnoty",
+    "href": "content/zoznamy.html#zmena-hodnoty",
+    "title": "Zoznamy",
+    "section": "✏️ Zmena hodnoty",
+    "text": "✏️ Zmena hodnoty\n\n\nKód\novocie[1] = \"hruška\"\nprint(ovocie)\n\n\n['jablko', 'hruška', 'kiwi']\n\n\n\n❗ Hodnota v zozname na danom indexe sa prepíše",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "content/zoznamy.html#pridanie-prvkov",
+    "href": "content/zoznamy.html#pridanie-prvkov",
+    "title": "Zoznamy",
+    "section": "➕ Pridanie prvkov",
+    "text": "➕ Pridanie prvkov\n\nNa koniec zoznamu\n\n\nKód\novocie.append(\"pomaranč\") \nprint(ovocie)\n\n\n['jablko', 'hruška', 'kiwi', 'pomaranč']\n\n\n\n\nNa konkrétne miesto (index)\n\n\nKód\novocie.insert(1, \"slivka\")\nprint(ovocie)\n\n\n['jablko', 'slivka', 'hruška', 'kiwi', 'pomaranč']",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "content/zoznamy.html#odstránenie-prvkov",
+    "href": "content/zoznamy.html#odstránenie-prvkov",
+    "title": "Zoznamy",
+    "section": "❌ Odstránenie prvkov",
+    "text": "❌ Odstránenie prvkov\n\nOdstránenie prvku podľa hodnoty\n\n\nKód\novocie.remove(\"hruška\")\nprint(ovocie)\n\n\n['jablko', 'slivka', 'kiwi', 'pomaranč']\n\n\n\n\nOdstránenie prvku podľa indexu\n\n\nKód\ndel ovocie[0]\nprint(ovocie)\n\n\n['slivka', 'kiwi', 'pomaranč']",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "content/zoznamy.html#dĺžka-zoznamu",
+    "href": "content/zoznamy.html#dĺžka-zoznamu",
+    "title": "Zoznamy",
+    "section": "📏 Dĺžka zoznamu",
+    "text": "📏 Dĺžka zoznamu\n\n\nKód\nprint(len(ovocie))\n\n\n3",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "content/zoznamy.html#hľadanie-v-zozname",
+    "href": "content/zoznamy.html#hľadanie-v-zozname",
+    "title": "Zoznamy",
+    "section": "🔍 Hľadanie v zozname",
+    "text": "🔍 Hľadanie v zozname\n\n\nKód\nif \"kiwi\" in ovocie:\n    print(\"Je tam!\")\n\n\nJe tam!",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "content/zoznamy.html#vyprázdnenie-zoznamu",
+    "href": "content/zoznamy.html#vyprázdnenie-zoznamu",
+    "title": "Zoznamy",
+    "section": "🧹 Vyprázdnenie zoznamu",
+    "text": "🧹 Vyprázdnenie zoznamu\n\n\nKód\novocie.clear()\nprint(ovocie)\n\n\n[]",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "content/zoznamy.html#zoznamy-môžu-obsahovať-zoznamy",
+    "href": "content/zoznamy.html#zoznamy-môžu-obsahovať-zoznamy",
+    "title": "Zoznamy",
+    "section": "💡 Zoznamy môžu obsahovať zoznamy",
+    "text": "💡 Zoznamy môžu obsahovať zoznamy\n\n\nKód\nm = [[1, 2], [3, 4]]\nprint(m[1][0])\n\n\n3\n\n\n\n💡 Takýmto spôsobom je jednoduché reprezentovať maticu (riadky a stĺpce)",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "content/zoznamy.html#zhrnutie",
+    "href": "content/zoznamy.html#zhrnutie",
+    "title": "Zoznamy",
+    "section": "🧠 Zhrnutie",
+    "text": "🧠 Zhrnutie\n\nZoznam (list) je usporiadaná kolekcia hodnôt\nIndexovanie začína od 0\nZoznam vieme meniť – pridávať, mazať, nahrádzať prvky\nfor cyklus je vhodný na prechod zoznamom\nZoznamy sú dynamické – môžu rásť alebo sa vyprázdniť",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "content/zoznamy.html#videonávod",
+    "href": "content/zoznamy.html#videonávod",
+    "title": "Zoznamy",
+    "section": "🎞️ Videonávod",
+    "text": "🎞️ Videonávod",
+    "crumbs": [
+      "🏡 Domov",
+      "💻 Programovanie 1",
+      "💾 Dátové štruktúry",
+      "Zoznamy"
+    ]
+  },
+  {
+    "objectID": "site_license.html",
+    "href": "site_license.html",
+    "title": "🔓 Licencia",
     "section": "",
-    "text": "🚀 Základy Pythonu\n💾 Dátové štruktúry\n🏗️ Riadiace štruktúry\n⚙ Funkcie\n📒 Zadania cvičení"
+    "text": "Táto vzdelávacia stránka je sprístupnená ako otvorený zdroj.\nRozlišujeme licenciu pre obsah a pre zdrojový kód."
   },
   {
-    "objectID": "toc.html#programovanie-1",
-    "href": "toc.html#programovanie-1",
-    "title": "📑 Prehľad obsahu",
+    "objectID": "site_license.html#licencia",
+    "href": "site_license.html#licencia",
+    "title": "🔓 Licencia",
     "section": "",
-    "text": "🚀 Základy Pythonu\n💾 Dátové štruktúry\n🏗️ Riadiace štruktúry\n⚙ Funkcie\n📒 Zadania cvičení"
+    "text": "Táto vzdelávacia stránka je sprístupnená ako otvorený zdroj.\nRozlišujeme licenciu pre obsah a pre zdrojový kód."
   },
   {
-    "objectID": "toc.html#programovanie-2",
-    "href": "toc.html#programovanie-2",
-    "title": "📑 Prehľad obsahu",
-    "section": "🖥️ Programovanie 2",
-    "text": "🖥️ Programovanie 2\n\n📚 Knižnice\n\nInštalácia a import\n📐 NumPy\n🧮 SymPy\n📊 Matplotlib\n🗃️ Pandas\n\n📒 Zadania cvičení"
+    "objectID": "site_license.html#obsah-texty-obrázky-návody",
+    "href": "site_license.html#obsah-texty-obrázky-návody",
+    "title": "🔓 Licencia",
+    "section": "📘 Obsah (texty, obrázky, návody)",
+    "text": "📘 Obsah (texty, obrázky, návody)\nMateriály na tejto stránke (texty, obrázky, grafy a didaktické príklady) sú dostupné pod licenciou:\nCreative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)\n\nPráva a povinnosti\n\n✅ Kopírovať, šíriť, upravovať a využívať aj komerčne\n\n✅ Povinnosť uviesť autora a zdroj\n\n✅ Úpravy zdieľať pod rovnakou licenciou\n\n❌ Nemožno obmedzovať práva iných používateľov\n\nKrátke znenie:\n© 2025, Obsah je dostupný pod licenciou CC BY-SA 4.0."
   },
   {
-    "objectID": "toc.html#matematická-kartografia",
-    "href": "toc.html#matematická-kartografia",
-    "title": "📑 Prehľad obsahu",
-    "section": "🗺️ Matematická kartografia",
-    "text": "🗺️ Matematická kartografia\n\n🏎️ Rýchlokurz jazyka Python pre potreby Matematickej kartografie\n📐 Dokumentácia k nami vyvinutej knižnici Degrees.py\n🧮 Calculus v jazyku Python (integrály a derivácie) pre potreby Matematickej kartografie\n️⚙ Pokročilé nástroje pre potreby Matematickej kartografie"
+    "objectID": "site_license.html#zdrojový-kód-notebooky-skripty-príklady",
+    "href": "site_license.html#zdrojový-kód-notebooky-skripty-príklady",
+    "title": "🔓 Licencia",
+    "section": "💻 Zdrojový kód (notebooky, skripty, príklady)",
+    "text": "💻 Zdrojový kód (notebooky, skripty, príklady)\nZdrojový kód priložený na tejto stránke je licencovaný pod:\nGNU General Public License v3.0 (GPL-3.0)\n\nPráva a povinnosti\n\n✅ Voľne používať, upravovať a šíriť\n\n✅ Povinnosť zverejniť odvodené diela pod rovnakou licenciou\n\n✅ Povinnosť priložiť licenciu a upozorniť na zmeny\n\n❌ Nemožno meniť licenciu na uzavretú alebo obmedzujúcu\n\nKrátke znenie:\nKód je dostupný pod licenciou GNU GPL v3.0."
   },
   {
-    "objectID": "toc.html#pieskovisko",
-    "href": "toc.html#pieskovisko",
-    "title": "📑 Prehľad obsahu",
-    "section": "🛝 Pieskovisko",
-    "text": "🛝 Pieskovisko\n\nDoplnkové kapitoly (nielen) pre študentov, ktorých programovanie pohltilo."
+    "objectID": "site_license.html#ℹ-odporúčanie",
+    "href": "site_license.html#ℹ-odporúčanie",
+    "title": "🔓 Licencia",
+    "section": "ℹ️ Odporúčanie",
+    "text": "ℹ️ Odporúčanie\nPri citovaní alebo používaní materiálov vždy uveďte zdroj:\nNázov stránky, autor, rok a odkaz."
   },
   {
-    "objectID": "zadania/zadanie_3_1.html",
-    "href": "zadania/zadanie_3_1.html",
-    "title": "📄 Zadanie 3 - 1. časť",
+    "objectID": "site_license.html#poznámka-o-použití-generatívnej-umelej-inteligencie",
+    "href": "site_license.html#poznámka-o-použití-generatívnej-umelej-inteligencie",
+    "title": "🔓 Licencia",
+    "section": "🤖 Poznámka o použití generatívnej umelej inteligencie",
+    "text": "🤖 Poznámka o použití generatívnej umelej inteligencie\nPri tvorbe tejto webovej stránky boli použité nástroje umelej inteligencie, GPT-5 (ChatGPT od OpenAI), ktoré pomáhali pri návrhu textov, štruktúry a optimalizácii obsahu a kódu."
+  },
+  {
+    "objectID": "wip.html",
+    "href": "wip.html",
+    "title": "🔧 Work in Progress",
     "section": "",
-    "text": "Cez webové rozhranie Jupyter Lab vytvorte v počítači nový súbor s názvom Priezvisko.ipynb (Pre pomenovanie súboru použite Vaše priezvisko)\nPrvú (úvodnú) bunku dokumentu definujte ako typ Markdown cell a v tejto bunke uveďte nasledový kód a doplnte svoje údaje:\n# &lt;center&gt; Zadanie č. 3 &lt;/center&gt;\n### &lt;center&gt; Programovanie v jazyku Python &lt;/center&gt;\n_&lt;center&gt; (Programovanie) &lt;/center&gt;_ \n|__Meno__|__Krúžok__|__Šk. rok__|\n|:------:|:--------:|:---------:|\n|Meno Priezvisko|&lt;font color=red&gt;Kr.X&lt;/font&gt;|2025/2026|\nRiešte nasledovné úlohy:",
-    "crumbs": [
-      "🏡 Domov",
-      "💻 Programovanie 1",
-      "📒 Zadania cvičení (2025/2026)",
-      "📄 Zadanie 3 - 1. časť"
-    ]
+    "text": "🚧 Stránka vo výstavbe\nTento obsah je momentálne vo vývoji.\n🛠️ Pracujeme na jeho doplnení alebo úprave.\nProsím, vráťte sa neskôr.\n\n\nAk si myslíš, že tu niečo chýba alebo máš návrh na zlepšenie, nás kontaktuje."
   },
   {
-    "objectID": "zadania/zadanie_3_1.html#úvodné-nastavenia-jupyter-notebooku",
-    "href": "zadania/zadanie_3_1.html#úvodné-nastavenia-jupyter-notebooku",
-    "title": "📄 Zadanie 3 - 1. časť",
+    "objectID": "zadania/prog1/zadanie_3_2.html",
+    "href": "zadania/prog1/zadanie_3_2.html",
+    "title": "📄️ Zadanie 3 - 2. časť",
     "section": "",
-    "text": "Cez webové rozhranie Jupyter Lab vytvorte v počítači nový súbor s názvom Priezvisko.ipynb (Pre pomenovanie súboru použite Vaše priezvisko)\nPrvú (úvodnú) bunku dokumentu definujte ako typ Markdown cell a v tejto bunke uveďte nasledový kód a doplnte svoje údaje:\n# &lt;center&gt; Zadanie č. 3 &lt;/center&gt;\n### &lt;center&gt; Programovanie v jazyku Python &lt;/center&gt;\n_&lt;center&gt; (Programovanie) &lt;/center&gt;_ \n|__Meno__|__Krúžok__|__Šk. rok__|\n|:------:|:--------:|:---------:|\n|Meno Priezvisko|&lt;font color=red&gt;Kr.X&lt;/font&gt;|2025/2026|\nRiešte nasledovné úlohy:",
+    "text": "Riešte nasledovné úlohy:",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "📒 Zadania cvičení (2025/2026)",
-      "📄 Zadanie 3 - 1. časť"
+      "📄️ Zadanie 3 - 2. časť"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_1.html#definovanie-premenných-a-dátové-typy",
-    "href": "zadania/zadanie_3_1.html#definovanie-premenných-a-dátové-typy",
-    "title": "📄 Zadanie 3 - 1. časť",
-    "section": "1. Definovanie premenných a dátové typy",
-    "text": "1. Definovanie premenných a dátové typy\n\nPre nasledujúce situácie definujte vhodný názov premennej a priraďte k nim vzorové hodnoty\n\npočet bodov v meraní,\ndĺžka chodníka v metroch s presnosťou na milimetre,\nnázov obce,\npravdivostná informácia, či sa bod nachádza na pravom brehu rieky,\nzoznam súradníc X, Y, Z.\n\nVypíšte premenné pomocou print(),\nOverte dátový typ pomocou type().",
+    "objectID": "zadania/prog1/zadanie_3_2.html#druhá-časť-zadania-č.3",
+    "href": "zadania/prog1/zadanie_3_2.html#druhá-časť-zadania-č.3",
+    "title": "📄️ Zadanie 3 - 2. časť",
+    "section": "",
+    "text": "Riešte nasledovné úlohy:",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "📒 Zadania cvičení (2025/2026)",
-      "📄 Zadanie 3 - 1. časť"
+      "📄️ Zadanie 3 - 2. časť"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_1.html#premenné-v-praxi-a-formátovanie-výstupu",
-    "href": "zadania/zadanie_3_1.html#premenné-v-praxi-a-formátovanie-výstupu",
-    "title": "📄 Zadanie 3 - 1. časť",
-    "section": "2. Premenné v praxi a formátovanie výstupu",
-    "text": "2. Premenné v praxi a formátovanie výstupu\n\nUložte do premenných informácie o dvoch bodoch:\n\nnázov bodu (napr. “BOD1”),\nsúradnice X, Y,\nkód bodu (napr. “STROM”)\n\nVypíšte výsledok v tvare: Bod BOD1 má súradnice (X, Y) a jeho kód je STROM.\n\n\n💡 Na vypísanie vety s premennými je vhodné použiť formátovaný výstup.",
+    "objectID": "zadania/prog1/zadanie_3_2.html#cykly",
+    "href": "zadania/prog1/zadanie_3_2.html#cykly",
+    "title": "📄️ Zadanie 3 - 2. časť",
+    "section": "5. Cykly",
+    "text": "5. Cykly\n\nVygenerujte všetky párne čísla od 0 do súčet dňa a mesiaca vášho narodenia + 20:\n\npomocou cyklu for,\npomocou cyklu while.\n\nZoznamy porovnajte.\n\n\n💡 Na porovnanie skúšte použiť relačný (porovnávací) operátor.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "📒 Zadania cvičení (2025/2026)",
-      "📄 Zadanie 3 - 1. časť"
+      "📄️ Zadanie 3 - 2. časť"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_1.html#operátory-a-výpočty",
-    "href": "zadania/zadanie_3_1.html#operátory-a-výpočty",
-    "title": "📄 Zadanie 3 - 1. časť",
-    "section": "3. Operátory a výpočty",
-    "text": "3. Operátory a výpočty\n\nKrokomer v prvý deň nameral: 12250 krokov tam a 8045 krokov späť.\nKrokomer v druhý deň nameral: 5450 krokov tam a 10500 krokov späť.\nDĺžka kroku je 95cm.\nVypočítajte:\n\ncelkový počet krokov a celkovú vzdialenosť v kilometroch prejdenú v jednotlivých dňoch,\nrozdiel medzi dĺžkou tam a späť v jednotlivých dňoch v metroch,\npriemerný celkový počet prejdených krokov a priemernú vzdialenosť v kilometroch prejdenú za 2 dni",
+    "objectID": "zadania/prog1/zadanie_3_2.html#podmienky",
+    "href": "zadania/prog1/zadanie_3_2.html#podmienky",
+    "title": "📄️ Zadanie 3 - 2. časť",
+    "section": "6. Podmienky",
+    "text": "6. Podmienky\nS použitím podmienok if, elif a else vytvorte program, ktorý:\n\nProgram načíta vek používateľa a vypíše kategóriu:\n\n0–12 → dieťa,\n13–18 → tínedžer,\n19–64 → dospelý,\n65+ → senior.\n\n\n\n💡 Na načítanie veku používateľa skúšte použiť funkciu input().",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "📒 Zadania cvičení (2025/2026)",
-      "📄 Zadanie 3 - 1. časť"
+      "📄️ Zadanie 3 - 2. časť"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_1.html#zoznamy-a-indexovanie",
-    "href": "zadania/zadanie_3_1.html#zoznamy-a-indexovanie",
-    "title": "📄 Zadanie 3 - 1. časť",
-    "section": "4. Zoznamy a indexovanie",
-    "text": "4. Zoznamy a indexovanie\n\n🛣️ Ulice\n\nVytvorte zoznam mien piatich ulíc vo svojej obci,\nNa koniec zoznamu pridajte ľubovoľný iný názov ulice, ktorá sa nachádza v Bratislave.\nVšetky zoznamy vypíšte pomocou print(),\n\n\n\n🌲 Stromy\n\nVytvorte zoznam s výškami stromov (4 × 4 hodnoty),\nVypíšte výšku stromu na ľubovoľnom mieste a uveďte na akom,\nVšetky zoznamy vypíšte pomocou print(),",
+    "objectID": "zadania/prog1/zadanie_3_2.html#funkcie",
+    "href": "zadania/prog1/zadanie_3_2.html#funkcie",
+    "title": "📄️ Zadanie 3 - 2. časť",
+    "section": "7. Funkcie",
+    "text": "7. Funkcie\nDefinujte nasledujúce vlastné funckie. Ich funkčnosť demonštrujte na vami zvolenom vhodnom príklade.\n\ninfo_sucet()\n\n📐 funkcia vypočíta súčet, minimum a maximum vstupného zoznamu čísel,\n📥 vstup: zoznam čísel (napr. dĺžky úsekov ciest),\n\n📥 výstup: súčet, minimum, maximum.\n\npriemer()\n\n📐 funkcia vypočíta jednoduchý aritmetický priemer zo zadaného zoznamu hodnôt,\n📥 vstup: zoznam čísel (napr. výšky),\n\n📥 výstup: medián.\n\nvazeny_priemer()\n\n📐 funkcia vypočíta vážený aritmetický priemer zo zadaného zoznamu hodnôt a váh,\n📥 vstup: zoznam hodnôt a zoznam váh (napr. známky a ich váhy),\n\n📥 výstup: vážený priemer.\n\nprevod_uhlov()\n\n📐 funkcia prevedie hodnotu uhla medzi grádmi a radianmi,\n\n⚙️ smer prevodu určí vstupný parameter funckie\n📥 vstup: hodnota uhla v grádoch alebo radiánoch a smer prevodu\n\n📥 výstup: prevedená hodnota uhla",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "📒 Zadania cvičení (2025/2026)",
-      "📄 Zadanie 3 - 1. časť"
+      "📄️ Zadanie 3 - 2. časť"
     ]
   },
   {
-    "objectID": "zadania/zadanie_3_1.html#zadanie-pokračuje-druhou-časťou",
-    "href": "zadania/zadanie_3_1.html#zadanie-pokračuje-druhou-časťou",
-    "title": "📄 Zadanie 3 - 1. časť",
-    "section": "⚠️ Zadanie pokračuje druhou časťou…",
-    "text": "⚠️ Zadanie pokračuje druhou časťou…",
+    "objectID": "zadania/prog1/zadanie_3_2.html#pokyny-k-odovzdaniu",
+    "href": "zadania/prog1/zadanie_3_2.html#pokyny-k-odovzdaniu",
+    "title": "📄️ Zadanie 3 - 2. časť",
+    "section": "⚠️ Pokyny k odovzdaniu",
+    "text": "⚠️ Pokyny k odovzdaniu\nDo pripraveného miesta odovzdania v AIS vložte súbor v arhvíve .zip s názvom priezvisko.zip\nOdovzdaný archív bude obsahovať:\n\nPriezvisko.ipynb\n\nRiešenie jednotlivých úloh\nVhodný popis ich riešenia v textových bunkách\n\nPriezvisko.pdf\n\nPDF súbor sa skladá z:\n\nVyplnenej úvodnej tabuľky\nZadávacích hárkov s doplneným menom študenta\nPDF vytlačeného zo súboru Priezvisko.ipynb\nDátum a miesto vypracoania s menom a podpisom\n\n\n\n\n💡️ Úvodná tabuľka a zadávacie hárky sú dostupné na dokumentovom serveri.\n⚠️ Súbor nezabudnite správne vložiť a potvrdiť jeho odovzdanie.",
     "crumbs": [
       "🏡 Domov",
       "💻 Programovanie 1",
       "📒 Zadania cvičení (2025/2026)",
-      "📄 Zadanie 3 - 1. časť"
+      "📄️ Zadanie 3 - 2. časť"
     ]
   }
 ]
